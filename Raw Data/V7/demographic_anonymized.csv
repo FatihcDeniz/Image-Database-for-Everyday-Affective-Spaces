@@ -1,0 +1,32 @@
+Participant id,Status,Started at,Completed at,Time taken,Total approvals,Fluent languages,Dyslexia,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+participant_506,APPROVED,2025-03-11T16:46:41.756000Z,2025-03-11T16:59:56.520000Z,795.0,24,English,No,57,Male,White,Canada,Canada,Canada,English,No,Unemployed (and job seeking)
+participant_486,APPROVED,2025-03-11T16:47:04.571000Z,2025-03-11T17:01:36.602000Z,873.0,1425,English,No,36,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+participant_480,APPROVED,2025-03-11T16:48:18.594000Z,2025-03-11T16:56:06.328000Z,468.0,131,English,No,29,Female,White,Canada,Canada,Canada,English,Yes,Other
+participant_490,APPROVED,2025-03-11T16:51:11.645000Z,2025-03-11T17:04:02.071000Z,771.0,462,"French, English",No,65,Female,White,Switzerland,United Kingdom,United Kingdom,English,Yes,Other
+participant_505,APPROVED,2025-03-11T16:52:21.015000Z,2025-03-11T16:56:49.333000Z,269.0,8,English,No,84,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+participant_502,RETURNED,2025-03-11T16:53:33.952000Z,,,378,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_494,APPROVED,2025-03-11T16:54:01.119000Z,2025-03-11T17:05:20.522000Z,680.0,988,English,No,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+participant_508,APPROVED,2025-03-11T16:54:31.759000Z,2025-03-11T17:19:38.054000Z,1507.0,85,English,No,21,Female,Black,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+participant_479,APPROVED,2025-03-11T16:54:21.424000Z,2025-03-11T17:12:14.160000Z,1073.0,1141,English,No,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time
+participant_509,APPROVED,2025-03-11T16:54:57.236000Z,2025-03-11T17:07:37.715000Z,761.0,2,English,No,37,Female,Other,Canada,Canada,Canada,English,No,Full-Time
+participant_507,APPROVED,2025-03-11T16:54:32.528000Z,2025-03-11T17:22:31.328000Z,1679.0,693,English,No,42,Female,White,Canada,Canada,Canada,English,No,Full-Time
+participant_489,APPROVED,2025-03-11T16:55:04.283000Z,2025-03-11T17:18:17.725000Z,1394.0,282,"English, Polish, Russian",No,63,Female,White,Poland,United Kingdom,Poland,Polish,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+participant_483,APPROVED,2025-03-11T16:57:39.157000Z,2025-03-11T17:09:08.941000Z,690.0,7,English,No,43,Female,White,Canada,Canada,Canada,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+participant_498,APPROVED,2025-03-11T16:58:45.679000Z,2025-03-11T17:13:59.693000Z,915.0,128,"English, Japanese",No,51,Male,Asian,Japan,Japan,Japan,Japanese,No,Part-Time
+participant_493,RETURNED,2025-03-11T16:58:54.880000Z,,,124,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_487,APPROVED,2025-03-11T16:58:53.372000Z,2025-03-11T17:13:22.650000Z,870.0,653,"Bengali, English, French",No,44,Male,Asian,Bangladesh,France,Bangladesh,Bengali,No,Full-Time
+participant_499,TIMED-OUT,2025-03-11T17:04:30.120000Z,,156512.0,39,English,No,21,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time
+participant_503,APPROVED,2025-03-11T17:00:33.307000Z,2025-03-11T17:18:43.757000Z,1091.0,107,"Hungarian, Spanish, English",No,50,Male,White,Hungary,Spain,Hungary,Spanish,No,Full-Time
+participant_496,APPROVED,2025-03-11T17:01:34.912000Z,2025-03-11T17:33:16.265000Z,1902.0,30,"Czech, English",No,18,Male,White,Czech Republic,Czech Republic,Czech Republic,Czech,Yes,Unemployed (and job seeking)
+participant_482,APPROVED,2025-03-11T17:01:47.918000Z,2025-03-11T17:13:34.178000Z,707.0,776,"Portuguese, English",No,37,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time
+participant_484,APPROVED,2025-03-11T17:03:48.247000Z,2025-03-11T17:24:17.324000Z,1230.0,168,"German, French, English, Afrikaans",No,37,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_485,REJECTED,2025-03-11T17:04:34.407000Z,2025-03-11T17:04:47.327000Z,13.0,9,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_491,RETURNED,2025-03-11T17:06:11.731000Z,,,114,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_492,APPROVED,2025-03-11T17:06:30.726000Z,2025-03-11T17:17:34.079000Z,664.0,225,"Dutch, English, French, German",No,24,Male,White,Belgium,Belgium,Belgium,Dutch,Yes,Other
+participant_495,APPROVED,2025-03-11T17:06:48.158000Z,2025-03-11T17:24:21.538000Z,1054.0,364,English,No,29,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_497,RETURNED,2025-03-11T17:17:11.327000Z,,,25,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_488,APPROVED,2025-03-11T17:12:11.439000Z,2025-03-11T17:28:59.119000Z,1008.0,165,"French, English",No,48,Male,White,Belgium,Belgium,Belgium,French,No,Full-Time
+participant_501,APPROVED,2025-03-11T17:25:56.658000Z,2025-03-11T17:34:59.169000Z,543.0,672,"English, Polish",No,29,Female,White,Poland,Poland,Poland,Polish,No,Full-Time
+participant_478,RETURNED,2025-03-11T18:01:48.781000Z,,,124,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_504,APPROVED,2025-03-11T18:23:50.706000Z,2025-03-11T18:53:37.851000Z,1788.0,1359,"English, Polish, German",No,24,Male,White,Poland,Poland,Poland,Polish,Yes,Full-Time
+participant_481,APPROVED,2025-03-11T18:24:52.798000Z,2025-03-11T18:40:33.708000Z,941.0,75,English,No,52,Female,Black,Brazil,Brazil,Brazil,Portuguese,No,Part-Time

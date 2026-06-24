@@ -1,0 +1,28 @@
+Participant id,Status,Started at,Completed at,Time taken,Total approvals,Fluent languages,Dyslexia,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+participant_617,APPROVED,2025-03-27T09:34:02.268000Z,2025-03-27T09:50:54.391000Z,1013.0,6,English,No,29,Male,White,United States,United States,United States,English,No,Part-Time
+participant_604,APPROVED,2025-03-27T09:35:19.386000Z,2025-03-27T10:16:58.367000Z,2499.0,126,"Afrikaans, English, German",No,51,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_594,APPROVED,2025-03-27T09:35:21.963000Z,2025-03-27T09:47:57.149000Z,756.0,2739,English,No,31,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,Full-Time
+participant_607,APPROVED,2025-03-27T09:36:56.387000Z,2025-03-27T09:54:58.469000Z,1083.0,351,"Afrikaans, English",No,29,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_611,APPROVED,2025-03-27T09:37:40.712000Z,2025-03-27T09:45:43.796000Z,484.0,43,"English, Spanish",No,19,Male,White,Spain,Spain,Spain,Spanish,DATA_EXPIRED,Unemployed (and job seeking)
+participant_601,APPROVED,2025-03-27T09:38:00.906000Z,2025-03-27T09:48:43.775000Z,643.0,513,"English, Catalan, Spanish",No,27,Male,White,Spain,Spain,Spain,Spanish,Yes,Part-Time
+participant_598,APPROVED,2025-03-27T09:39:12.432000Z,2025-03-27T09:59:03.826000Z,1192.0,138,English,No,19,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_593,APPROVED,2025-03-27T09:38:20.752000Z,2025-03-27T09:48:24.970000Z,605.0,75,"Polish, English",No,24,Male,White,Poland,Poland,Poland,Polish,No,Full-Time
+participant_605,APPROVED,2025-03-27T09:39:19.823000Z,2025-03-27T09:53:34.315000Z,855.0,278,"Danish, English",No,43,Male,White,Denmark,Denmark,Denmark,Danish,No,Full-Time
+participant_595,APPROVED,2025-03-27T09:40:20.592000Z,2025-03-27T09:52:29.214000Z,729.0,241,English,No,26,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED
+participant_615,APPROVED,2025-03-27T09:41:46.947000Z,2025-03-27T09:58:03.851000Z,977.0,188,"Spanish, English",No,25,Male,White,Spain,Spain,Spain,Spanish,Yes,Unemployed (and job seeking)
+participant_618,APPROVED,2025-03-27T09:40:45.362000Z,2025-03-27T09:52:56.780000Z,732.0,548,"Spanish, Galician, English",No,56,Female,Other,Spain,Spain,Spain,English,No,Full-Time
+participant_597,APPROVED,2025-03-27T09:42:06.807000Z,2025-03-27T10:00:43.504000Z,1117.0,912,"Italian, Polish, English, German",No,52,Female,White,Poland,Poland,Poland,Polish,No,DATA_EXPIRED
+participant_610,APPROVED,2025-03-27T09:43:23.235000Z,2025-03-27T10:48:18.100000Z,3895.0,111,English,No,48,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_619,APPROVED,2025-03-27T09:42:48.867000Z,2025-03-27T09:59:28.077000Z,1000.0,286,"English, French",No,34,Male,White,France,France,France,French,No,Unemployed (and job seeking)
+participant_609,REJECTED,2025-03-27T09:42:10.503000Z,2025-03-27T09:54:57.771000Z,768.0,1,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_612,APPROVED,2025-03-27T09:42:32.004000Z,2025-03-27T10:04:16.071000Z,1305.0,162,"Afrikaans, Danish, Dutch, English, Esperanto, German, Italian, Japanese, Portuguese",No,56,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,Part-Time
+participant_596,APPROVED,2025-03-27T09:43:45.790000Z,2025-03-27T10:07:11.748000Z,1406.0,81,English,No,32,Female,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time
+participant_613,APPROVED,2025-03-27T09:43:41.059000Z,2025-03-27T10:13:24.204000Z,1784.0,0,"English, Dutch, French, German",No,26,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_606,APPROVED,2025-03-27T09:44:57.827000Z,2025-03-27T10:06:10.901000Z,1274.0,4,English,No,19,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_614,RETURNED,2025-03-27T09:45:31.194000Z,,,9,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_599,APPROVED,2025-03-27T09:45:37.613000Z,2025-03-27T09:57:14.564000Z,697.0,721,"Polish, English",No,33,Female,White,Poland,Poland,Poland,Polish,No,Full-Time
+participant_600,APPROVED,2025-03-27T09:47:50.023000Z,2025-03-27T10:14:33.009000Z,1603.0,5,"Afrikaans, Chinese, Danish, English, Dutch, Portuguese, Korean",No,25,Male,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking)
+participant_603,RETURNED,2025-03-27T09:47:53.660000Z,,,11,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_616,APPROVED,2025-03-27T09:57:14.038000Z,2025-03-27T10:21:11.979000Z,1438.0,644,English,No,24,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_602,APPROVED,2025-03-27T10:00:55.734000Z,2025-03-27T10:15:50.590000Z,895.0,422,"Portuguese, English",No,39,Male,White,Portugal,Portugal,Portugal,Portuguese,Yes,Full-Time
+participant_608,APPROVED,2025-03-27T16:24:00.397000Z,2025-03-27T16:43:47.558000Z,1188.0,710,English,No,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)"

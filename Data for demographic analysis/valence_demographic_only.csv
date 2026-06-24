@@ -1,0 +1,450 @@
+Prolific_id,Time taken,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status,Total approvals,Status
+participant_21,6.8,25,Female,White,Latvia,Latvia,Latvia,Latvian,No,Full-Time,162,APPROVED
+participant_6,14.816666666666666,34,Female,Black,South Africa,South Africa,South Africa,French,No,Full-Time,46,APPROVED
+participant_14,12.95,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,102,APPROVED
+participant_18,9.833333333333334,49,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,1166,APPROVED
+participant_3,10.2,33,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,561,APPROVED
+participant_5,12.383333333333333,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,167,APPROVED
+participant_20,10.9,32,Female,Other,Chile,Spain,Spain,Spanish,No,Full-Time,499,APPROVED
+participant_1,11.55,21,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking),216,APPROVED
+participant_15,9.016666666666667,26,Female,White,Italy,United Kingdom,Italy,English,No,Part-Time,40,APPROVED
+participant_9,12.283333333333333,31,Female,White,United States,United States,United States,English,Yes,DATA_EXPIRED,608,APPROVED
+participant_10,13.0,36,Female,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,89,APPROVED
+participant_23,10.916666666666666,29,Female,Black,Germany,United Kingdom,Germany,German,No,Unemployed (and job seeking),129,APPROVED
+participant_0,8.883333333333333,36,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,706,APPROVED
+participant_11,12.066666666666666,28,Prefer not to say,White,Fiji,United Kingdom,Ireland,English,No,Part-Time,118,APPROVED
+participant_22,17.35,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED,1706,APPROVED
+participant_17,18.5,63,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",541,APPROVED
+participant_24,21.266666666666666,22,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,0,APPROVED
+participant_4,19.2,28,Male,White,Portugal,Portugal,Portugal,Portuguese,Yes,Full-Time,343,APPROVED
+participant_12,9.65,37,Male,Asian,India,United Kingdom,India,Tamil,No,Full-Time,362,APPROVED
+participant_2,8.316666666666666,26,Male,White,Poland,Poland,Poland,Polish,DATA_EXPIRED,Full-Time,136,APPROVED
+participant_16,29.8,28,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,194,APPROVED
+participant_19,47.21666666666667,27,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,68,APPROVED
+participant_8,32.36666666666667,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,42,APPROVED
+participant_13,14.1,43,Male,White,South Africa,South Africa,South Africa,Afrikaans,No,Full-Time,299,APPROVED
+participant_49,36.93333333333333,22,Female,White,Poland,Poland,Poland,Polish,Yes,Part-Time,73,APPROVED
+participant_45,41.983333333333334,27,Male,White,Portugal,Portugal,Portugal,Portuguese,Yes,Full-Time,100,APPROVED
+participant_30,12.6,35,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,323,APPROVED
+participant_44,13.183333333333334,38,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,172,APPROVED
+participant_25,21.25,20,Female,Black,South Africa,South Africa,South Africa,Other,Yes,Unemployed (and job seeking),124,APPROVED
+participant_31,20.033333333333335,27,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,91,APPROVED
+participant_57,27.95,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,DATA_EXPIRED,162,APPROVED
+participant_37,64.98333333333333,31,Male,White,Greece,Greece,Greece,Greek,DATA_EXPIRED,DATA_EXPIRED,733,APPROVED
+participant_54,12.333333333333334,30,Female,Asian,Bangladesh,Hungary,Bangladesh,Bengali,No,Full-Time,628,APPROVED
+participant_47,25.0,32,Male,Black,South Africa,South Africa,South Africa,English,No,Part-Time,566,APPROVED
+participant_55,41.25,31,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Part-Time,197,APPROVED
+participant_50,23.916666666666668,54,Female,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time,195,APPROVED
+participant_28,24.45,44,Female,White,South Africa,South Africa,South Africa,Afrikaans,No,Part-Time,7,APPROVED
+participant_36,17.683333333333334,23,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Other,237,APPROVED
+participant_39,44.1,31,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,19,APPROVED
+participant_27,35.5,66,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,68,APPROVED
+participant_42,27.883333333333333,33,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,8,APPROVED
+participant_58,23.65,23,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,1,APPROVED
+participant_60,30.2,27,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,183,APPROVED
+participant_51,21.616666666666667,25,Male,Black,Zimbabwe,South Africa,Zimbabwe,English,No,Full-Time,809,APPROVED
+participant_38,12.616666666666667,41,Male,White,Mexico,Mexico,Mexico,Spanish,Yes,Full-Time,329,APPROVED
+participant_29,24.666666666666668,33,Male,Black,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,175,APPROVED
+participant_48,23.083333333333332,40,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,152,APPROVED
+participant_26,9.7,28,Male,White,Sweden,Sweden,Sweden,Swedish,No,Full-Time,21,APPROVED
+participant_72,13.416666666666666,24,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,102,APPROVED
+participant_73,17.266666666666666,57,Female,White,Canada,Canada,Canada,English,No,Full-Time,351,APPROVED
+participant_90,12.75,27,Female,White,Croatia,Croatia,Croatia,Croatian,No,DATA_EXPIRED,25,APPROVED
+participant_78,20.3,21,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,46,APPROVED
+participant_83,41.233333333333334,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,27,APPROVED
+participant_85,19.133333333333333,27,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,36,APPROVED
+participant_79,15.5,22,Female,Black,Italy,Italy,Italy,Italian,DATA_EXPIRED,DATA_EXPIRED,199,APPROVED
+participant_86,11.5,57,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Part-Time,2373,APPROVED
+participant_74,12.616666666666667,23,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Unemployed (and job seeking),119,APPROVED
+participant_66,16.766666666666666,31,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,78,APPROVED
+participant_77,18.95,28,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),0,APPROVED
+participant_68,39.45,28,Male,White,Lithuania,United Kingdom,Lithuania,English,No,Part-Time,174,APPROVED
+participant_62,12.016666666666667,27,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,85,APPROVED
+participant_91,20.433333333333334,22,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),532,APPROVED
+participant_64,19.283333333333335,33,Male,Mixed,Netherlands,Netherlands,Netherlands,Dutch,No,Full-Time,144,APPROVED
+participant_84,8.6,37,Male,White,Croatia,Croatia,Croatia,Croatian,No,Full-Time,24,APPROVED
+participant_70,17.216666666666665,28,Female,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,607,APPROVED
+participant_88,11.966666666666667,32,Male,White,Poland,Poland,Poland,Polish,No,Other,880,APPROVED
+participant_65,17.2,37,Female,Black,South Africa,South Africa,South Africa,Other,No,Part-Time,348,APPROVED
+participant_67,22.566666666666666,42,Female,White,Austria,Austria,Austria,German,No,Part-Time,154,APPROVED
+participant_81,34.46666666666667,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,245,APPROVED
+participant_89,19.016666666666666,30,Male,Black,South Africa,South Africa,South Africa,English,No,Part-Time,572,APPROVED
+participant_76,10.9,35,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,Full-Time,1995,APPROVED
+participant_87,47.166666666666664,33,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,15,APPROVED
+participant_107,23.783333333333335,32,Female,Black,Zimbabwe,South Africa,Zimbabwe,English,No,Full-Time,121,APPROVED
+participant_94,14.766666666666667,22,Male,Other,Egypt,Hungary,Egypt,Arabic,Yes,Other,184,APPROVED
+participant_119,12.666666666666666,50,Female,White,United Kingdom,South Africa,United Kingdom,English,No,Full-Time,66,APPROVED
+participant_100,9.983333333333333,35,Male,Mixed,Spain,Spain,Spain,Spanish,No,Full-Time,32,APPROVED
+participant_106,10.533333333333333,33,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,618,APPROVED
+participant_124,31.166666666666668,23,Male,White,Italy,Italy,Italy,Italian,DATA_EXPIRED,DATA_EXPIRED,240,APPROVED
+participant_128,13.4,23,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,408,APPROVED
+participant_117,17.05,28,Female,Other,Morocco,Spain,Spain,Spanish,Yes,Full-Time,116,APPROVED
+participant_105,17.016666666666666,34,Male,Asian,India,Finland,India,Telugu,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)",267,APPROVED
+participant_93,8.666666666666666,26,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,1259,APPROVED
+participant_112,15.333333333333334,22,Male,White,Poland,Poland,Poland,Polish,Yes,Unemployed (and job seeking),113,APPROVED
+participant_95,15.35,23,Male,White,Sweden,Sweden,Sweden,Swedish,No,Full-Time,190,APPROVED
+participant_101,42.733333333333334,31,Female,Black,South Africa,South Africa,South Africa,Other,No,Full-Time,72,APPROVED
+participant_116,19.966666666666665,55,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,71,APPROVED
+participant_99,17.8,29,Male,Black,Nigeria,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED,204,APPROVED
+participant_113,21.816666666666666,30,Male,Mixed,South Africa,South Africa,South Africa,English,Yes,Full-Time,1072,APPROVED
+participant_102,8.95,33,Male,White,Greece,Greece,Greece,Greek,No,Full-Time,168,APPROVED
+participant_110,12.083333333333334,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),155,APPROVED
+participant_92,48.5,28,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,80,APPROVED
+participant_126,11.966666666666667,29,Female,White,Poland,Poland,Poland,Polish,No,Full-Time,507,APPROVED
+participant_108,9.316666666666666,29,Male,Other,Mexico,Mexico,Mexico,Spanish,Yes,Full-Time,112,APPROVED
+participant_97,17.216666666666665,37,Male,Black,Nigeria,United Kingdom,Nigeria,English,DATA_EXPIRED,DATA_EXPIRED,348,APPROVED
+participant_103,12.266666666666667,41,Male,Other,Canada,Canada,Canada,English,No,Full-Time,31,APPROVED
+participant_111,16.566666666666666,41,Male,White,Germany,Netherlands,Germany,German,No,Full-Time,191,APPROVED
+participant_147,15.433333333333334,30,Male,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking),622,APPROVED
+participant_133,16.183333333333334,26,Male,Black,South Africa,South Africa,South Africa,Other,No,Full-Time,191,APPROVED
+participant_153,15.75,24,Male,Asian,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,887,APPROVED
+participant_132,9.216666666666667,28,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,34,APPROVED
+participant_143,15.066666666666666,39,Male,White,Greece,Greece,Greece,Greek,No,Full-Time,867,APPROVED
+participant_135,14.5,52,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",1224,APPROVED
+participant_144,13.333333333333334,25,Male,White,Poland,Poland,Poland,Polish,Yes,Full-Time,219,APPROVED
+participant_157,11.216666666666667,51,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,990,APPROVED
+participant_139,23.3,22,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,2,APPROVED
+participant_145,12.083333333333334,33,Male,White,Poland,Poland,Poland,Polish,Yes,Part-Time,23,APPROVED
+participant_142,9.833333333333334,23,Male,White,Italy,United Kingdom,Italy,English,Yes,Part-Time,270,APPROVED
+participant_152,9.0,47,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,2855,APPROVED
+participant_155,16.15,26,Female,Black,South Africa,South Africa,South Africa,English,No,Part-Time,330,APPROVED
+participant_131,18.033333333333335,35,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,Due to start a new job within the next month,289,APPROVED
+participant_156,17.366666666666667,35,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,119,APPROVED
+participant_148,9.85,41,Female,White,Poland,Poland,Poland,Polish,No,Full-Time,1294,APPROVED
+participant_130,19.166666666666668,18,Female,White,Italy,Italy,Italy,Italian,Yes,Unemployed (and job seeking),122,APPROVED
+participant_129,14.833333333333334,55,Male,White,Canada,United Kingdom,Canada,French,No,Unemployed (and job seeking),35,APPROVED
+participant_136,9.616666666666667,33,Male,White,China,China,China,Chinese,No,Part-Time,145,APPROVED
+participant_140,39.916666666666664,33,Male,Black,United States,United States,United States,English,No,Part-Time,8,APPROVED
+participant_146,17.533333333333335,23,Male,Black,Kenya,Kenya,Kenya,English,Yes,Part-Time,118,APPROVED
+participant_138,9.25,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,DATA_EXPIRED,1973,APPROVED
+participant_150,11.883333333333333,33,Male,White,Greece,Greece,Greece,Greek,No,Full-Time,343,APPROVED
+participant_151,24.833333333333332,54,Male,White,Germany,Greece,Greece,Greek,No,Part-Time,684,APPROVED
+participant_179,16.683333333333334,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,171,APPROVED
+participant_181,9.2,26,Female,White,United States,Spain,United States,English,No,Full-Time,118,APPROVED
+participant_171,18.466666666666665,28,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,376,APPROVED
+participant_180,37.95,32,Male,Mixed,United States,United States,United States,English,No,Full-Time,0,APPROVED
+participant_184,16.85,41,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,695,APPROVED
+participant_170,34.45,31,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,103,APPROVED
+participant_182,25.2,35,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,716,APPROVED
+participant_174,21.983333333333334,27,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,262,APPROVED
+participant_166,14.733333333333333,49,Female,White,South Africa,South Africa,South Africa,Afrikaans,No,Unemployed (and job seeking),35,APPROVED
+participant_159,12.033333333333333,23,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,422,APPROVED
+participant_167,9.0,24,Female,White,Poland,Poland,Poland,Polish,No,Unemployed (and job seeking),250,APPROVED
+participant_176,12.766666666666667,32,Male,White,Italy,Italy,Italy,Italian,No,Full-Time,258,APPROVED
+participant_162,9.183333333333334,43,Female,White,Greece,Greece,Greece,Greek,No,Unemployed (and job seeking),48,APPROVED
+participant_178,13.866666666666667,66,Male,White,Italy,Italy,Italy,Italian,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",1125,APPROVED
+participant_158,31.133333333333333,32,Male,White,Italy,Italy,Italy,Italian,No,Full-Time,16,APPROVED
+participant_177,27.533333333333335,29,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,91,APPROVED
+participant_163,18.0,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,371,APPROVED
+participant_168,16.4,24,Male,Asian,India,India,India,English,Yes,Part-Time,140,APPROVED
+participant_164,20.016666666666666,28,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),177,APPROVED
+participant_183,10.933333333333334,30,Female,White,Italy,Italy,Italy,Italian,No,Full-Time,238,APPROVED
+participant_160,17.133333333333333,75,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",2234,APPROVED
+participant_165,28.483333333333334,24,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,745,APPROVED
+participant_172,22.266666666666666,32,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,13,APPROVED
+participant_185,19.9,31,Female,Asian,Vietnam,Australia,Vietnam,Vietnamese,No,Full-Time,470,APPROVED
+participant_196,19.216666666666665,56,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,1055,APPROVED
+participant_213,12.083333333333334,39,Male,White,Slovenia,Slovenia,Slovenia,Slovenian,No,Full-Time,172,APPROVED
+participant_205,11.016666666666667,47,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,1128,APPROVED
+participant_199,17.8,41,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,89,APPROVED
+participant_188,28.9,29,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,52,APPROVED
+participant_191,15.716666666666667,50,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",731,APPROVED
+participant_206,7.816666666666666,48,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,282,APPROVED
+participant_207,16.966666666666665,27,Female,White,Italy,Italy,Italy,Italian,No,Part-Time,517,APPROVED
+participant_211,10.85,24,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,57,APPROVED
+participant_203,17.45,21,Female,Black,Brazil,Brazil,Brazil,Portuguese,Yes,DATA_EXPIRED,11,APPROVED
+participant_192,24.983333333333334,22,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),37,APPROVED
+participant_210,13.316666666666666,23,Male,White,Poland,Poland,United States,Polish,Yes,Part-Time,484,APPROVED
+participant_212,13.366666666666667,23,Male,White,Greece,Greece,Greece,Greek,No,Unemployed (and job seeking),130,APPROVED
+participant_193,14.916666666666666,24,Male,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),174,APPROVED
+participant_201,32.38333333333333,20,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,10,APPROVED
+participant_187,25.383333333333333,41,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,629,APPROVED
+participant_200,17.783333333333335,23,Male,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,4,APPROVED
+participant_209,18.9,27,Female,White,Greece,Greece,Greece,Greek,No,Part-Time,472,APPROVED
+participant_186,10.916666666666666,19,Female,Black,South Africa,South Africa,South Africa,Portuguese,Yes,Other,86,APPROVED
+participant_204,16.283333333333335,25,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,2,APPROVED
+participant_198,11.466666666666667,31,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,1,APPROVED
+participant_208,16.033333333333335,51,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,178,APPROVED
+participant_197,24.9,24,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,14,APPROVED
+participant_195,19.466666666666665,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,157,APPROVED
+participant_221,9.3,56,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",2493,APPROVED
+participant_215,18.65,24,Male,Mixed,Netherlands,Netherlands,Netherlands,Dutch,No,Full-Time,961,APPROVED
+participant_230,6.033333333333333,37,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,271,APPROVED
+participant_224,17.966666666666665,36,Male,White,Portugal,Portugal,Portugal,Portuguese,DATA_EXPIRED,Full-Time,1128,APPROVED
+participant_227,37.666666666666664,23,Female,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),114,APPROVED
+participant_233,16.766666666666666,43,Male,White,Italy,Italy,Italy,Italian,DATA_EXPIRED,DATA_EXPIRED,852,APPROVED
+participant_225,12.466666666666667,25,Female,Other,Mexico,Mexico,Mexico,Spanish,DATA_EXPIRED,DATA_EXPIRED,196,APPROVED
+participant_229,8.083333333333334,27,Male,White,Poland,Poland,Poland,Polish,No,Full-Time,487,APPROVED
+participant_223,8.683333333333334,21,Female,White,Spain,Spain,Spain,Spanish,Yes,Unemployed (and job seeking),50,APPROVED
+participant_231,17.65,54,Female,Mixed,Zimbabwe,South Africa,South Africa,English,Yes,Unemployed (and job seeking),44,APPROVED
+participant_222,17.3,27,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,39,APPROVED
+participant_218,29.7,24,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,35,APPROVED
+participant_228,15.366666666666667,30,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,379,APPROVED
+participant_241,8.016666666666667,28,Male,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED,327,APPROVED
+participant_240,7.083333333333333,27,Male,White,Spain,Spain,Spain,Spanish,Yes,Unemployed (and job seeking),1201,APPROVED
+participant_232,9.333333333333334,30,Female,Mixed,Chile,Chile,Chile,Spanish,Yes,Full-Time,171,APPROVED
+participant_237,5.483333333333333,24,Male,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,100,APPROVED
+participant_235,14.35,29,Female,Black,South Africa,South Africa,South Africa,English,Yes,Other,208,APPROVED
+participant_220,18.65,23,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,177,APPROVED
+participant_238,12.483333333333333,23,Female,White,Greece,Greece,Greece,Greek,Yes,Unemployed (and job seeking),86,APPROVED
+participant_217,13.466666666666667,53,Male,White,Greece,Greece,Greece,Greek,No,Full-Time,179,APPROVED
+participant_216,10.55,45,Male,White,Italy,Italy,Italy,Italian,No,Full-Time,877,APPROVED
+participant_239,22.8,25,Male,White,Mexico,Mexico,Mexico,Spanish,No,Full-Time,177,APPROVED
+participant_219,15.516666666666667,25,Female,Asian,Iran,Canada,Iran,Farsi,No,Full-Time,17,APPROVED
+participant_255,17.75,30,Male,White,Germany,Germany,Germany,German,Yes,Due to start a new job within the next month,112,APPROVED
+participant_268,12.3,34,Female,Black,South Africa,South Africa,South Africa,Other,No,Full-Time,150,APPROVED
+participant_243,12.833333333333334,55,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,137,APPROVED
+participant_261,17.016666666666666,32,Female,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),622,APPROVED
+participant_273,14.683333333333334,31,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,Full-Time,224,APPROVED
+participant_252,36.15,51,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,18,APPROVED
+participant_250,8.5,26,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Full-Time,829,APPROVED
+participant_256,11.166666666666666,34,Female,White,South Africa,South Africa,South Africa,Afrikaans,No,Full-Time,110,APPROVED
+participant_242,10.05,35,Male,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,547,APPROVED
+participant_264,9.933333333333334,30,Female,White,Poland,Poland,Poland,Polish,Yes,Full-Time,100,APPROVED
+participant_249,16.016666666666666,31,Male,Asian,India,United Kingdom,India,English,No,Full-Time,903,APPROVED
+participant_247,10.216666666666667,21,Female,White,Poland,Poland,Poland,Polish,Yes,Unemployed (and job seeking),68,APPROVED
+participant_269,13.066666666666666,26,Male,White,Netherlands,Netherlands,Netherlands,Dutch,No,Full-Time,74,APPROVED
+participant_270,15.9,23,Male,White,United States,Italy,United States,Italian,Yes,Unemployed (and job seeking),384,APPROVED
+participant_257,13.966666666666667,26,Female,White,Ukraine,France,Poland,English,Yes,Full-Time,205,APPROVED
+participant_258,15.516666666666667,21,Female,White,Spain,Spain,Spain,Catalan,Yes,Other,164,APPROVED
+participant_259,13.133333333333333,24,Female,Mixed,South Africa,South Africa,South Africa,English,Yes,Full-Time,108,APPROVED
+participant_248,15.966666666666667,33,Male,White,Italy,Italy,Italy,Italian,No,Part-Time,22,APPROVED
+participant_272,12.75,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",1187,APPROVED
+participant_244,14.983333333333333,29,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,47,APPROVED
+participant_251,15.783333333333333,63,Male,White,Netherlands,Portugal,Netherlands,Dutch,No,Other,498,APPROVED
+participant_253,19.733333333333334,20,Male,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,434,APPROVED
+participant_260,22.516666666666666,28,Male,White,Poland,Poland,Poland,Polish,Yes,Part-Time,378,APPROVED
+participant_246,15.483333333333333,28,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,381,APPROVED
+participant_279,10.65,41,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,3,APPROVED
+participant_287,15.65,25,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,339,APPROVED
+participant_277,33.516666666666666,18,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,2,APPROVED
+participant_295,18.483333333333334,39,Female,White,South Africa,South Africa,South Africa,Afrikaans,Yes,Full-Time,234,APPROVED
+participant_305,21.266666666666666,33,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,2434,APPROVED
+participant_284,18.283333333333335,28,Female,Black,South Africa,South Africa,South Africa,Other,Yes,Full-Time,72,APPROVED
+participant_294,11.883333333333333,34,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,113,APPROVED
+participant_292,14.283333333333333,32,Female,Black,Zimbabwe,South Africa,Zimbabwe,English,No,Full-Time,845,APPROVED
+participant_290,19.15,28,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,309,APPROVED
+participant_288,23.35,36,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,432,APPROVED
+participant_289,6.75,21,Male,White,Poland,Poland,Poland,Polish,No,Unemployed (and job seeking),219,APPROVED
+participant_306,25.366666666666667,38,Male,Black,Kenya,Kenya,Kenya,Swahili,Yes,Full-Time,166,APPROVED
+participant_278,9.333333333333334,21,Female,White,Czech Republic,Czech Republic,Czech Republic,Czech,Yes,Part-Time,276,APPROVED
+participant_303,10.3,27,Male,Asian,Philippines,Australia,Australia,Tagalog-Filipino,No,Unemployed (and job seeking),693,APPROVED
+participant_300,11.783333333333333,38,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,71,APPROVED
+participant_274,12.383333333333333,23,Male,White,Italy,Italy,Italy,Italian,No,Full-Time,979,APPROVED
+participant_281,12.166666666666666,31,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,63,APPROVED
+participant_304,66.75,48,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,477,APPROVED
+participant_286,13.666666666666666,60,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",3223,APPROVED
+participant_283,21.75,27,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,20,APPROVED
+participant_291,8.983333333333333,32,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,489,APPROVED
+participant_282,12.916666666666666,39,Male,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,161,APPROVED
+participant_297,11.383333333333333,41,Male,Black,Nigeria,Poland,Nigeria,English,Yes,Full-Time,407,APPROVED
+participant_314,9.683333333333334,26,Female,White,Spain,Spain,Spain,Spanish,Yes,Due to start a new job within the next month,189,APPROVED
+participant_330,9.566666666666666,74,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED,456,APPROVED
+participant_320,12.05,31,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,203,APPROVED
+participant_332,7.166666666666667,27,Female,Other,South Africa,South Africa,South Africa,English,Yes,Full-Time,119,APPROVED
+participant_321,11.9,31,Female,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,330,APPROVED
+participant_307,10.966666666666667,41,Female,White,Spain,Spain,Spain,Spanish,Yes,Part-Time,731,APPROVED
+participant_331,19.55,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),32,APPROVED
+participant_324,17.433333333333334,54,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,2,APPROVED
+participant_317,12.133333333333333,26,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,41,APPROVED
+participant_322,43.81666666666667,26,Female,Black,South Africa,South Africa,South Africa,English,No,Part-Time,43,APPROVED
+participant_329,19.566666666666666,25,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,DATA_EXPIRED,53,APPROVED
+participant_333,18.283333333333335,46,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,203,APPROVED
+participant_309,8.216666666666667,19,Male,White,Spain,Spain,Spain,Spanish,Yes,Other,93,APPROVED
+participant_313,16.683333333333334,68,Male,White,Germany,Germany,Germany,German,DATA_EXPIRED,DATA_EXPIRED,170,APPROVED
+participant_325,17.5,34,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,66,APPROVED
+participant_326,34.9,33,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,103,APPROVED
+participant_316,13.25,34,Female,Mixed,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),34,APPROVED
+participant_312,8.716666666666667,48,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,2,APPROVED
+participant_310,13.816666666666666,40,Female,Mixed,Australia,Australia,Australia,English,No,Part-Time,830,APPROVED
+participant_334,15.166666666666666,39,Female,Black,South Africa,South Africa,South Africa,Other,Yes,Full-Time,131,APPROVED
+participant_315,18.316666666666666,19,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,17,APPROVED
+participant_361,10.083333333333334,26,Male,White,Italy,Italy,Italy,Italian,Yes,Other,422,APPROVED
+participant_341,12.333333333333334,31,Male,White,Greece,Greece,Greece,Greek,Yes,Full-Time,631,APPROVED
+participant_339,23.083333333333332,26,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Other,244,APPROVED
+participant_346,11.216666666666667,33,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,595,APPROVED
+participant_355,28.733333333333334,26,Female,Mixed,Greece,Greece,Greece,Greek,Yes,Unemployed (and job seeking),42,APPROVED
+participant_337,11.466666666666667,25,Male,White,France,France,France,French,No,Full-Time,135,APPROVED
+participant_345,14.833333333333334,24,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Unemployed (and job seeking),310,APPROVED
+participant_350,12.566666666666666,33,Female,White,Poland,Poland,Poland,Polish,DATA_EXPIRED,DATA_EXPIRED,531,APPROVED
+participant_348,12.066666666666666,35,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,177,APPROVED
+participant_354,11.166666666666666,26,Male,White,Portugal,Portugal,Portugal,Portuguese,Yes,Full-Time,357,APPROVED
+participant_344,10.65,30,Male,White,Netherlands,Austria,Netherlands,Dutch,No,Full-Time,150,APPROVED
+participant_343,16.816666666666666,26,Male,White,Croatia,Croatia,Croatia,Croatian,No,Full-Time,78,APPROVED
+participant_342,8.383333333333333,35,Female,White,Italy,Italy,Italy,Italian,No,Part-Time,148,APPROVED
+participant_347,6.95,32,Male,White,Slovenia,Slovenia,Slovenia,Slovenian,No,Full-Time,194,APPROVED
+participant_351,15.75,48,Female,White,Russian Federation,Japan,Russian Federation,Russian,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",1023,APPROVED
+participant_357,14.733333333333333,23,Male,Black,Zambia,South Africa,Zambia,English,No,Full-Time,412,APPROVED
+participant_336,12.15,22,Male,White,Greece,Greece,Greece,Greek,Yes,Full-Time,182,APPROVED
+participant_349,10.5,29,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Due to start a new job within the next month,391,APPROVED
+participant_340,35.333333333333336,21,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),317,APPROVED
+participant_353,17.516666666666666,33,Female,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time,357,APPROVED
+participant_356,33.68333333333333,26,Male,White,Estonia,Finland,Finland,Estonian,No,Full-Time,83,APPROVED
+participant_360,19.666666666666668,30,Female,White,Spain,Spain,Spain,English,Yes,Part-Time,269,APPROVED
+participant_352,10.6,36,Female,White,Canada,Canada,Canada,English,No,Part-Time,192,APPROVED
+participant_358,11.016666666666667,40,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,298,APPROVED
+participant_364,20.966666666666665,25,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,0,APPROVED
+participant_381,16.966666666666665,23,Male,White,Greece,Greece,Greece,Greek,Yes,Unemployed (and job seeking),56,APPROVED
+participant_365,12.65,56,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,3753,APPROVED
+participant_372,16.55,35,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,287,APPROVED
+participant_382,16.25,26,Male,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),29,APPROVED
+participant_373,13.283333333333333,52,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",280,APPROVED
+participant_368,12.466666666666667,43,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,48,APPROVED
+participant_376,14.266666666666667,36,Male,Asian,France,France,France,French,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",187,APPROVED
+participant_362,12.7,43,Female,White,Italy,Italy,Italy,Italian,No,Part-Time,70,APPROVED
+participant_385,24.883333333333333,51,Female,Mixed,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,4,APPROVED
+participant_377,10.6,26,Male,White,Denmark,Denmark,Denmark,Danish,Yes,Full-Time,96,APPROVED
+participant_384,13.616666666666667,29,Female,White,Hungary,Hungary,Hungary,Hungarian,No,Part-Time,349,APPROVED
+participant_388,8.766666666666667,23,Female,White,Poland,Poland,Poland,Polish,Yes,Full-Time,289,APPROVED
+participant_375,9.133333333333333,27,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Unemployed (and job seeking),19,APPROVED
+participant_369,40.68333333333333,40,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,108,APPROVED
+participant_389,17.666666666666668,21,Male,White,Poland,Poland,Poland,Polish,Yes,Other,158,APPROVED
+participant_370,29.083333333333332,26,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,604,APPROVED
+participant_386,30.333333333333332,31,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,338,APPROVED
+participant_380,17.883333333333333,37,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,596,APPROVED
+participant_363,14.35,32,Female,Mixed,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),118,APPROVED
+participant_374,10.833333333333334,18,Male,White,Hungary,Hungary,Hungary,Hungarian,Yes,Other,213,APPROVED
+participant_366,17.666666666666668,37,Male,White,Spain,Spain,Spain,Spanish,No,Unemployed (and job seeking),242,APPROVED
+participant_378,22.066666666666666,21,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,31,APPROVED
+participant_412,23.25,33,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,153,APPROVED
+participant_416,26.033333333333335,28,Male,Black,South Africa,South Africa,South Africa,English,No,Part-Time,24,APPROVED
+participant_396,12.683333333333334,29,Female,White,Poland,Poland,Poland,Polish,No,Full-Time,260,APPROVED
+participant_403,16.85,46,Female,Black,Kenya,Kenya,Kenya,English,Yes,Other,68,APPROVED
+participant_393,12.416666666666666,23,Male,Black,South Africa,South Africa,South Africa,English,No,Part-Time,277,APPROVED
+participant_397,21.966666666666665,23,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,84,APPROVED
+participant_399,9.366666666666667,29,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,709,APPROVED
+participant_415,6.983333333333333,51,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,Full-Time,776,APPROVED
+participant_401,25.083333333333332,34,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,845,APPROVED
+participant_413,13.566666666666666,27,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,DATA_EXPIRED,170,APPROVED
+participant_410,44.75,28,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,0,APPROVED
+participant_394,9.966666666666667,33,Male,White,Hungary,Hungary,Hungary,Hungarian,No,Full-Time,1095,APPROVED
+participant_404,17.566666666666666,36,Female,White,Greece,Czech Republic,Greece,Greek,DATA_EXPIRED,Full-Time,689,APPROVED
+participant_405,19.916666666666668,55,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,9,APPROVED
+participant_391,30.316666666666666,40,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,409,APPROVED
+participant_409,15.583333333333334,40,Male,White,Portugal,Portugal,Portugal,Portuguese,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",131,APPROVED
+participant_418,13.733333333333333,46,Female,Other,South Africa,South Africa,South Africa,English,No,Part-Time,284,APPROVED
+participant_398,7.9,59,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,5,APPROVED
+participant_392,44.4,21,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,112,APPROVED
+participant_417,11.416666666666666,23,Male,Asian,Vietnam,Vietnam,Vietnam,Vietnamese,No,Unemployed (and job seeking),172,APPROVED
+participant_406,33.3,22,Male,Black,Nigeria,United Kingdom,United Kingdom,English,Yes,Part-Time,79,APPROVED
+participant_395,15.45,26,Male,White,Poland,Poland,Poland,Polish,No,Full-Time,966,APPROVED
+participant_408,15.333333333333334,25,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,7,APPROVED
+participant_400,13.116666666666667,59,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Part-Time,72,APPROVED
+participant_446,16.4,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),27,APPROVED
+participant_449,12.9,27,Female,White,Poland,Sweden,Poland,Polish,No,Full-Time,64,APPROVED
+participant_421,8.45,39,Female,White,Lithuania,United Kingdom,Lithuania,Lithuanian,No,Full-Time,910,APPROVED
+participant_440,19.883333333333333,26,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),58,APPROVED
+participant_432,11.133333333333333,30,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,109,APPROVED
+participant_437,10.983333333333333,28,Female,White,Albania,DATA_EXPIRED,Albania,Albanian,No,Full-Time,13,APPROVED
+participant_439,16.866666666666667,43,Male,White,Hungary,Hungary,Hungary,Hungarian,No,Other,385,APPROVED
+participant_428,14.283333333333333,24,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking),123,APPROVED
+participant_445,28.633333333333333,24,Female,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,467,APPROVED
+participant_443,9.35,19,Male,White,Poland,Poland,Poland,Polish,Yes,Part-Time,48,APPROVED
+participant_429,12.283333333333333,18,Female,White,Germany,Germany,Germany,German,Yes,Part-Time,107,APPROVED
+participant_422,12.1,23,Male,Black,Kenya,Kenya,Kenya,English,Yes,Full-Time,266,APPROVED
+participant_423,25.166666666666668,45,Female,Black,Nigeria,France,Nigeria,English,Yes,Full-Time,41,APPROVED
+participant_438,11.533333333333333,31,Male,White,South Africa,South Africa,South Africa,English,No,Full-Time,425,APPROVED
+participant_441,18.266666666666666,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,801,APPROVED
+participant_448,12.633333333333333,55,Female,White,Croatia,Croatia,Croatia,Croatian,No,Full-Time,27,APPROVED
+participant_447,9.566666666666666,31,Male,White,Italy,Italy,Italy,Italian,No,Full-Time,160,APPROVED
+participant_426,17.1,26,Male,White,Poland,Poland,Poland,Polish,No,Full-Time,149,APPROVED
+participant_444,31.683333333333334,24,Female,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking),165,APPROVED
+participant_424,15.633333333333333,27,Female,White,Italy,Italy,Italy,Italian,No,Full-Time,472,APPROVED
+participant_427,9.066666666666666,35,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,113,APPROVED
+participant_425,19.633333333333333,30,Male,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Full-Time,164,APPROVED
+participant_431,23.816666666666666,22,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time,47,APPROVED
+participant_430,10.25,23,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,412,APPROVED
+participant_466,17.366666666666667,28,Female,Black,Namibia,Hungary,Namibia,English,Yes,Unemployed (and job seeking),378,APPROVED
+participant_463,11.933333333333334,22,Female,Asian,Canada,Canada,Canada,Kurdish,DATA_EXPIRED,Full-Time,224,APPROVED
+participant_451,16.433333333333334,31,Male,Mixed,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,860,APPROVED
+participant_465,13.583333333333334,23,Female,Black,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking),26,APPROVED
+participant_464,10.6,36,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,463,APPROVED
+participant_453,12.066666666666666,36,Female,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,1894,APPROVED
+participant_455,15.3,23,Female,White,Portugal,Portugal,Portugal,Portuguese,Yes,Part-Time,5,APPROVED
+participant_473,10.1,29,Female,White,Canada,Canada,Canada,English,No,Full-Time,128,APPROVED
+participant_456,10.766666666666667,24,Female,White,United Kingdom,France,United Kingdom,English,Yes,Unemployed (and job seeking),336,APPROVED
+participant_454,10.0,35,Female,Asian,Turkey,Canada,Canada,Chinese,No,Full-Time,5,APPROVED
+participant_450,9.1,51,Male,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,5,APPROVED
+participant_459,11.233333333333333,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",18,APPROVED
+participant_458,7.633333333333334,28,Male,White,Netherlands,Netherlands,Netherlands,Dutch,Yes,Other,232,APPROVED
+participant_468,8.716666666666667,24,Male,White,Latvia,Latvia,Latvia,Latvian,No,Full-Time,121,APPROVED
+participant_469,12.483333333333333,32,Male,White,South Africa,South Africa,South Africa,Afrikaans,No,Other,603,APPROVED
+participant_467,17.433333333333334,45,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,664,APPROVED
+participant_475,12.883333333333333,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,1007,APPROVED
+participant_452,8.566666666666666,31,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,676,APPROVED
+participant_457,23.083333333333332,24,Female,Black,South Africa,South Africa,South Africa,English,DATA_EXPIRED,DATA_EXPIRED,144,APPROVED
+participant_470,22.933333333333334,28,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Unemployed (and job seeking),373,APPROVED
+participant_460,10.433333333333334,41,Female,White,Spain,Spain,Spain,Spanish,No,Full-Time,1165,APPROVED
+participant_472,8.083333333333334,21,Female,White,Poland,Poland,Poland,Polish,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)",77,APPROVED
+participant_471,10.9,40,Female,White,Poland,Poland,Poland,Polish,No,DATA_EXPIRED,1531,APPROVED
+participant_476,14.1,45,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,821,APPROVED
+participant_506,13.25,57,Male,White,Canada,Canada,Canada,English,No,Unemployed (and job seeking),24,APPROVED
+participant_486,14.55,36,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",1425,APPROVED
+participant_480,7.8,29,Female,White,Canada,Canada,Canada,English,Yes,Other,131,APPROVED
+participant_490,12.85,65,Female,White,Switzerland,United Kingdom,United Kingdom,English,Yes,Other,462,APPROVED
+participant_505,4.483333333333333,84,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,8,APPROVED
+participant_494,11.333333333333334,43,Female,White,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED,988,APPROVED
+participant_508,25.116666666666667,21,Female,Black,United Kingdom,United Kingdom,United Kingdom,English,DATA_EXPIRED,DATA_EXPIRED,85,APPROVED
+participant_479,17.883333333333333,51,Female,White,United Kingdom,United Kingdom,United Kingdom,English,No,Full-Time,1141,APPROVED
+participant_507,27.983333333333334,42,Female,White,Canada,Canada,Canada,English,No,Full-Time,693,APPROVED
+participant_489,23.233333333333334,63,Female,White,Poland,United Kingdom,Poland,Polish,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",282,APPROVED
+participant_483,11.5,43,Female,White,Canada,Canada,Canada,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)",7,APPROVED
+participant_498,15.25,51,Male,Asian,Japan,Japan,Japan,Japanese,No,Part-Time,128,APPROVED
+participant_487,14.5,44,Male,Asian,Bangladesh,France,Bangladesh,Bengali,No,Full-Time,653,APPROVED
+participant_496,31.7,18,Male,White,Czech Republic,Czech Republic,Czech Republic,Czech,Yes,Unemployed (and job seeking),30,APPROVED
+participant_482,11.783333333333333,37,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time,776,APPROVED
+participant_484,20.5,37,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,168,APPROVED
+participant_492,11.066666666666666,24,Male,White,Belgium,Belgium,Belgium,Dutch,Yes,Other,225,APPROVED
+participant_495,17.566666666666666,29,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,364,APPROVED
+participant_488,16.8,48,Male,White,Belgium,Belgium,Belgium,French,No,Full-Time,165,APPROVED
+participant_501,9.05,29,Female,White,Poland,Poland,Poland,Polish,No,Full-Time,672,APPROVED
+participant_504,29.8,24,Male,White,Poland,Poland,Poland,Polish,Yes,Full-Time,1359,APPROVED
+participant_481,15.683333333333334,52,Female,Black,Brazil,Brazil,Brazil,Portuguese,No,Part-Time,75,APPROVED
+participant_531,11.3,25,Prefer not to say,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED,205,APPROVED
+participant_517,13.083333333333334,54,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Other,69,APPROVED
+participant_525,14.316666666666666,35,Female,White,Greece,Netherlands,Greece,Greek,Yes,Unemployed (and job seeking),223,APPROVED
+participant_526,21.466666666666665,43,Female,Black,Zimbabwe,South Africa,Zimbabwe,English,Yes,Full-Time,528,APPROVED
+participant_521,22.033333333333335,27,Female,White,Austria,Austria,Austria,German,No,Full-Time,45,APPROVED
+participant_513,29.616666666666667,20,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,0,APPROVED
+participant_516,28.233333333333334,33,Female,Black,Ghana,South Africa,South Africa,English,Yes,DATA_EXPIRED,315,APPROVED
+participant_528,17.766666666666666,41,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,407,APPROVED
+participant_514,14.966666666666667,25,Female,Black,South Africa,South Africa,South Africa,English,No,Other,12,APPROVED
+participant_523,21.133333333333333,42,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,421,APPROVED
+participant_529,12.9,22,Male,White,Poland,Poland,Poland,Polish,No,Unemployed (and job seeking),154,APPROVED
+participant_533,16.166666666666668,27,Male,Mixed,Chile,Chile,Chile,Spanish,Yes,Part-Time,144,APPROVED
+participant_534,22.866666666666667,71,Female,White,United States,Australia,United States,English,No,Part-Time,762,APPROVED
+participant_515,18.2,46,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,20,APPROVED
+participant_519,14.25,20,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,0,APPROVED
+participant_518,10.516666666666667,44,Male,White,Uzbekistan,Israel,Israel,Hebrew,No,Full-Time,97,APPROVED
+participant_527,11.0,22,Male,White,Poland,Poland,Poland,Polish,Yes,Full-Time,347,APPROVED
+participant_520,9.533333333333333,55,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,35,APPROVED
+participant_524,37.03333333333333,21,Male,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time,144,APPROVED
+participant_530,10.616666666666667,26,Male,White,Slovenia,Slovenia,Slovenia,Slovenian,No,Full-Time,99,APPROVED
+participant_510,10.033333333333333,23,Male,White,Slovenia,Slovenia,Slovenia,Slovenian,No,Unemployed (and job seeking),807,APPROVED
+participant_522,8.666666666666666,34,Female,White,Bulgaria,United Kingdom,Bulgaria,Bulgarian,No,Part-Time,2397,APPROVED
+participant_532,25.716666666666665,26,Female,White,Poland,Poland,Poland,Polish,No,Full-Time,107,APPROVED
+participant_512,15.0,24,Male,Asian,Nepal,Canada,Nepal,Nepali,Yes,Other,55,APPROVED
+participant_560,15.85,36,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,420,APPROVED
+participant_555,10.6,39,Male,White,Greece,Greece,Greece,Greek,No,Full-Time,528,APPROVED
+participant_549,14.5,27,Female,White,Greece,Greece,Greece,Greek,No,Full-Time,67,APPROVED
+participant_559,47.35,27,Male,Asian,South Africa,South Africa,South Africa,English,Yes,Full-Time,760,APPROVED
+participant_561,17.216666666666665,50,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,735,APPROVED
+participant_548,14.433333333333334,38,Female,White,Romania,DATA_EXPIRED,DATA_EXPIRED,Romanian,DATA_EXPIRED,DATA_EXPIRED,408,APPROVED
+participant_545,18.533333333333335,32,Male,White,Croatia,Croatia,Croatia,Croatian,No,Full-Time,6,APPROVED
+participant_539,26.25,26,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),47,APPROVED
+participant_563,22.283333333333335,24,Female,White,Poland,Poland,Poland,Polish,No,Unemployed (and job seeking),449,APPROVED
+participant_558,15.25,25,Female,Other,South Africa,South Africa,South Africa,English,Yes,Full-Time,128,APPROVED
+participant_540,16.166666666666668,33,Female,White,Croatia,Croatia,Croatia,Croatian,Yes,Other,100,APPROVED
+participant_551,19.166666666666668,33,Male,Black,South Africa,South Africa,South Africa,Other,Yes,Unemployed (and job seeking),709,APPROVED
+participant_543,25.4,31,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking),87,APPROVED
+participant_537,40.916666666666664,23,Female,Black,Zimbabwe,South Africa,Zimbabwe,English,Yes,Full-Time,359,APPROVED
+participant_544,18.25,51,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,193,APPROVED
+participant_562,9.483333333333333,39,Female,White,Italy,Italy,Italy,Italian,No,DATA_EXPIRED,382,APPROVED
+participant_554,53.5,26,Male,Black,Kenya,Kenya,Kenya,English,Yes,Full-Time,235,APPROVED
+participant_547,23.333333333333332,29,Female,Black,South Africa,South Africa,South Africa,English,No,Full-Time,635,APPROVED
+participant_552,19.65,32,Male,Black,South Africa,South Africa,South Africa,English,No,Full-Time,33,APPROVED
+participant_541,26.783333333333335,26,Male,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Part-Time,143,APPROVED
+participant_542,10.483333333333333,37,Male,White,Poland,Poland,Poland,Polish,No,Full-Time,93,APPROVED
+participant_536,16.533333333333335,22,Male,Black,Ghana,United Kingdom,Ghana,English,Yes,Full-Time,481,APPROVED
+participant_553,20.616666666666667,31,Female,Black,Nigeria,United Kingdom,Nigeria,English,No,Full-Time,106,APPROVED
+participant_535,17.816666666666666,30,Male,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time,1122,APPROVED

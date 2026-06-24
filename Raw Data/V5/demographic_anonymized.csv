@@ -1,0 +1,30 @@
+Participant id,Status,Started at,Completed at,Time taken,Total approvals,Fluent languages,Dyslexia,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+participant_446,APPROVED,2025-03-11T11:12:26.070000Z,2025-03-11T11:28:50.001000Z,984.0,27,English,No,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking)
+participant_449,APPROVED,2025-03-11T11:12:43.219000Z,2025-03-11T11:25:37.204000Z,774.0,64,"Polish, English",No,27,Female,White,Poland,Sweden,Poland,Polish,No,Full-Time
+participant_421,APPROVED,2025-03-11T11:13:09.323000Z,2025-03-11T11:21:36.255000Z,507.0,910,"English, Lithuanian",No,39,Female,White,Lithuania,United Kingdom,Lithuania,Lithuanian,No,Full-Time
+participant_440,APPROVED,2025-03-11T11:16:20.442000Z,2025-03-11T11:36:13.283000Z,1193.0,58,English,No,26,Female,Black,South Africa,South Africa,South Africa,English,Yes,Unemployed (and job seeking)
+participant_435,RETURNED,2025-03-11T11:15:41.247000Z,,,90,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_442,RETURNED,2025-03-11T11:27:37.019000Z,,,85,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_432,APPROVED,2025-03-11T11:19:50.167000Z,2025-03-11T11:30:57.779000Z,668.0,109,English,No,30,Female,Black,South Africa,South Africa,South Africa,English,Yes,Full-Time
+participant_437,APPROVED,2025-03-11T11:19:46.175000Z,2025-03-11T11:30:45.135000Z,659.0,13,"English, Italian",No,28,Female,White,Albania,DATA_EXPIRED,Albania,Albanian,No,Full-Time
+participant_439,APPROVED,2025-03-11T11:19:50.656000Z,2025-03-11T11:36:42.359000Z,1012.0,385,"English, German, Hungarian",No,43,Male,White,Hungary,Hungary,Hungary,Hungarian,No,Other
+participant_428,APPROVED,2025-03-11T11:20:07.787000Z,2025-03-11T11:34:24.363000Z,857.0,123,English,No,24,Female,White,United Kingdom,United Kingdom,United Kingdom,English,Yes,Unemployed (and job seeking)
+participant_436,RETURNED,2025-03-11T11:23:12.174000Z,,,298,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_445,APPROVED,2025-03-11T11:23:01.363000Z,2025-03-11T11:51:38.843000Z,1718.0,467,"Afrikaans, English",No,24,Female,Mixed,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_443,APPROVED,2025-03-11T11:22:01.470000Z,2025-03-11T11:31:21.939000Z,561.0,48,"Polish, English, Russian",No,19,Male,White,Poland,Poland,Poland,Polish,Yes,Part-Time
+participant_429,APPROVED,2025-03-11T11:22:17.918000Z,2025-03-11T11:34:34.911000Z,737.0,107,"German, English",No,18,Female,White,Germany,Germany,Germany,German,Yes,Part-Time
+participant_434,REJECTED,2025-03-11T11:22:52.586000Z,2025-03-11T11:29:00.267000Z,368.0,1356,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+participant_422,APPROVED,2025-03-11T11:26:38.051000Z,2025-03-11T11:38:44.012000Z,726.0,266,"English, French, Spanish, Swahili",No,23,Male,Black,Kenya,Kenya,Kenya,English,Yes,Full-Time
+participant_423,APPROVED,2025-03-11T11:25:44.594000Z,2025-03-11T11:50:53.801000Z,1510.0,41,"English, French",No,45,Female,Black,Nigeria,France,Nigeria,English,Yes,Full-Time
+participant_438,APPROVED,2025-03-11T11:25:46.892000Z,2025-03-11T11:37:18.041000Z,692.0,425,"Afrikaans, English",No,31,Male,White,South Africa,South Africa,South Africa,English,No,Full-Time
+participant_441,APPROVED,2025-03-11T11:32:36.662000Z,2025-03-11T11:50:52.285000Z,1096.0,801,English,No,25,Female,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time
+participant_448,APPROVED,2025-03-11T11:28:18.003000Z,2025-03-11T11:40:55.530000Z,758.0,27,"English, Hebrew, Italian, Croatian, German, Slovenian",No,55,Female,White,Croatia,Croatia,Croatia,Croatian,No,Full-Time
+participant_447,APPROVED,2025-03-11T11:26:52.458000Z,2025-03-11T11:36:26.143000Z,574.0,160,"English, Italian",No,31,Male,White,Italy,Italy,Italy,Italian,No,Full-Time
+participant_426,APPROVED,2025-03-11T11:26:38.251000Z,2025-03-11T11:43:43.445000Z,1026.0,149,"Polish, English",No,26,Male,White,Poland,Poland,Poland,Polish,No,Full-Time
+participant_444,APPROVED,2025-03-11T11:26:40.634000Z,2025-03-11T11:58:21.214000Z,1901.0,165,English,No,24,Female,Black,South Africa,South Africa,South Africa,English,No,Unemployed (and job seeking)
+participant_424,APPROVED,2025-03-11T11:26:41.116000Z,2025-03-11T11:42:19.091000Z,938.0,472,"Italian, English",No,27,Female,White,Italy,Italy,Italy,Italian,No,Full-Time
+participant_433,TIMED-OUT,2025-03-11T11:29:51.724000Z,,8845.0,480,English,No,24,Female,Black,South Africa,South Africa,South Africa,English,Yes,DATA_EXPIRED
+participant_427,APPROVED,2025-03-11T11:29:16.852000Z,2025-03-11T11:38:19.992000Z,544.0,113,"English, Italian, Portuguese",No,35,Female,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time
+participant_425,APPROVED,2025-03-11T11:36:10.988000Z,2025-03-11T11:55:48.901000Z,1178.0,164,English,No,30,Male,Black,Nigeria,United Kingdom,Nigeria,English,Yes,Full-Time
+participant_431,APPROVED,2025-03-11T12:45:14.095000Z,2025-03-11T13:09:03.059000Z,1429.0,47,English,No,22,Male,Black,South Africa,South Africa,South Africa,English,Yes,Part-Time
+participant_430,APPROVED,2025-03-12T09:44:44.329000Z,2025-03-12T09:54:58.913000Z,615.0,412,"Portuguese, English",No,23,Male,White,Portugal,Portugal,Portugal,Portuguese,No,Full-Time

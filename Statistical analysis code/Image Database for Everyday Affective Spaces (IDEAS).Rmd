@@ -1,0 +1,1218 @@
+---
+title: "Image Database for Everyday Affective Spaces (IDEAS)"
+output:
+  word_document: default
+  html_document: default
+header-includes:
+  - \usepackage{fontspec}
+  - \setmainfont{Times New Roman}
+date: "2025-07-11"
+---
+This script reproduces all statistical analyses, tables, and figures in the IDEAS study. Please cite the article [REMOVED FOR REVIEW] if you make use of this code.
+
+# Start
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+knitr::opts_chunk$set(fig.width = 10, fig.height = 10)
+
+
+library("caret")
+library("ggplot2")
+library("dplyr")
+library("gridExtra")
+library("emmeans")
+library("lmerTest")
+library("lmtest")
+library("tidyr")
+library("gam")
+library("mgcv")
+library("gt")
+library("lm.beta")
+library("jtools")
+library("cowplot")
+library("car")
+library("patchwork")
+
+# Useful functions to simplify things
+source(".\\utils.R")
+
+# Load Affect Data
+data_all <- read.csv("..\\Mean Data\\combined_data.csv")
+data_all <- data_all[, colnames(data_all) %in% c("image", "tense", "energetic", "valence", "approach", "room_type", "valence_std", "tense_std", "energetic_std", "approach_std")]
+data_all$valence <- data_all$valence- 4
+data_all$tense <- data_all$tense- 4
+data_all$energetic <- data_all$energetic- 4
+data_all$approach <- data_all$approach- 4
+data_all$I_valence <- ifelse(data_all$valence >= 0, 1, 0) #* data_all$valence
+data_all$I_energetic <- ifelse(data_all$energetic >= 0, 1, 0) #* data_all$energetic
+data_all$I_tense <- ifelse(data_all$tense >= 0, 1, 0) #* data_all$energetic
+data_all$I_approach <- ifelse(data_all$approach >= 0, 1, 0) #* data_all$energetic
+
+# Create dataset of demographic data and remove instances of missing information or expired data
+data_valence_demographic <- read.csv("..\\Data for demographic analysis\\valence_demographic.csv")
+#data_valence_demographic <- data_valence_demographic[data_valence_demographic$Sex != "Prefer not to say",]
+data_valence_demographic$Age = as.numeric(data_valence_demographic$Age)
+
+
+data_arousal_demographic <- read.csv("..\\Data for demographic analysis\\arousal_demographic.csv")
+#data_arousal_demographic <- data_arousal_demographic[data_arousal_demographic$Sex != "Prefer not to say",]
+data_arousal_demographic$Age = as.numeric(data_arousal_demographic$Age)
+
+
+# Load individual ratings
+data_valence_only_demographic <- read.csv("..\\Data for demographic analysis\\valence_demographic_only.csv")
+data_arousal_only_demographic <- read.csv("..\\Data for demographic analysis\\arousal_demographic_only.csv")
+
+#  Cretate dataset with demographic information only to be used for visualizations
+data_only_demographic <- rbind(data_valence_only_demographic, data_arousal_only_demographic)
+#data_only_demographic <- data_only_demographic[data_only_demographic$Employment.status != "DATA_EXPIRED",]
+# Create folder for visualizations
+check_create_directory(".\\Visualizations")
+
+```
+
+# 3. Results - Descriptive Statistics
+
+## Intraclass Correlation Coefficient
+
+```{r, echo = FALSE}
+knitr::kable(calculate_icc_scores(), caption = "ICC Score for each dependent variable", align = "c")
+```
+
+## Descriptive Statistics
+
+```{r, echo = FALSE}
+desc_table <- data.frame(Variable = c("Valence","Energetic arousal","Tense arousal","Approach-avoidance"),
+  
+  Mean = c(round(mean(data_all$valence, na.rm = TRUE), 3),
+    round(mean(data_all$energetic, na.rm = TRUE), 3),
+    round(mean(data_all$tense, na.rm = TRUE), 3),
+    round(mean(data_all$approach, na.rm = TRUE), 3)),
+  
+  SD = c(round(sd(data_all$valence, na.rm = TRUE), 2),
+    round(sd(data_all$energetic, na.rm = TRUE), 2),
+    round(sd(data_all$tense, na.rm = TRUE), 2),
+    round(sd(data_all$approach, na.rm = TRUE), 2))
+)
+
+knitr::kable(desc_table,caption = "Descriptive statistics for study variables.")
+```
+
+
+## Correlation Table
+
+
+```{r, echo = FALSE}
+cor_matrix <- cor(data_all[,c("valence", "tense","energetic","approach")])
+
+cor_matrix <- round(cor_matrix, 2)
+
+# Display with knitr::kable
+knitr::kable(cor_matrix,caption = "Correlation Matrix", align = "c")
+
+```
+
+# 3.1 Reliability and Validation of IDEAS
+
+## Equivalence Test
+
+```{r, echo = FALSE}
+# Load Data and set upper and lower bounds
+valence_approach_data <- read.csv("..\\Data for equivalence testing\\val_app_data.csv")
+tense_energetic_data <- read.csv("..\\Data for equivalence testing\\ten_ene_data.csv")
+
+bound_u <- 1
+bound_l <- -1
+```
+
+
+### Valence
+
+```{r, echo = FALSE}
+valence_model <- lmer(valence ~ study + image + (1 | participant),data = valence_approach_data, REML = TRUE)
+
+L <- rep(0, length(fixef(valence_model)))
+L[which(names(fixef(valence_model)) == "studyIDEAS")] <- 1
+
+lower <- contest1D(valence_model, L = L, rhs = bound_l, confint = TRUE)
+upper <- contest1D(valence_model, L = L, rhs = bound_u, confint = TRUE)
+
+lower
+upper
+```
+
+### Tense Arousal
+
+```{r, echo = FALSE}
+tense_model <- lmer(tense ~ study + image + (1 | participant),data = tense_energetic_data, REML = TRUE)
+
+L <- rep(0, length(fixef(tense_model)))
+L[which(names(fixef(tense_model)) == "studyIDEAS")] <- 1
+
+lower <- contest1D(tense_model, L = L, rhs = bound_l, confint = TRUE)
+upper <- contest1D(tense_model, L = L, rhs = bound_u, confint = TRUE)
+lower
+upper
+
+```
+
+### Energetic Arousal
+
+```{r, echo = FALSE}
+energetic_model <- lmer(energetic ~ study + image + (1 | participant),data = tense_energetic_data, REML = TRUE)
+
+L <- rep(0, length(fixef(energetic_model)))
+L[which(names(fixef(energetic_model)) == "studyIDEAS")] <- 1
+
+lower <- contest1D(energetic_model, L = L, rhs = bound_l, confint = TRUE)
+upper <- contest1D(energetic_model, L = L, rhs = bound_u, confint = TRUE)
+
+lower
+upper
+```
+
+### Approach-avoidance
+
+```{r, echo = FALSE}
+approach_model <- lmer(approach ~ study + image + (1 | participant),data = valence_approach_data, REML = TRUE)
+
+L <- rep(0, length(fixef(approach_model)))
+L[which(names(fixef(approach_model)) == "studyIDEAS")] <- 1
+
+lower <- contest1D(approach_model, L = L, rhs = bound_l, confint = TRUE)
+upper <- contest1D(approach_model, L = L, rhs = bound_u, confint = TRUE)
+
+lower
+upper
+```
+
+```{r, echo = FALSE}
+skew_kurt_table <- bind_rows(
+  Valence = round(extract_skewness_kurtosis(valence_model),2),
+  Approach_Avoidance = round(extract_skewness_kurtosis(approach_model),2),
+  Tense_Arousal = round(extract_skewness_kurtosis(tense_model),2),
+  Energetic_Arousal = round(extract_skewness_kurtosis(energetic_model),2),
+  .id = "Dependent Variable"
+)
+
+
+knitr::kable(skew_kurt_table, col.names = c("Outcome", "Skewness", "Kurtosis"), caption = "Residual skewness and kurtosis for each model")
+
+```
+
+
+```{r, echo = FALSE}
+table_valence <- make_effects_table(anova(valence_model), "Valence")
+table_approach   <- make_effects_table(anova(approach_model), "Approach-avoidance")
+table_tense   <- make_effects_table(anova(tense_model), "Tense Arousal")
+table_energetic   <- make_effects_table(anova(energetic_model), "Energetic Arousal")
+
+final_table <- rbind(table_valence,table_approach, table_tense, table_energetic)
+
+knitr::kable(
+  final_table,
+  align = c("l", "l", "r", "r", "r", "r"),  # left for text columns, right for numbers
+  caption = "Fixed Effects from Linear Mixed Models"
+)
+```
+
+
+# 3.2 Examining the Relationship Between Affective Responses
+
+# Building Models for all dependent variables
+
+```{r,echo=FALSE}
+model1_t_v <- lm(tense ~ 1, data = data_all) # Null 
+model2_t_v <- lm(tense ~ valence, data = data_all) #Linear
+model3_t_v <- lm(tense ~ abs(valence), data = data_all) #Symmetric V
+model4_t_v <- lm(tense ~ abs(valence) + I_valence, data = data_all) # Positivity Offset (different intercepts, same slope)
+model5_t_v <- lm(tense ~ abs(valence) + (abs(valence):I_valence), data = data_all) # Negativity Bias (same intercept, different slopes)
+model6_t_v <- lm(tense ~ abs(valence) + I_valence + (abs(valence)*I_valence), data = data_all) # Full Asymmetry (offset + bias)
+model7_t_v <- gam(tense ~ s(valence), data = data_all) # #Non-parametric
+
+model1_v_t <- lm(valence ~ 1, data = data_all)
+model2_v_t <- lm(valence ~ tense, data = data_all)
+model3_v_t <- lm(valence ~ abs(tense), data = data_all)
+model4_v_t <- lm(valence ~ abs(tense) + I_tense, data = data_all)
+model5_v_t <- lm(valence ~ abs(tense) + (abs(tense):I_tense), data = data_all)
+model6_v_t <- lm(valence ~ abs(tense) + I_tense + (abs(tense)*I_tense), data = data_all)
+model7_v_t <- gam(valence ~ s(tense), data = data_all)
+
+model1_e_v <- lm(energetic ~ 1, data = data_all)
+model2_e_v <- lm(energetic ~ valence, data = data_all)
+model3_e_v <- lm(energetic ~ abs(valence), data = data_all)
+model4_e_v <- lm(energetic ~ abs(valence) + I_valence, data = data_all)
+model5_e_v <- lm(energetic ~ abs(valence) + (abs(valence): I_valence), data = data_all)
+model6_e_v <- lm(energetic ~ abs(valence) + I_valence + (abs(valence)*I_valence), data = data_all)
+model7_e_v <- gam(energetic ~ s(valence), data = data_all)
+
+model1_v_e <- lm(valence ~ 1, data = data_all)
+model2_v_e <- lm(valence ~ energetic, data = data_all)
+model3_v_e <- lm(valence ~ abs(energetic), data = data_all)
+model4_v_e <- lm(valence ~ abs(energetic) + I_energetic, data = data_all)
+model5_v_e <- lm(valence ~ abs(energetic) + (abs(energetic):I_energetic), data = data_all)
+model6_v_e <- lm(valence ~ abs(energetic) + I_energetic + (abs(energetic)*I_energetic), data = data_all)
+model7_v_e <- gam(valence ~ s(energetic), data = data_all)
+
+model1_e_t <- lm(energetic ~ 1, data = data_all)
+model2_e_t <- lm(energetic ~ tense, data = data_all)
+model3_e_t <- lm(energetic ~ abs(tense), data = data_all)
+model4_e_t <- lm(energetic ~ abs(tense) + I_tense, data = data_all)
+model5_e_t <- lm(energetic ~ abs(tense) + (abs(tense):I_tense), data = data_all)
+model6_e_t <- lm(energetic ~ abs(tense) + I_tense + (abs(tense)*I_tense), data = data_all)
+model7_e_t <- gam(energetic ~ s(tense), data = data_all)
+
+model1_t_e <- lm(tense ~ 1, data = data_all)
+model2_t_e <- lm(tense ~ energetic, data = data_all)
+model3_t_e <- lm(tense ~ abs(energetic), data = data_all)
+model4_t_e <- lm(tense ~ abs(energetic) + I_energetic, data = data_all)
+model5_t_e <- lm(tense ~ abs(energetic) + (abs(energetic):I_energetic), data = data_all)
+model6_t_e <- lm(tense ~ abs(energetic) + I_energetic + (abs(energetic)*I_energetic), data = data_all)
+model7_t_e <- gam(tense ~ s(energetic), data = data_all)
+```
+
+#### Table 4. 
+
+```{r,echo = FALSE, warning = FALSE, message = FALSE}
+# Get posterior probabilities for all models.
+posterior_probs_t_v <- get_posterior_probs(model1_t_v,model2_t_v,model3_t_v, model4_t_v, model5_t_v, model6_t_v, model7_t_v)
+posterior_probs_v_t <- get_posterior_probs(model1_v_t,model2_v_t,model3_v_t, model4_v_t, model5_v_t, model6_v_t, model7_v_t)
+posterior_probs_e_v <- get_posterior_probs(model1_e_v,model2_e_v,model3_e_v, model4_e_v, model5_e_v, model6_e_v, model7_e_v)
+posterior_probs_v_e <- get_posterior_probs(model1_v_e,model2_v_e,model3_v_e, model4_v_e, model5_v_e, model6_v_e, model7_v_e)
+posterior_probs_t_e <- get_posterior_probs(model1_t_e,model2_t_e,model3_t_e, model4_t_e, model5_t_e, model6_t_e, model7_t_e)
+posterior_probs_e_t <- get_posterior_probs(model1_e_t,model2_e_t,model3_e_t, model4_e_t, model5_e_t, model6_e_t, model7_e_t)
+
+# Create Table 4
+data <- tibble::tibble(
+  Relationship = c("Tense - Valence", "Valence - Tense", "Energetic-Valence","Valence-Energetic", "Tense-Energetic", "Energetic-Tense"),
+  
+  # Model 1
+  BIC1 = c(
+    round(BIC(model1_t_v)), round(BIC(model1_v_t)), round(BIC(model1_e_v)),
+    round(BIC(model1_v_e)), round(BIC(model1_t_e)), round(BIC(model1_e_t))
+  ),
+  R21 = rep(0.00, 6),
+  PP1 = round(c(
+    posterior_probs_t_v[1], posterior_probs_v_t[1], posterior_probs_e_v[1],
+    posterior_probs_v_e[1], posterior_probs_t_e[1], posterior_probs_e_t[1]
+  ), 2),
+
+  # Model 2
+  BIC2 = c(
+    round(BIC(model2_t_v)), round(BIC(model2_v_t)), round(BIC(model2_e_v)),
+    round(BIC(model2_v_e)), round(BIC(model2_t_e)), round(BIC(model2_e_t))
+  ),
+  R22 = c(
+    round(summary(model2_t_v)$r.squared, 2), round(summary(model2_v_t)$r.squared, 2), round(summary(model2_e_v)$r.squared, 2),
+    round(summary(model2_v_e)$r.squared, 2), round(summary(model2_t_e)$r.squared, 2), round(summary(model2_e_t)$r.squared, 2)
+  ),
+  PP2 = round(c(
+    posterior_probs_t_v[2], posterior_probs_v_t[2], posterior_probs_e_v[2],
+    posterior_probs_v_e[2], posterior_probs_t_e[2], posterior_probs_e_t[2]
+  ), 2),
+
+  # Model 3
+  BIC3 = c(
+    round(BIC(model3_t_v)), round(BIC(model3_v_t)), round(BIC(model3_e_v)),
+    round(BIC(model3_v_e)), round(BIC(model3_t_e)), round(BIC(model3_e_t))
+  ),
+  R23 = c(
+    round(summary(model3_t_v)$r.squared, 2), round(summary(model3_v_t)$r.squared, 2), round(summary(model3_e_v)$r.squared, 2),
+    round(summary(model3_v_e)$r.squared, 2), round(summary(model3_t_e)$r.squared, 2), round(summary(model3_e_t)$r.squared, 2)
+  ),
+  PP3 = round(c(
+    posterior_probs_t_v[3], posterior_probs_v_t[3], posterior_probs_e_v[3],
+    posterior_probs_v_e[3], posterior_probs_t_e[3], posterior_probs_e_t[3]
+  ), 2),
+
+  # Model 4
+  BIC4 = c(
+    round(BIC(model4_t_v)), round(BIC(model4_v_t)), round(BIC(model4_e_v)),
+    round(BIC(model4_v_e)), round(BIC(model4_t_e)), round(BIC(model4_e_t))
+  ),
+  R24 = c(
+    round(summary(model4_t_v)$r.squared, 2), round(summary(model4_v_t)$r.squared, 2), round(summary(model4_e_v)$r.squared, 2),
+    round(summary(model4_v_e)$r.squared, 2), round(summary(model4_t_e)$r.squared, 2), round(summary(model4_e_t)$r.squared, 2)
+  ),
+  PP4 = round(c(
+    posterior_probs_t_v[4], posterior_probs_v_t[4], posterior_probs_e_v[4],
+    posterior_probs_v_e[4], posterior_probs_t_e[4], posterior_probs_e_t[4]
+  ), 2),
+
+  # Model 5
+  BIC5 = c(
+    round(BIC(model5_t_v)), round(BIC(model5_v_t)), round(BIC(model5_e_v)),
+    round(BIC(model5_v_e)), round(BIC(model5_t_e)), round(BIC(model5_e_t))
+  ),
+  R25 = c(
+    round(summary(model5_t_v)$r.squared, 2), round(summary(model5_v_t)$r.squared, 2), round(summary(model5_e_v)$r.squared, 2),
+    round(summary(model5_v_e)$r.squared, 2), round(summary(model5_t_e)$r.squared, 2), round(summary(model5_e_t)$r.squared, 2)
+  ),
+  PP5 = round(c(
+    posterior_probs_t_v[5], posterior_probs_v_t[5], posterior_probs_e_v[5],
+    posterior_probs_v_e[5], posterior_probs_t_e[5], posterior_probs_e_t[5]
+  ), 2),
+
+  # Model 6
+  BIC6 = c(
+    round(BIC(model6_t_v)), round(BIC(model6_v_t)), round(BIC(model6_e_v)),
+    round(BIC(model6_v_e)), round(BIC(model6_t_e)), round(BIC(model6_e_t))
+  ),
+  R26 = c(
+    round(summary(model6_t_v)$r.squared, 2), round(summary(model6_v_t)$r.squared, 2), round(summary(model6_e_v)$r.squared, 2),
+    round(summary(model6_v_e)$r.squared, 2), round(summary(model6_t_e)$r.squared, 2), round(summary(model6_e_t)$r.squared, 2)
+  ),
+  PP6 = round(c(
+    posterior_probs_t_v[6], posterior_probs_v_t[6], posterior_probs_e_v[6],
+    posterior_probs_v_e[6], posterior_probs_t_e[6], posterior_probs_e_t[6]
+  ), 2),
+
+  # Model 7
+  BIC7 = c(
+    round(BIC(model7_t_v)), round(BIC(model7_v_t)), round(BIC(model7_e_v)),
+    round(BIC(model7_v_e)), round(BIC(model7_t_e)), round(BIC(model7_e_t))
+  ),
+  R27 = c(
+    round(summary(model7_t_v)$r.sq, 2), round(summary(model7_v_t)$r.sq, 2), round(summary(model7_e_v)$r.sq, 2),
+    round(summary(model7_v_e)$r.sq, 2), round(summary(model7_t_e)$r.sq, 2), round(summary(model7_e_t)$r.sq, 2)
+  ),
+  PP7 = round(c(
+    posterior_probs_t_v[7], posterior_probs_v_t[7], posterior_probs_e_v[7],
+    posterior_probs_v_e[7], posterior_probs_t_e[7], posterior_probs_e_t[7]
+  ), 2)
+)
+
+
+# Create the table
+gt_table <- data %>%
+  gt() %>%
+  tab_spanner(label = "Model 1\nIndependence", columns = c(BIC1, R21, PP1)) %>%
+  tab_spanner(label = "Model 2\nLinear\nRelation", columns = c(BIC2, R22, PP2)) %>%
+  tab_spanner(label = "Model 3\nSymmetric V", columns = c(BIC3, R23, PP3)) %>%
+  tab_spanner(label = "Model 4\nAsymmetric V\npositivity offset", columns = c(BIC4, R24,PP4)) %>%
+  tab_spanner(label = "Model 5\nAsymmetric V\nnegativity bias", columns = c(BIC5, R25,PP5)) %>%
+  tab_spanner(label = "Model 6\nAsymmetric V\npositivity offset\n+ negativity bias", columns = c(BIC6, R26,PP6)) %>%
+  tab_spanner(label = "Model 7\nNonparametric", columns = c(BIC7, R27,PP7)) %>%
+  cols_label(
+    BIC1 = "BIC", R21 = "R2", PP1 = "PP",
+    BIC2 = "BIC", R22 = "R2", PP2 = "PP",
+    BIC3 = "BIC", R23 = "R2", PP3 = "PP",
+    BIC4 = "BIC", R24 = "R2", PP4 = "PP",
+    BIC5 = "BIC", R25 = "R2", PP5 = "PP",
+    BIC6 = "BIC", R26 = "R2", PP6 = "PP",
+    BIC7 = "BIC", R27 = "R2", PP7 = "PP"
+  ) %>%
+  tab_header(title = "Model Comparison Table")
+
+#rempsyc::nice_table(data.frame(gt_table))
+gt_table
+```
+
+#### Figure 3
+
+```{r, echo = FALSE, warning=FALSE}
+# Code to generate figure 3
+alpha_val <- 0.9
+alpha_point <- 0.05
+size <- 1.1
+alpha_hvline <- 1
+title_size <- 14
+tick_size <- 13
+color_palette <- c("#F0E442", "#CC79A7", "#CCC23B","#009E73", "#E69F00", "#CC79A7","#0072B2")
+# c("model_1","model_2","model_3","model_4","model_5","model_6","model_7")
+# Tense-Valence
+predictions <- pred_scores(list(model1_t_v, model2_t_v, model3_t_v, model4_t_v, model5_t_v, model6_t_v, model7_t_v), data_all$valence, list("valence", "I_valence"), 2000)
+plot_t_v <- plot_data(data_all, c('valence', 'tense'), c("Valence", "Tense Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_t_v <- add_lines(data = predictions, model_names = c("model_5"), plot = plot_t_v, x_col = "valence", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Valence-Tense
+predictions <- pred_scores(list(model1_v_t, model2_v_t, model3_v_t, model4_v_t, model5_v_t, model6_v_t, model7_v_t), data_all$tense, list("tense", "I_tense"), 2000)
+plot_v_t <- plot_data(data_all, c('tense', 'valence'), c("Tense Arousal", "Valence"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_v_t <- add_lines(data = predictions, model_names = c("model_2"), plot = plot_v_t, x_col = "tense", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Energetic - Valence
+predictions <- pred_scores(list(model1_e_v, model2_e_v, model3_e_v, model4_e_v, model5_e_v, model6_e_v, model7_e_v), data_all$valence, list("valence", "I_valence"), 2000)
+plot_e_v <- plot_data(data_all, c('valence', 'energetic'), c("Valence", "Energetic Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_e_v <- add_lines(data = predictions, model_names = c("model_3"), plot = plot_e_v, x_col = "valence", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Valence - Energetic
+predictions <- pred_scores(list(model1_v_e, model2_v_e, model3_v_e, model4_v_e, model5_v_e, model6_v_e, model7_v_e), data_all$energetic, list("energetic", "I_energetic"), 2000)
+plot_v_e <- plot_data(data_all, c('energetic', 'valence'), c("Energetic Arousal", "Valence"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_v_e <- add_lines(data = predictions, model_names = c("model_3"), plot = plot_v_e, x_col = "energetic", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Tense - Energetic
+predictions <- pred_scores(list(model1_t_e, model2_t_e, model3_t_e, model4_t_e, model5_t_e, model6_t_e, model7_t_e), data_all$energetic, list("energetic", "I_energetic"), 2000)
+plot_t_e <- plot_data(data_all, c('energetic', 'tense'), c("Energetic Arousal", "Tense Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_t_e <- add_lines(data = predictions, model_names = c("model_7"), plot = plot_t_e, x_col = "energetic", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Energetic - Tense
+predictions <- pred_scores(list(model1_e_t, model2_e_t, model3_e_t, model4_e_t, model5_e_t, model6_e_t, model7_e_t), data_all$tense, list("tense", "I_tense"), 2000)
+plot_e_t <- plot_data(data_all, c('tense', 'energetic'), c("Tense Arousal", "Energetic Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_e_t <- add_lines(data = predictions, model_names = c("model_7"), plot = plot_e_t, x_col = "tense", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+final_plot_all <- gridExtra::grid.arrange(plot_t_v,plot_v_t, plot_e_v, plot_v_e, plot_t_e, plot_e_t, ncol=2, nrow=3)
+ggsave(file=".\\Visualizations\\affective_space_plot.svg", plot=final_plot_all, width=10, height=10)
+
+
+```
+#### Figure 3 Supplementary 
+
+```{r, echo = FALSE}
+alpha_val <- 0.9
+alpha_point <- 0.05
+size <- 1.1
+alpha_hvline <- 1
+title_size <- 14
+tick_size <- 13
+color_palette <- c("#F0E442", "#CC79A7", "#CCC23B","#009E73", "#E69F00", "#D86002","#0072B2")
+# c("model_1","model_2","model_3","model_4","model_5","model_6","model_7")
+# Tense-Valence
+predictions <- pred_scores(list(model1_t_v, model2_t_v, model3_t_v, model4_t_v, model5_t_v, model6_t_v, model7_t_v), data_all$valence, list("valence", "I_valence"), 2000)
+plot_t_v <- plot_data(data_all, c('valence', 'tense'), c("Valence", "Tense Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_t_v <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_t_v, x_col = "valence", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Valence-Tense
+predictions <- pred_scores(list(model1_v_t, model2_v_t, model3_v_t, model4_v_t, model5_v_t, model6_v_t, model7_v_t), data_all$tense, list("tense", "I_tense"), 2000)
+plot_v_t <- plot_data(data_all, c('tense', 'valence'), c("Tense Arousal", "Valence"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_v_t <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_v_t, x_col = "tense", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Energetic - Valence
+predictions <- pred_scores(list(model1_e_v, model2_e_v, model3_e_v, model4_e_v, model5_e_v, model6_e_v, model7_e_v), data_all$valence, list("valence", "I_valence"), 2000)
+plot_e_v <- plot_data(data_all, c('valence', 'energetic'), c("Valence", "Energetic Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_e_v <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_e_v, x_col = "valence", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Valence - Energetic
+predictions <- pred_scores(list(model1_v_e, model2_v_e, model3_v_e, model4_v_e, model5_v_e, model6_v_e, model7_v_e), data_all$energetic, list("energetic", "I_energetic"), 2000)
+plot_v_e <- plot_data(data_all, c('energetic', 'valence'), c("Energetic Arousal", "Valence"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_v_e <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_v_e, x_col = "energetic", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Tense - Energetic
+predictions <- pred_scores(list(model1_t_e, model2_t_e, model3_t_e, model4_t_e, model5_t_e, model6_t_e, model7_t_e), data_all$energetic, list("energetic", "I_energetic"), 2000)
+plot_t_e <- plot_data(data_all, c('energetic', 'tense'), c("Energetic Arousal", "Tense Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_t_e <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_t_e, x_col = "energetic", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+# Energetic - Tense
+predictions <- pred_scores(list(model1_e_t, model2_e_t, model3_e_t, model4_e_t, model5_e_t, model6_e_t, model7_e_t), data_all$tense, list("tense", "I_tense"), 2000)
+plot_e_t <- plot_data(data_all, c('tense', 'energetic'), c("Tense Arousal", "Energetic Arousal"), alpha_point, alpha_hvline, tick_size, title_size)
+plot_e_t <- add_lines(data = predictions, model_names = c("model_1","model_2","model_3","model_4","model_5","model_6","model_7"), plot = plot_e_t, x_col = "tense", color_palette = color_palette,size = size, alpha_val = alpha_val)
+
+final_plot_all <- gridExtra::grid.arrange(plot_t_v,plot_v_t, plot_e_v, plot_v_e, plot_t_e, plot_e_t, ncol=2, nrow=3)
+ggsave(file=".\\Visualizations\\affective_space_plot_supplamentary.svg", plot=final_plot_all, width=10, height=10)
+
+```
+
+#### Table 5
+
+```{r, echo = FALSE}
+# Code to generate table 5
+model_approach <- lm(approach ~ valence + valence * tense + valence * energetic, data = data_all)
+regression_table(model_approach)
+
+```
+
+## 3.2 Effect of Demographic Variables on Affective and Approach-avoidance responses
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE}
+model_valence  <- lmer(data.valence ~  Country.of.residence + Ethnicity.simplified + Sex + Age + Employment.status + (1|Prolific_id), data = data_valence_demographic)
+model_null_valence <- lmer(data.valence ~ 1 + (1|Prolific_id), data = data_valence_demographic)
+#performance::performance(model_null_valence)
+anova_valence <- anova(model_valence)
+
+model_approach  <- lmer(data.approach ~  Country.of.residence + Ethnicity.simplified + Sex + Age + Employment.status + (1|Prolific_id), data = data_valence_demographic)
+model_null_approach <- lmer(data.approach ~ 1 + (1|Prolific_id), data = data_valence_demographic)
+#performance::performance(model_null_approach)
+anova_approach <- anova(model_approach)
+
+model_tense <- lmer(data.tense ~  Country.of.residence + Ethnicity.simplified + Sex + Age + Employment.status + (1|Prolific_id), data = data_arousal_demographic)
+model_null_tense <- lmer(data.tense ~ 1 + (1|Prolific_id), data = data_arousal_demographic)
+#performance::performance(model_null_tense)
+anova_tense <- anova(model_tense)
+
+model_energetic <- lmer(data.energetic ~  Country.of.residence + Ethnicity.simplified + Sex + Age + Employment.status + (1|Prolific_id), data = data_arousal_demographic)
+model_null_energetic <- lmer(data.energetic ~ 1 + (1|Prolific_id), data = data_arousal_demographic)
+#performance::performance(model_null_energetic)
+anova_energetic <- anova(model_energetic)
+
+
+```
+
+```{r, echo = FALSE}
+
+skew_kurt_table <- bind_rows(
+  Valence = round(extract_skewness_kurtosis(model_valence),2),
+  Approach_Avoidance = round(extract_skewness_kurtosis(model_approach),2),
+  Tense_Arousal = round(extract_skewness_kurtosis(model_tense),2),
+  Energetic_Arousal = round(extract_skewness_kurtosis(model_energetic),2),
+  .id = "Dependent Variable"
+)
+
+
+knitr::kable(skew_kurt_table, col.names = c("Outcome", "Skewness", "Kurtosis"), caption = "Residual skewness and kurtosis for each model")
+
+
+```
+
+
+```{r, echo=FALSE}
+
+qq_valence     <- qq_plot(residuals(model_valence), "valence")
+qq_approach    <- qq_plot(residuals(model_approach), "approach")
+qq_tense       <- qq_plot(residuals(model_tense), "tense")
+qq_energetic   <- qq_plot(residuals(model_energetic), "energetic")
+
+
+qq_plot_grid <- (qq_valence + qq_approach) /
+                (qq_tense + qq_energetic) +
+  plot_annotation(
+    title = "Q–Q Plots of Model Residuals",
+    theme = theme(
+      plot.title = element_text(size = 16, face = "bold", hjust = 0.5)
+    )
+  )
+
+ggsave(file=".\\Visualizations\\residual_plots.png", plot=qq_plot_grid, width=10, height=10)
+
+
+
+```
+
+### Table 6
+
+```{r, echo = FALSE}
+# Build table
+results_table <- bind_rows(
+  Valence = extract_r2(model_valence),
+  Tense_Arousal = extract_r2(model_tense),
+  Energetic_Arousal = extract_r2(model_energetic),
+  Approach_Avoidance = extract_r2(model_approach),
+  .id = "Outcome"
+) 
+
+
+knitr::kable(
+  results_table,
+  digits = 2,
+  col.names = c("Dependent Variable", "R2 Marginal", "R2 Conditional"),
+  caption = "Marginal and Conditional R-squared values for each outcome"
+)
+
+```
+
+
+### Table 7
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE}
+# Pairwise comparisons for demographic variables
+pairwise_eth <- emmeans(model_valence, "Ethnicity.simplified")
+pairwise_eth <- as.data.frame(pairwise_eth)
+
+pairwise_sex <- emmeans(model_valence, "Sex")
+pairwise_sex <- as.data.frame(pairwise_sex)
+#pairs(pairwise_sex)
+
+pairwise_eth_tense <- emmeans(model_tense, "Ethnicity.simplified")
+pairwise_eth_tense <- as.data.frame(pairwise_eth_tense)
+```
+
+Ethnicity had a statistically significant effect on valence  and tense arousal (F(4,402) = 5.73, p \< 0.005) ratings (Table 6). In addition, sex had a statistically significant effect of valence ratings (F(1,393) = 6.86, p \< 0.01). Estimated marginal means showed that participants who identified as Black (M = `r round(pairwise_eth[pairwise_eth$Ethnicity.simplified == "Black","emmean"],2)`, SE = `r round(pairwise_eth[pairwise_eth$Ethnicity.simplified == "Black","SE"],2)`) rated images as more pleasant than participants who identified as White (M = `r round(pairwise_eth[pairwise_eth$Ethnicity.simplified == "White","emmean"],2)`, SE = `r round(pairwise_eth[pairwise_eth$Ethnicity.simplified == "White","SE"],2)`). In addition, participants who identified as Black (M = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "Black","emmean"],2)`, SE = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "Black","SE"],2)`) rated the presented scenes as less tense than participants who identified as White (M = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "White","emmean"],2)`, SE = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "White","SE"],2)`) and Mixed (M = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "Mixed","emmean"],2)`, SE = `r round(pairwise_eth_tense[pairwise_eth_tense$Ethnicity.simplified == "Mixed","SE"],2)`). Lastly, participants who identified as female (M = `r round(pairwise_sex[pairwise_sex$Sex == "Female", "emmean"],2)`, SE = `r round(pairwise_sex[pairwise_sex$Sex == "Female", "SE"],2)`) rated images as less pleasant than participants who identified as male (M = `r round(pairwise_sex[pairwise_sex$Sex == "Male", "emmean"],2)`, SE = `r round(pairwise_sex[pairwise_sex$Sex == "Male", "SE"],2 )`).
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE}
+# Demographic Table
+table_valence <- make_effects_table(anova_valence, "Valence")
+table_approach   <- make_effects_table(anova_approach, "Approach-avoidance")
+table_tense   <- make_effects_table(anova_tense, "Tense Arousal")
+table_energetic   <- make_effects_table(anova_energetic, "Energetic Arousal")
+
+final_table <- rbind(table_valence,table_approach, table_tense, table_energetic)
+
+knitr::kable(
+  final_table,
+  align = c("l", "l", "r", "r", "r", "r"),  # left for text columns, right for numbers
+  caption = "Fixed Effects from Linear Mixed Models"
+)
+
+```
+
+### Figure 1
+```{r, echo = FALSE}
+data_only_demographic <- data_only_demographic %>%
+  mutate(
+    Employment.status = ifelse(Employment.status == "Unemployed (and job seeking)", "Unemployed", Employment.status),
+    Employment.status = ifelse(Employment.status == "Not in paid work (e.g. homemaker', 'retired or disabled)", "Not in paid work", Employment.status),
+    Employment.status = ifelse(Employment.status == "Due to start a new job within the next month", "Will start soon", Employment.status),
+  )
+
+data_only_demographic <- data_only_demographic %>%
+  mutate(Region = case_when(
+    Country.of.residence %in% c("United Kingdom") ~ "UK",
+    Country.of.residence %in% c("South Africa", "Kenya") ~ "Africa",
+    Country.of.residence %in% c("China", "India", "Japan", "Vietnam", "Malaysia") ~ "Asia",
+    Country.of.residence %in% c("Israel") ~ "Middle East",
+    Country.of.residence %in% c("United States", "Canada", "Mexico") ~ "North America",
+    Country.of.residence %in% c("Brazil", "Chile") ~ "South America",
+    Country.of.residence %in% c("Austria", "Belgium", "Croatia", "Czech Republic", "Denmark", "Estonia",
+                   "Finland", "France", "Germany", "Greece", "Hungary", "Italy", "Latvia",
+                   "Luxembourg", "Netherlands", "Norway", "Poland", "Portugal", "Slovakia",
+                   "Slovenia", "Spain", "Sweden", "Switzerland") ~ "Europe",
+    Country.of.residence %in% c("Australia") ~ "Oceania",
+    #Country.of.residence %in% c("DATA_EXPIRED") ~ "DATA_EXPIRED",
+    TRUE ~ "Other"
+  ))
+
+data_only_demographic <- data_only_demographic %>%
+  mutate(Nationality_region = case_when(
+    Nationality %in% c("United Kingdom", "Ireland") ~ "UK",
+    Nationality %in% c("South Africa", "Nigeria", "Zimbabwe", "Egypt", "Kenya", 
+                   "Zambia", "Namibia", "Ghana", "Cote d'Ivoire", "Uganda") ~ "Africa",
+    Nationality %in% c("India", "China", "Vietnam", "Japan", "Bangladesh", 
+                   "Iran", "Nepal", "Philippines", "Malaysia") ~ "Asia",
+    Nationality %in% c("Israel", "Lebanon", "Turkey") ~ "Middle East",
+    Nationality %in% c("United States", "Canada", "Mexico") ~ "North America",
+    Nationality %in% c("Brazil", "Chile", "Venezuela, Bolivarian Republic of") ~ "South America",
+    Nationality %in% c("Austria", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", 
+                   "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", 
+                   "Greece", "Hungary", "Italy", "Latvia", "Lithuania", "Luxembourg", 
+                   "Netherlands", "Poland", "Portugal", "Romania", "Russian Federation", 
+                   "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Ukraine", 
+                   "Albania", "Norway") ~ "Europe",
+    Nationality %in% c("Australia") ~ "Oceania",
+    #Nationality %in% c("DATA_EXPIRED") ~ "DATA_EXPIRED",
+    TRUE ~ "Other"
+  ))
+
+
+tick_size <- 15
+title_size <- 15
+size_number <- 4.5
+hjust_size <- -.1
+
+ethnicity <- ggplot(data_only_demographic[data_only_demographic$Employment.status != "DATA_EXPIRED",], aes(x = Ethnicity.simplified)) +
+  geom_bar() +
+  stat_count(geom = "text", aes(label = ..count..), hjust = hjust_size, size = size_number, face = "bold") +
+  labs(x = "Ethnicity Simplified", y = "Number of Participants") +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  coord_flip()
+
+employment <- ggplot(data_only_demographic[data_only_demographic$Employment.status != "DATA_EXPIRED",], aes(x = Employment.status)) +
+  geom_bar() +
+  stat_count(geom = "text", aes(label = ..count..), hjust = hjust_size, size = size_number) +
+  labs(x = "Employment Status", y = "Number of Participants") +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  coord_flip()
+
+residence <- ggplot(data_only_demographic, aes(x = Region)) +
+  geom_bar() +
+  stat_count(geom = "text", aes(label = ..count..), hjust = hjust_size, size = size_number) +
+  labs(x = "Current Residence", y = "Number of Participants") +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  coord_flip()
+
+nationality <- ggplot(data_only_demographic, aes(x = Nationality_region)) +
+  geom_bar() +
+  stat_count(geom = "text", aes(label = ..count..), hjust = hjust_size, size = size_number) +
+  labs(x = "Nationality", y = "Number of Participants") +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  coord_flip()
+
+# ??
+demographic_plot <- (ethnicity + employment) /
+                    (residence + nationality)
+
+ggsave(
+  file = ".\\Visualizations\\demographic.svg",
+  plot = demographic_plot,
+  width = 12,
+  height = 8
+)
+
+demographic_plot
+```
+
+## 3.3 Room Type
+
+```{r, echo = FALSE}
+anova_valence <- aov(valence ~ room_type, data = data_all) 
+anova_approach <- aov(approach ~ room_type, data = data_all) 
+anova_tense <- aov(tense ~ room_type, data = data_all)  
+anova_energetic <- aov(energetic ~ room_type, data = data_all) 
+
+anova_models <- list(
+  valence    = anova_valence,
+  approach   = anova_approach,
+  tense      = anova_tense,
+  energetic  = anova_energetic
+)
+
+assumption_table <- data.frame(
+  DV = character(),
+  Levene_F = numeric(),
+  Levene_p = numeric(),
+  Shapiro_W = numeric(),
+  Shapiro_p = numeric(),
+  stringsAsFactors = FALSE
+)
+
+for (dv in names(anova_models)) {
+  
+  model <- anova_models[[dv]]
+  
+  # Levene’s test
+  lev <- leveneTest(
+    formula(model),
+    data = model$model
+  )
+  
+  # Shapiro–Wilk test on residuals
+  shap <- shapiro.test(residuals(model))
+  
+  # Store results
+  assumption_table <- rbind(
+    assumption_table,
+    data.frame(
+      DV = dv,
+      Levene_F = lev$`F value`[1],
+      Levene_p = lev$`Pr(>F)`[1],
+      Shapiro_W = shap$statistic,
+      Shapiro_p = shap$p.value
+    )
+  )
+}
+
+knitr::kable(assumption_table, caption = "Levene Test Room Type",align = "c")
+
+
+```
+
+```{r,echo = FALSE}
+anova_valence <- oneway.test(valence ~ room_type, data = data_all, var.equal = FALSE) 
+anova_approach <- oneway.test(approach ~ factor(room_type), data = data_all, var.equal = FALSE) 
+anova_tense <- oneway.test(tense ~ factor(room_type), data = data_all, var.equal = FALSE) 
+anova_energetic <- oneway.test(energetic ~ factor(room_type), data = data_all, var.equal = FALSE) 
+
+extract_welch_anova <- function(anova_res, dv_name) {
+  data.frame(
+    `Dependent Variable` = dv_name,
+    `Numerator DF`  = anova_res$parameter[["num df"]],
+    `Denominator DF`  = round(anova_res$parameter[["denom df"]], 2),
+    `F`= round(anova_res$statistic[["F"]],2),
+    `p` = anova_res$p.value
+    )
+}
+
+anova_room_type_table <- bind_rows(
+  Valence = extract_welch_anova(anova_valence, "Valence"),
+  Approach_Avoidance = extract_welch_anova(anova_approach, "Appraoch-avoidance"),
+  Tense_Arousal = extract_welch_anova(anova_tense, "Tense Arousal"),
+  Energetic_Arousal = extract_welch_anova(anova_energetic, "Energetic Arousal"),
+)
+
+
+knitr::kable(anova_room_type_table, col.names = c("Dependent Variable ", "Numerator DF", "Denominator DF", "F", "p"), caption = "Welch's ANOVA results")
+
+
+```
+
+
+```{r, echo = FALSE}
+#effectsize::eta_squared(anova_valence, partial = TRUE)
+#effectsize::eta_squared(anova_approach, partial = TRUE)
+#effectsize::eta_squared(anova_tense, partial = TRUE)
+#effectsize::eta_squared(anova_energetic, partial = TRUE)
+
+room_type_model_valence <- lm(valence ~ factor(room_type), data = data_all)
+room_type_emm_valence <- emmeans(room_type_model_valence, "room_type", adjust = "games-howell")
+room_type_emm_valence_df <- as.data.frame(room_type_emm_valence)
+
+room_type_model_tense <- lm(tense ~ factor(room_type), data = data_all)
+room_type_emm_tense <- emmeans(room_type_model_tense, "room_type", adjust = "games-howell")
+room_type_emm_tense_df <- as.data.frame(room_type_emm_tense)
+
+room_type_model_energetic <- lm(energetic ~ factor(room_type), data = data_all)
+room_type_emm_energetic <- emmeans(room_type_model_energetic, "room_type", adjust = "games-howell")
+room_type_emm_energetic_df <- as.data.frame(room_type_emm_energetic)
+
+```
+
+```{r, echo = FALSE}
+# Combine all outcomes
+emm_table <- bind_rows(
+  extract_emm(room_type_emm_valence_df, "Valence"),
+  extract_emm(room_type_emm_tense_df, "Tense Arousal"),
+  extract_emm(room_type_emm_energetic_df, "Energetic Arousal")
+)
+
+
+knitr::kable(emm_table, col.names = c("Outcome", "Room Type", "Mean (M)", "SE"), caption = "Estimated marginal means (M) and standard errors (SE) by room type")
+
+```
+
+
+### Figure 4
+
+```{r, echo=FALSE}
+# Code to generate figure 5
+comparisons <- list(
+  c("bedroom", "dining"),
+  c("bedroom", "kitchen"),
+  c("bedroom", "living room"),
+  c("bedroom", "office"),
+  c("bedroom", "restaurant"),
+  c("dining", "kitchen"),
+  c("dining", "living room"),
+  c("dining", "office"),
+  c("dining", "restaurant"),
+  c("kitchen", "living room"),
+  c("kitchen", "office"),
+  c("kitchen", "restaurant"),
+  c("living room", "office"),
+  c("living room", "restaurant"),
+  c("office room", "restaurant")
+)
+
+data_combined <- data_all %>%
+  mutate(room_type_grouped = as.character(room_type))
+# Make 'Overall' the last factor level so it plots last (rightmost)
+data_combined$room_type_grouped <- factor(
+  data_combined$room_type_grouped,
+  levels = c(setdiff(unique(data_combined$room_type_grouped), "Overall"), "Overall")
+)
+
+tick_size <- 15
+title_size <- 15
+jitter_alpha <- 0.2
+jitter_size <- 0.8
+box_alpha <- 0.8
+
+
+plot1 <- ggplot(data_combined, aes(x = room_type_grouped, y = valence)) +
+  geom_boxplot(alpha = box_alpha) +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size, angle = 45, hjust = 1),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  xlab(" ") +
+  ylab("Valence") +
+  theme(legend.position = "none") +
+  scale_x_discrete(labels=NULL) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, by = 1)) +
+  geom_jitter(alpha = jitter_alpha, size = jitter_size)
+
+
+plot2 <- ggplot(data_combined, aes(x = room_type_grouped, y = approach)) +
+  geom_boxplot(alpha = box_alpha) +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size, angle = 45, hjust = 1),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  xlab(" ") + 
+  ylab("Approach-avoidance") +
+  theme(legend.position = "none") +
+  scale_x_discrete(labels= NULL) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, by = 1)) +
+  geom_jitter(alpha = jitter_alpha, size = jitter_size)
+
+
+plot3 <- ggplot(data_combined, aes(x = room_type_grouped, y = tense)) +
+  geom_boxplot(alpha = box_alpha) +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size, angle = 45, hjust = 1),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  xlab("Room Type") +
+  ylab("Tense Arousal") +
+  theme(legend.position = "none") +
+  scale_x_discrete(labels=c("bedroom" = "Bedroom", "dining" = "Dining","living room" = "Living room", "office" = "Office",
+                            "restaurant" = "Restaurant", "kitchen" = "Kitchen"),
+                   guide = guide_axis(angle = 45)) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, by = 1)) +
+  geom_jitter(alpha = jitter_alpha, size = jitter_size)
+
+
+plot4 <- ggplot(data_combined, aes(x = room_type_grouped, y = energetic)) +
+  geom_boxplot(alpha = box_alpha) +
+  theme_apa() +
+  theme(
+    axis.text.x  = element_text(size = tick_size, angle = 45, hjust = 1),
+    axis.text.y  = element_text(size = tick_size),
+    axis.title.x = element_text(size = title_size, face = "bold"),
+    axis.title.y = element_text(size = title_size, face = "bold")
+  ) +
+  xlab("Room Type") +
+  ylab("Energetic Arousal") +
+  theme(legend.position = "none") +
+  scale_x_discrete(labels=c("bedroom" = "Bedroom", "dining" = "Dining","living room" = "Living room", "office" = "Office",
+                            "restaurant" = "Restaurant", "kitchen" = "Kitchen"),
+                   guide = guide_axis(angle = 45)) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, by = 1)) +
+  geom_jitter(alpha = jitter_alpha, size = jitter_size)
+
+# Arrange plots without legends
+plots_grid <- plot_grid(plot1, plot2, plot3, plot4, ncol = 2, rel_heights = c(1, 1))
+
+# Combine plots grid with the legend on the right side
+#final_plot <- plot_grid(plots_grid, rel_widths = c(4, 0))
+# Above code for saves plots with different sizes. This fixes that. 
+library(patchwork)
+final_plot <- (plot1 + plot2) / (plot3 + plot4)
+
+# Display
+print(final_plot)
+ggsave(file=".\\Visualizations\\room_type.svg", plot=final_plot, width=12, height=10, dpi = 100)
+
+```
+
+# Appendix 
+
+## Results of all regression models created in the study
+
+### Results Regression TfV
+
+Model 2 TfV:
+
+```{r, echo = FALSE}
+regression_table(model2_t_v)
+```
+
+Model 3 TfV:
+
+```{r, echo = FALSE}
+regression_table(model3_t_v)
+```
+
+Model 4 TfV:
+
+```{r, echo = FALSE}
+regression_table(model4_t_v)
+```
+
+Model 5 TfV:
+
+```{r, echo = FALSE}
+regression_table(model5_t_v)
+```
+
+Model 6 TfV:
+```{r, echo = FALSE}
+regression_table(model6_t_v)
+```
+
+### Results Regression VfT
+
+Model 2 VfT:
+
+```{r, echo = FALSE}
+regression_table(model2_v_t)
+```
+
+Model 3 VfT:
+
+```{r, echo = FALSE}
+regression_table(model3_v_t)
+```
+
+Model 4 VfT:
+
+```{r, echo = FALSE}
+regression_table(model4_v_t)
+```
+
+Model 5 VfT:
+
+```{r, echo = FALSE}
+regression_table(model5_v_t)
+```
+
+Model 6 VfT:
+
+```{r, echo = FALSE}
+regression_table(model6_v_t)
+```
+
+### Results Regression Efv
+
+Model 2 Efv:
+
+```{r, echo = FALSE}
+regression_table(model2_e_v)
+```
+
+Model 3 Efv:
+
+```{r, echo = FALSE}
+regression_table(model3_e_v)
+```
+
+Model 4 Efv:
+
+```{r, echo = FALSE}
+regression_table(model4_e_v)
+```
+
+Model 5 Efv:
+
+```{r, echo = FALSE}
+regression_table(model5_e_v)
+```
+
+Model 6 Efv:
+
+```{r, echo = FALSE}
+regression_table(model6_e_v)
+```
+
+### Results Regression VfE
+
+Model 2 VfE:
+
+```{r, echo = FALSE}
+regression_table(model2_v_e)
+```
+
+Model 3 VfE: 
+
+```{r, echo = FALSE}
+regression_table(model3_v_e)
+```
+
+Model 4 VfE:
+
+```{r, echo = FALSE}
+regression_table(model4_v_e)
+```
+
+Model 5 VfE:
+
+```{r, echo = FALSE}
+regression_table(model5_v_e)
+```
+
+Model 6 VfE:
+
+```{r, echo = FALSE}
+regression_table(model6_v_e)
+```
+
+### Results Regression EfT
+
+Model 2 EfT:
+
+```{r, echo = FALSE}
+regression_table(model2_e_t)
+```
+
+Model 3 EfT:
+
+```{r, echo = FALSE}
+regression_table(model3_e_t)
+```
+
+Model 4 EfT:
+
+```{r, echo = FALSE}
+regression_table(model4_e_t)
+```
+
+Model 5 VfT:
+
+```{r, echo = FALSE}
+regression_table(model5_e_t)
+```
+
+Model 6 EfT:
+
+```{r, echo = FALSE}
+regression_table(model6_e_t)
+```
+
+### Results Regression TfE
+
+Model 2 TfE:
+
+```{r, echo = FALSE}
+regression_table(model2_t_e)
+```
+
+Model 3 VfT:
+
+```{r, echo = FALSE}
+regression_table(model3_t_e)
+```
+
+Model 4 TfE:
+
+```{r, echo = FALSE}
+regression_table(model4_t_e)
+```
+
+Model 5 TfE:
+
+```{r, echo = FALSE}
+regression_table(model5_t_e)
+```
+
+Model 6 TfE:
+
+```{r, echo = FALSE}
+regression_table(model6_t_e)
+```
+
+## Pairwise comparisons for each room type
+
+### Valence Pairwise Comparison Room Type
+
+```{r, echo=FALSE}
+rempsyc::nice_table(data.frame(pairs(room_type_emm_valence)))
+```
+
+### Tense Arousal Pairwise Comparison Room Type
+
+```{r, echo = FALSE}
+rempsyc::nice_table(data.frame(pairs(room_type_emm_tense)))
+
+```
+
+### Energetic Arousal Pairwise Comparison Room Type
+
+```{r,echo = FALSE}
+rempsyc::nice_table(data.frame(pairs(room_type_emm_energetic)))
+
+```

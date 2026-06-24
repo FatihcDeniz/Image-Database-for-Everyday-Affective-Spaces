@@ -1,0 +1,4155 @@
+participant,tense,energetic,image,study
+session_517,4.0,7.0,restaurant_28,IDEAS
+session_517,4.0,7.0,office room_46,IDEAS
+session_517,6.0,7.0,restaurant_48,IDEAS
+session_517,7.0,7.0,living room_70,IDEAS
+session_517,5.0,7.0,restaurant_4,IDEAS
+session_517,7.0,7.0,living room_40,IDEAS
+session_517,4.0,7.0,office room_4,IDEAS
+session_517,4.0,7.0,office room_64,IDEAS
+session_517,2.0,7.0,living room_31,IDEAS
+session_518,6.0,6.0,restaurant_48,IDEAS
+session_518,2.0,2.0,office room_46,IDEAS
+session_518,1.0,3.0,living room_31,IDEAS
+session_518,4.0,4.0,office room_4,IDEAS
+session_518,6.0,6.0,living room_70,IDEAS
+session_518,5.0,5.0,restaurant_4,IDEAS
+session_518,4.0,4.0,living room_40,IDEAS
+session_518,6.0,6.0,office room_64,IDEAS
+session_518,4.0,4.0,restaurant_28,IDEAS
+session_519,5.0,3.0,restaurant_28,IDEAS
+session_519,7.0,3.0,office room_4,IDEAS
+session_519,4.0,7.0,restaurant_4,IDEAS
+session_519,7.0,2.0,living room_40,IDEAS
+session_519,7.0,7.0,office room_64,IDEAS
+session_519,7.0,7.0,restaurant_48,IDEAS
+session_519,7.0,7.0,living room_70,IDEAS
+session_519,1.0,7.0,living room_31,IDEAS
+session_519,2.0,3.0,office room_46,IDEAS
+session_521,5.0,6.0,restaurant_4,IDEAS
+session_521,4.0,4.0,restaurant_28,IDEAS
+session_521,4.0,5.0,office room_64,IDEAS
+session_521,6.0,4.0,office room_4,IDEAS
+session_521,3.0,5.0,office room_46,IDEAS
+session_521,7.0,3.0,living room_70,IDEAS
+session_521,6.0,4.0,restaurant_48,IDEAS
+session_521,6.0,4.0,living room_40,IDEAS
+session_521,2.0,6.0,living room_31,IDEAS
+session_522,6.0,5.0,restaurant_4,IDEAS
+session_522,6.0,6.0,office room_64,IDEAS
+session_522,6.0,4.0,living room_70,IDEAS
+session_522,1.0,5.0,living room_31,IDEAS
+session_522,6.0,3.0,living room_40,IDEAS
+session_522,6.0,6.0,restaurant_48,IDEAS
+session_522,3.0,3.0,office room_4,IDEAS
+session_522,3.0,5.0,restaurant_28,IDEAS
+session_522,2.0,6.0,office room_46,IDEAS
+session_523,2.0,6.0,office room_4,IDEAS
+session_523,5.0,4.0,restaurant_28,IDEAS
+session_523,2.0,7.0,office room_64,IDEAS
+session_523,2.0,6.0,restaurant_4,IDEAS
+session_523,5.0,5.0,living room_40,IDEAS
+session_523,6.0,6.0,living room_70,IDEAS
+session_523,1.0,7.0,living room_31,IDEAS
+session_523,4.0,4.0,restaurant_48,IDEAS
+session_523,3.0,4.0,office room_46,IDEAS
+session_524,7.0,7.0,living room_70,IDEAS
+session_524,5.0,7.0,living room_31,IDEAS
+session_524,7.0,7.0,restaurant_28,IDEAS
+session_524,7.0,7.0,office room_4,IDEAS
+session_524,7.0,7.0,office room_64,IDEAS
+session_524,7.0,7.0,restaurant_4,IDEAS
+session_524,7.0,7.0,restaurant_48,IDEAS
+session_524,7.0,5.0,living room_40,IDEAS
+session_524,7.0,7.0,office room_46,IDEAS
+session_527,1.0,4.0,living room_31,IDEAS
+session_527,1.0,4.0,office room_46,IDEAS
+session_527,7.0,7.0,living room_40,IDEAS
+session_527,7.0,4.0,restaurant_4,IDEAS
+session_527,1.0,1.0,restaurant_28,IDEAS
+session_527,7.0,7.0,office room_64,IDEAS
+session_527,7.0,7.0,living room_70,IDEAS
+session_527,7.0,7.0,office room_4,IDEAS
+session_527,7.0,7.0,restaurant_48,IDEAS
+session_528,2.0,4.0,restaurant_28,IDEAS
+session_528,1.0,7.0,living room_31,IDEAS
+session_528,7.0,7.0,restaurant_48,IDEAS
+session_528,4.0,4.0,office room_46,IDEAS
+session_528,7.0,3.0,living room_70,IDEAS
+session_528,6.0,6.0,office room_64,IDEAS
+session_528,6.0,7.0,restaurant_4,IDEAS
+session_528,6.0,7.0,office room_4,IDEAS
+session_528,6.0,7.0,living room_40,IDEAS
+session_529,6.0,7.0,restaurant_4,IDEAS
+session_529,5.0,4.0,restaurant_48,IDEAS
+session_529,2.0,6.0,office room_46,IDEAS
+session_529,3.0,5.0,restaurant_28,IDEAS
+session_529,1.0,5.0,office room_64,IDEAS
+session_529,2.0,4.0,living room_31,IDEAS
+session_529,5.0,4.0,living room_70,IDEAS
+session_529,6.0,2.0,living room_40,IDEAS
+session_529,3.0,7.0,office room_4,IDEAS
+session_530,3.0,6.0,restaurant_28,IDEAS
+session_530,2.0,7.0,office room_4,IDEAS
+session_530,2.0,6.0,office room_46,IDEAS
+session_530,3.0,4.0,office room_64,IDEAS
+session_530,6.0,6.0,living room_40,IDEAS
+session_530,6.0,6.0,living room_70,IDEAS
+session_530,5.0,5.0,restaurant_48,IDEAS
+session_530,4.0,4.0,restaurant_4,IDEAS
+session_530,4.0,5.0,living room_31,IDEAS
+session_531,1.0,7.0,office room_64,IDEAS
+session_531,1.0,7.0,office room_4,IDEAS
+session_531,7.0,1.0,living room_40,IDEAS
+session_531,7.0,1.0,living room_31,IDEAS
+session_531,7.0,7.0,restaurant_28,IDEAS
+session_531,7.0,1.0,living room_70,IDEAS
+session_531,1.0,7.0,office room_46,IDEAS
+session_531,7.0,7.0,restaurant_48,IDEAS
+session_531,7.0,7.0,restaurant_4,IDEAS
+session_532,2.0,7.0,office room_64,IDEAS
+session_532,2.0,6.0,office room_4,IDEAS
+session_532,6.0,4.0,living room_40,IDEAS
+session_532,2.0,6.0,living room_31,IDEAS
+session_532,7.0,6.0,restaurant_48,IDEAS
+session_532,7.0,2.0,living room_70,IDEAS
+session_532,3.0,5.0,office room_46,IDEAS
+session_532,6.0,6.0,restaurant_4,IDEAS
+session_532,6.0,5.0,restaurant_28,IDEAS
+session_533,2.0,7.0,office room_64,IDEAS
+session_533,6.0,5.0,living room_40,IDEAS
+session_533,6.0,5.0,office room_46,IDEAS
+session_533,5.0,6.0,restaurant_4,IDEAS
+session_533,5.0,6.0,office room_4,IDEAS
+session_533,4.0,5.0,living room_70,IDEAS
+session_533,4.0,5.0,restaurant_28,IDEAS
+session_533,4.0,4.0,living room_31,IDEAS
+session_533,4.0,6.0,restaurant_48,IDEAS
+session_534,4.0,3.0,restaurant_28,IDEAS
+session_534,3.0,6.0,living room_31,IDEAS
+session_534,7.0,6.0,office room_64,IDEAS
+session_534,4.0,4.0,office room_4,IDEAS
+session_534,6.0,4.0,restaurant_48,IDEAS
+session_534,7.0,3.0,living room_70,IDEAS
+session_534,4.0,5.0,office room_46,IDEAS
+session_534,4.0,4.0,restaurant_4,IDEAS
+session_534,6.0,3.0,living room_40,IDEAS
+session_535,5.0,5.0,living room_70,IDEAS
+session_535,2.0,6.0,restaurant_28,IDEAS
+session_535,6.0,6.0,office room_4,IDEAS
+session_535,6.0,6.0,restaurant_48,IDEAS
+session_535,1.0,7.0,living room_31,IDEAS
+session_535,3.0,6.0,office room_64,IDEAS
+session_535,5.0,3.0,restaurant_4,IDEAS
+session_535,6.0,5.0,office room_46,IDEAS
+session_535,6.0,5.0,living room_40,IDEAS
+session_536,7.0,7.0,living room_70,IDEAS
+session_536,2.0,6.0,office room_64,IDEAS
+session_536,1.0,7.0,restaurant_28,IDEAS
+session_536,3.0,6.0,restaurant_48,IDEAS
+session_536,1.0,7.0,office room_4,IDEAS
+session_536,1.0,6.0,office room_46,IDEAS
+session_536,5.0,6.0,restaurant_4,IDEAS
+session_536,5.0,6.0,living room_40,IDEAS
+session_536,1.0,6.0,living room_31,IDEAS
+session_537,7.0,3.0,living room_70,IDEAS
+session_537,2.0,7.0,restaurant_28,IDEAS
+session_537,3.0,7.0,living room_40,IDEAS
+session_537,3.0,6.0,office room_46,IDEAS
+session_537,1.0,6.0,living room_31,IDEAS
+session_537,5.0,4.0,restaurant_4,IDEAS
+session_537,2.0,7.0,office room_64,IDEAS
+session_537,6.0,6.0,restaurant_48,IDEAS
+session_537,4.0,6.0,office room_4,IDEAS
+session_538,1.0,7.0,living room_31,IDEAS
+session_538,7.0,2.0,living room_40,IDEAS
+session_538,3.0,6.0,office room_64,IDEAS
+session_538,7.0,1.0,living room_70,IDEAS
+session_538,6.0,5.0,restaurant_28,IDEAS
+session_538,6.0,7.0,restaurant_48,IDEAS
+session_538,7.0,6.0,restaurant_4,IDEAS
+session_538,1.0,6.0,office room_4,IDEAS
+session_538,3.0,5.0,office room_46,IDEAS
+session_539,2.0,4.0,restaurant_28,IDEAS
+session_539,5.0,6.0,restaurant_4,IDEAS
+session_539,7.0,4.0,living room_70,IDEAS
+session_539,1.0,7.0,living room_31,IDEAS
+session_539,5.0,7.0,office room_64,IDEAS
+session_539,6.0,3.0,living room_40,IDEAS
+session_539,2.0,4.0,office room_46,IDEAS
+session_539,3.0,6.0,office room_4,IDEAS
+session_539,7.0,6.0,restaurant_48,IDEAS
+session_540,1.0,5.0,living room_31,IDEAS
+session_540,6.0,6.0,office room_64,IDEAS
+session_540,6.0,4.0,restaurant_4,IDEAS
+session_540,2.0,5.0,office room_46,IDEAS
+session_540,3.0,5.0,office room_4,IDEAS
+session_540,6.0,4.0,living room_40,IDEAS
+session_540,7.0,4.0,restaurant_48,IDEAS
+session_540,2.0,4.0,restaurant_28,IDEAS
+session_540,7.0,4.0,living room_70,IDEAS
+session_541,4.0,5.0,restaurant_28,IDEAS
+session_541,5.0,5.0,restaurant_4,IDEAS
+session_541,1.0,7.0,office room_64,IDEAS
+session_541,3.0,6.0,restaurant_48,IDEAS
+session_541,7.0,6.0,living room_40,IDEAS
+session_541,2.0,7.0,living room_31,IDEAS
+session_541,7.0,5.0,living room_70,IDEAS
+session_541,1.0,7.0,office room_4,IDEAS
+session_541,1.0,7.0,office room_46,IDEAS
+session_542,5.0,6.0,office room_4,IDEAS
+session_542,5.0,7.0,living room_31,IDEAS
+session_542,5.0,6.0,restaurant_28,IDEAS
+session_542,7.0,7.0,restaurant_48,IDEAS
+session_542,1.0,7.0,office room_46,IDEAS
+session_542,4.0,7.0,restaurant_4,IDEAS
+session_542,7.0,2.0,living room_40,IDEAS
+session_542,7.0,7.0,living room_70,IDEAS
+session_542,2.0,7.0,office room_64,IDEAS
+session_544,3.0,4.0,restaurant_28,IDEAS
+session_544,2.0,6.0,office room_4,IDEAS
+session_544,3.0,3.0,office room_46,IDEAS
+session_544,3.0,6.0,restaurant_4,IDEAS
+session_544,3.0,6.0,office room_64,IDEAS
+session_544,7.0,4.0,living room_70,IDEAS
+session_544,2.0,4.0,living room_31,IDEAS
+session_544,5.0,6.0,restaurant_48,IDEAS
+session_544,5.0,2.0,living room_40,IDEAS
+session_545,7.0,4.0,living room_40,IDEAS
+session_545,6.0,7.0,restaurant_4,IDEAS
+session_545,1.0,7.0,office room_64,IDEAS
+session_545,3.0,6.0,office room_4,IDEAS
+session_545,1.0,4.0,living room_31,IDEAS
+session_545,6.0,7.0,restaurant_48,IDEAS
+session_545,6.0,6.0,restaurant_28,IDEAS
+session_545,4.0,6.0,office room_46,IDEAS
+session_545,7.0,7.0,living room_70,IDEAS
+session_546,7.0,7.0,office room_64,IDEAS
+session_546,5.0,7.0,office room_4,IDEAS
+session_546,3.0,4.0,restaurant_28,IDEAS
+session_546,7.0,7.0,living room_70,IDEAS
+session_546,1.0,7.0,living room_31,IDEAS
+session_546,2.0,7.0,restaurant_48,IDEAS
+session_546,7.0,3.0,living room_40,IDEAS
+session_546,7.0,5.0,restaurant_4,IDEAS
+session_546,5.0,5.0,office room_46,IDEAS
+session_547,1.0,7.0,living room_31,IDEAS
+session_547,5.0,5.0,office room_4,IDEAS
+session_547,3.0,4.0,restaurant_28,IDEAS
+session_547,5.0,7.0,living room_70,IDEAS
+session_547,3.0,7.0,office room_64,IDEAS
+session_547,5.0,5.0,restaurant_4,IDEAS
+session_547,4.0,4.0,office room_46,IDEAS
+session_547,4.0,7.0,restaurant_48,IDEAS
+session_547,6.0,3.0,living room_40,IDEAS
+session_550,1.0,7.0,office room_64,IDEAS
+session_550,7.0,4.0,restaurant_48,IDEAS
+session_550,7.0,4.0,restaurant_4,IDEAS
+session_550,1.0,6.0,office room_46,IDEAS
+session_550,5.0,5.0,living room_31,IDEAS
+session_550,6.0,4.0,living room_40,IDEAS
+session_550,4.0,4.0,restaurant_28,IDEAS
+session_550,7.0,6.0,living room_70,IDEAS
+session_550,2.0,4.0,office room_4,IDEAS
+session_551,5.0,6.0,restaurant_4,IDEAS
+session_551,3.0,7.0,office room_64,IDEAS
+session_551,7.0,7.0,living room_40,IDEAS
+session_551,6.0,6.0,restaurant_48,IDEAS
+session_551,3.0,6.0,living room_31,IDEAS
+session_551,4.0,6.0,restaurant_28,IDEAS
+session_551,6.0,5.0,living room_70,IDEAS
+session_551,4.0,5.0,office room_46,IDEAS
+session_551,5.0,7.0,office room_4,IDEAS
+session_552,2.0,3.0,living room_31,IDEAS
+session_552,7.0,6.0,office room_46,IDEAS
+session_552,6.0,6.0,restaurant_4,IDEAS
+session_552,6.0,5.0,office room_64,IDEAS
+session_552,6.0,4.0,living room_70,IDEAS
+session_552,6.0,5.0,office room_4,IDEAS
+session_552,4.0,5.0,restaurant_48,IDEAS
+session_552,6.0,5.0,restaurant_28,IDEAS
+session_552,6.0,5.0,living room_40,IDEAS
+session_553,2.0,6.0,living room_31,IDEAS
+session_553,3.0,5.0,office room_4,IDEAS
+session_553,3.0,6.0,office room_64,IDEAS
+session_553,6.0,3.0,living room_70,IDEAS
+session_553,3.0,2.0,office room_46,IDEAS
+session_553,6.0,6.0,restaurant_48,IDEAS
+session_553,3.0,6.0,restaurant_4,IDEAS
+session_553,2.0,4.0,restaurant_28,IDEAS
+session_553,6.0,4.0,living room_40,IDEAS
+session_554,7.0,7.0,living room_70,IDEAS
+session_554,7.0,7.0,restaurant_4,IDEAS
+session_554,1.0,7.0,office room_4,IDEAS
+session_554,7.0,5.0,restaurant_48,IDEAS
+session_554,6.0,7.0,restaurant_28,IDEAS
+session_554,7.0,4.0,living room_40,IDEAS
+session_554,7.0,7.0,office room_64,IDEAS
+session_554,7.0,7.0,office room_46,IDEAS
+session_554,1.0,4.0,living room_31,IDEAS
+session_555,3.0,6.0,office room_46,IDEAS
+session_555,6.0,3.0,living room_40,IDEAS
+session_555,5.0,5.0,restaurant_4,IDEAS
+session_555,6.0,3.0,living room_70,IDEAS
+session_555,7.0,5.0,restaurant_48,IDEAS
+session_555,2.0,6.0,office room_64,IDEAS
+session_555,2.0,5.0,living room_31,IDEAS
+session_555,6.0,4.0,restaurant_28,IDEAS
+session_555,5.0,6.0,office room_4,IDEAS
+session_556,5.0,7.0,restaurant_4,IDEAS
+session_556,4.0,7.0,living room_40,IDEAS
+session_556,5.0,7.0,living room_70,IDEAS
+session_556,2.0,7.0,office room_4,IDEAS
+session_556,5.0,7.0,restaurant_48,IDEAS
+session_556,4.0,7.0,office room_64,IDEAS
+session_556,2.0,7.0,living room_31,IDEAS
+session_556,3.0,7.0,restaurant_28,IDEAS
+session_556,3.0,7.0,office room_46,IDEAS
+session_557,4.0,6.0,restaurant_28,IDEAS
+session_557,1.0,6.0,office room_46,IDEAS
+session_557,3.0,4.0,office room_64,IDEAS
+session_557,2.0,6.0,restaurant_4,IDEAS
+session_557,7.0,1.0,living room_70,IDEAS
+session_557,3.0,7.0,living room_31,IDEAS
+session_557,6.0,3.0,living room_40,IDEAS
+session_557,5.0,3.0,restaurant_48,IDEAS
+session_557,4.0,3.0,office room_4,IDEAS
+session_558,2.0,7.0,office room_64,IDEAS
+session_558,2.0,7.0,restaurant_4,IDEAS
+session_558,2.0,7.0,office room_4,IDEAS
+session_558,1.0,1.0,living room_31,IDEAS
+session_558,7.0,6.0,living room_70,IDEAS
+session_558,7.0,5.0,living room_40,IDEAS
+session_558,4.0,4.0,office room_46,IDEAS
+session_558,5.0,4.0,restaurant_28,IDEAS
+session_558,7.0,5.0,restaurant_48,IDEAS
+session_559,7.0,4.0,office room_64,IDEAS
+session_559,7.0,4.0,restaurant_4,IDEAS
+session_559,2.0,5.0,restaurant_28,IDEAS
+session_559,4.0,4.0,living room_31,IDEAS
+session_559,6.0,3.0,office room_4,IDEAS
+session_559,6.0,4.0,restaurant_48,IDEAS
+session_559,3.0,4.0,office room_46,IDEAS
+session_559,7.0,2.0,living room_70,IDEAS
+session_559,6.0,3.0,living room_40,IDEAS
+session_560,7.0,7.0,office room_46,IDEAS
+session_560,7.0,7.0,living room_70,IDEAS
+session_560,7.0,7.0,living room_40,IDEAS
+session_560,7.0,7.0,office room_64,IDEAS
+session_560,7.0,7.0,restaurant_4,IDEAS
+session_560,7.0,7.0,restaurant_48,IDEAS
+session_560,1.0,1.0,living room_31,IDEAS
+session_560,7.0,7.0,office room_4,IDEAS
+session_560,7.0,7.0,restaurant_28,IDEAS
+session_561,7.0,3.0,living room_70,IDEAS
+session_561,3.0,4.0,office room_64,IDEAS
+session_561,2.0,2.0,office room_4,IDEAS
+session_561,6.0,6.0,restaurant_4,IDEAS
+session_561,2.0,6.0,living room_31,IDEAS
+session_561,5.0,3.0,living room_40,IDEAS
+session_561,4.0,4.0,office room_46,IDEAS
+session_561,7.0,6.0,restaurant_48,IDEAS
+session_561,5.0,6.0,restaurant_28,IDEAS
+session_562,6.0,6.0,restaurant_48,IDEAS
+session_562,6.0,6.0,office room_64,IDEAS
+session_562,1.0,3.0,living room_31,IDEAS
+session_562,3.0,6.0,office room_4,IDEAS
+session_562,5.0,6.0,living room_40,IDEAS
+session_562,1.0,7.0,restaurant_4,IDEAS
+session_562,3.0,4.0,office room_46,IDEAS
+session_562,2.0,5.0,restaurant_28,IDEAS
+session_562,7.0,6.0,living room_70,IDEAS
+session_563,1.0,1.0,living room_31,IDEAS
+session_563,7.0,7.0,living room_40,IDEAS
+session_563,4.0,5.0,restaurant_4,IDEAS
+session_563,7.0,7.0,living room_70,IDEAS
+session_563,3.0,6.0,office room_4,IDEAS
+session_563,4.0,6.0,office room_64,IDEAS
+session_563,7.0,7.0,restaurant_48,IDEAS
+session_563,1.0,3.0,office room_46,IDEAS
+session_563,6.0,6.0,restaurant_28,IDEAS
+session_564,1.0,5.0,office room_4,IDEAS
+session_564,2.0,6.0,office room_64,IDEAS
+session_564,1.0,4.0,living room_31,IDEAS
+session_564,7.0,1.0,living room_40,IDEAS
+session_564,7.0,6.0,restaurant_4,IDEAS
+session_564,4.0,5.0,restaurant_28,IDEAS
+session_564,6.0,6.0,restaurant_48,IDEAS
+session_564,6.0,3.0,office room_46,IDEAS
+session_564,6.0,2.0,living room_70,IDEAS
+session_565,4.0,5.0,restaurant_4,IDEAS
+session_565,6.0,5.0,restaurant_48,IDEAS
+session_565,3.0,4.0,office room_46,IDEAS
+session_565,6.0,7.0,office room_4,IDEAS
+session_565,6.0,5.0,living room_40,IDEAS
+session_565,3.0,4.0,restaurant_28,IDEAS
+session_565,1.0,5.0,living room_31,IDEAS
+session_565,6.0,5.0,office room_64,IDEAS
+session_565,7.0,7.0,living room_70,IDEAS
+session_566,4.0,5.0,restaurant_4,IDEAS
+session_566,6.0,4.0,office room_64,IDEAS
+session_566,7.0,1.0,living room_70,IDEAS
+session_566,1.0,7.0,living room_31,IDEAS
+session_566,7.0,1.0,living room_40,IDEAS
+session_566,6.0,3.0,office room_4,IDEAS
+session_566,1.0,6.0,office room_46,IDEAS
+session_566,1.0,6.0,restaurant_28,IDEAS
+session_566,6.0,2.0,restaurant_48,IDEAS
+session_567,2.0,5.0,office room_46,IDEAS
+session_567,3.0,6.0,office room_4,IDEAS
+session_567,6.0,4.0,living room_40,IDEAS
+session_567,5.0,5.0,restaurant_28,IDEAS
+session_567,3.0,6.0,restaurant_48,IDEAS
+session_567,1.0,7.0,living room_31,IDEAS
+session_567,7.0,6.0,living room_70,IDEAS
+session_567,6.0,6.0,restaurant_4,IDEAS
+session_567,5.0,7.0,office room_64,IDEAS
+session_568,3.0,5.0,living room_31,IDEAS
+session_568,5.0,3.0,living room_40,IDEAS
+session_568,4.0,5.0,office room_4,IDEAS
+session_568,3.0,5.0,office room_46,IDEAS
+session_568,4.0,5.0,restaurant_28,IDEAS
+session_568,3.0,6.0,restaurant_4,IDEAS
+session_568,3.0,6.0,office room_64,IDEAS
+session_568,5.0,5.0,restaurant_48,IDEAS
+session_568,6.0,4.0,living room_70,IDEAS
+session_569,2.0,4.0,living room_31,IDEAS
+session_569,7.0,7.0,office room_64,IDEAS
+session_569,7.0,5.0,living room_40,IDEAS
+session_569,5.0,6.0,restaurant_28,IDEAS
+session_569,5.0,4.0,office room_46,IDEAS
+session_569,6.0,4.0,office room_4,IDEAS
+session_569,6.0,5.0,restaurant_48,IDEAS
+session_569,7.0,6.0,living room_70,IDEAS
+session_569,6.0,7.0,restaurant_4,IDEAS
+session_570,2.0,5.0,living room_31,IDEAS
+session_570,6.0,6.0,restaurant_4,IDEAS
+session_570,2.0,4.0,office room_4,IDEAS
+session_570,3.0,5.0,office room_64,IDEAS
+session_570,5.0,3.0,living room_40,IDEAS
+session_570,5.0,5.0,restaurant_48,IDEAS
+session_570,5.0,3.0,living room_70,IDEAS
+session_570,6.0,3.0,office room_46,IDEAS
+session_570,6.0,6.0,restaurant_28,IDEAS
+session_571,5.0,4.0,living room_40,IDEAS
+session_571,4.0,5.0,living room_31,IDEAS
+session_571,5.0,5.0,restaurant_4,IDEAS
+session_571,1.0,7.0,office room_46,IDEAS
+session_571,4.0,4.0,restaurant_48,IDEAS
+session_571,2.0,6.0,office room_64,IDEAS
+session_571,4.0,4.0,restaurant_28,IDEAS
+session_571,1.0,7.0,office room_4,IDEAS
+session_571,5.0,3.0,living room_70,IDEAS
+session_572,7.0,5.0,office room_64,IDEAS
+session_572,2.0,6.0,restaurant_48,IDEAS
+session_572,2.0,6.0,restaurant_28,IDEAS
+session_572,5.0,5.0,office room_46,IDEAS
+session_572,5.0,5.0,living room_70,IDEAS
+session_572,3.0,6.0,restaurant_4,IDEAS
+session_572,7.0,7.0,office room_4,IDEAS
+session_572,7.0,6.0,living room_31,IDEAS
+session_572,6.0,5.0,living room_40,IDEAS
+session_573,6.0,3.0,living room_70,IDEAS
+session_573,2.0,5.0,restaurant_28,IDEAS
+session_573,5.0,5.0,office room_4,IDEAS
+session_573,5.0,6.0,office room_64,IDEAS
+session_573,5.0,3.0,restaurant_4,IDEAS
+session_573,3.0,6.0,office room_46,IDEAS
+session_573,7.0,2.0,living room_40,IDEAS
+session_573,7.0,3.0,restaurant_48,IDEAS
+session_573,1.0,7.0,living room_31,IDEAS
+session_574,4.0,4.0,office room_4,IDEAS
+session_574,3.0,5.0,office room_64,IDEAS
+session_574,7.0,7.0,restaurant_48,IDEAS
+session_574,5.0,6.0,restaurant_28,IDEAS
+session_574,6.0,6.0,restaurant_4,IDEAS
+session_574,3.0,5.0,office room_46,IDEAS
+session_574,4.0,6.0,living room_40,IDEAS
+session_574,2.0,3.0,living room_31,IDEAS
+session_574,7.0,7.0,living room_70,IDEAS
+session_575,7.0,7.0,restaurant_48,IDEAS
+session_575,7.0,2.0,living room_40,IDEAS
+session_575,1.0,7.0,living room_31,IDEAS
+session_575,1.0,4.0,office room_46,IDEAS
+session_575,7.0,2.0,restaurant_28,IDEAS
+session_575,7.0,7.0,living room_70,IDEAS
+session_575,3.0,7.0,office room_4,IDEAS
+session_575,7.0,7.0,restaurant_4,IDEAS
+session_575,7.0,7.0,office room_64,IDEAS
+session_576,2.0,6.0,living room_31,IDEAS
+session_576,2.0,6.0,office room_46,IDEAS
+session_576,1.0,7.0,office room_64,IDEAS
+session_576,5.0,7.0,restaurant_48,IDEAS
+session_576,1.0,7.0,office room_4,IDEAS
+session_576,6.0,6.0,living room_70,IDEAS
+session_576,3.0,6.0,living room_40,IDEAS
+session_576,3.0,5.0,restaurant_28,IDEAS
+session_576,6.0,5.0,restaurant_4,IDEAS
+session_577,6.0,4.0,restaurant_48,IDEAS
+session_577,4.0,4.0,restaurant_28,IDEAS
+session_577,6.0,2.0,living room_70,IDEAS
+session_577,6.0,5.0,office room_64,IDEAS
+session_577,2.0,5.0,office room_46,IDEAS
+session_577,5.0,5.0,office room_4,IDEAS
+session_577,4.0,4.0,restaurant_4,IDEAS
+session_577,5.0,3.0,living room_40,IDEAS
+session_577,2.0,6.0,living room_31,IDEAS
+session_578,6.0,6.0,restaurant_48,IDEAS
+session_578,6.0,5.0,restaurant_4,IDEAS
+session_578,1.0,7.0,living room_31,IDEAS
+session_578,6.0,3.0,living room_40,IDEAS
+session_578,3.0,5.0,office room_64,IDEAS
+session_578,6.0,3.0,living room_70,IDEAS
+session_578,4.0,5.0,restaurant_28,IDEAS
+session_578,2.0,4.0,office room_46,IDEAS
+session_578,5.0,4.0,office room_4,IDEAS
+session_579,7.0,7.0,office room_64,IDEAS
+session_579,7.0,7.0,office room_4,IDEAS
+session_579,6.0,4.0,restaurant_28,IDEAS
+session_579,1.0,2.0,living room_31,IDEAS
+session_579,7.0,7.0,restaurant_48,IDEAS
+session_579,7.0,7.0,living room_40,IDEAS
+session_579,4.0,7.0,office room_46,IDEAS
+session_579,5.0,7.0,restaurant_4,IDEAS
+session_579,7.0,7.0,living room_70,IDEAS
+session_580,5.0,3.0,living room_40,IDEAS
+session_580,1.0,6.0,living room_31,IDEAS
+session_580,7.0,5.0,restaurant_48,IDEAS
+session_580,3.0,5.0,restaurant_28,IDEAS
+session_580,1.0,7.0,office room_46,IDEAS
+session_580,1.0,7.0,office room_4,IDEAS
+session_580,5.0,6.0,restaurant_4,IDEAS
+session_580,3.0,7.0,office room_64,IDEAS
+session_580,7.0,3.0,living room_70,IDEAS
+session_581,2.0,6.0,office room_4,IDEAS
+session_581,3.0,3.0,living room_31,IDEAS
+session_581,5.0,3.0,living room_40,IDEAS
+session_581,4.0,6.0,restaurant_48,IDEAS
+session_581,2.0,6.0,office room_64,IDEAS
+session_581,5.0,6.0,restaurant_28,IDEAS
+session_581,5.0,3.0,living room_70,IDEAS
+session_581,2.0,5.0,office room_46,IDEAS
+session_581,4.0,5.0,restaurant_4,IDEAS
+session_582,6.0,5.0,living room_40,IDEAS
+session_582,7.0,7.0,living room_70,IDEAS
+session_582,7.0,7.0,office room_64,IDEAS
+session_582,7.0,7.0,office room_4,IDEAS
+session_582,7.0,6.0,restaurant_28,IDEAS
+session_582,7.0,7.0,office room_46,IDEAS
+session_582,7.0,7.0,restaurant_4,IDEAS
+session_582,7.0,7.0,restaurant_48,IDEAS
+session_582,1.0,7.0,living room_31,IDEAS
+session_583,4.0,3.0,restaurant_28,IDEAS
+session_583,2.0,3.0,living room_31,IDEAS
+session_583,7.0,6.0,living room_70,IDEAS
+session_583,5.0,5.0,restaurant_4,IDEAS
+session_583,4.0,6.0,office room_4,IDEAS
+session_583,6.0,4.0,living room_40,IDEAS
+session_583,4.0,7.0,office room_64,IDEAS
+session_583,7.0,7.0,restaurant_48,IDEAS
+session_583,2.0,2.0,office room_46,IDEAS
+session_584,1.0,6.0,office room_46,IDEAS
+session_584,3.0,6.0,restaurant_28,IDEAS
+session_584,5.0,6.0,office room_64,IDEAS
+session_584,3.0,6.0,restaurant_4,IDEAS
+session_584,5.0,5.0,restaurant_48,IDEAS
+session_584,2.0,6.0,office room_4,IDEAS
+session_584,5.0,3.0,living room_40,IDEAS
+session_584,5.0,5.0,living room_70,IDEAS
+session_584,6.0,3.0,living room_31,IDEAS
+session_585,6.0,5.0,restaurant_28,IDEAS
+session_585,4.0,2.0,living room_31,IDEAS
+session_585,5.0,4.0,living room_40,IDEAS
+session_585,5.0,4.0,office room_4,IDEAS
+session_585,6.0,7.0,restaurant_48,IDEAS
+session_585,5.0,4.0,restaurant_4,IDEAS
+session_585,6.0,7.0,office room_64,IDEAS
+session_585,2.0,1.0,office room_46,IDEAS
+session_585,7.0,7.0,living room_70,IDEAS
+session_586,7.0,7.0,living room_40,IDEAS
+session_586,6.0,6.0,restaurant_4,IDEAS
+session_586,7.0,7.0,office room_64,IDEAS
+session_586,6.0,6.0,office room_4,IDEAS
+session_586,1.0,1.0,living room_31,IDEAS
+session_586,4.0,4.0,office room_46,IDEAS
+session_586,1.0,1.0,restaurant_28,IDEAS
+session_586,7.0,7.0,restaurant_48,IDEAS
+session_586,7.0,7.0,living room_70,IDEAS
+session_587,6.0,5.0,restaurant_48,IDEAS
+session_587,3.0,4.0,restaurant_28,IDEAS
+session_587,7.0,4.0,living room_40,IDEAS
+session_587,4.0,7.0,office room_64,IDEAS
+session_587,5.0,6.0,restaurant_4,IDEAS
+session_587,2.0,4.0,office room_4,IDEAS
+session_587,3.0,7.0,office room_46,IDEAS
+session_587,2.0,6.0,living room_31,IDEAS
+session_587,7.0,4.0,living room_70,IDEAS
+session_588,7.0,6.0,living room_70,IDEAS
+session_588,7.0,7.0,living room_40,IDEAS
+session_588,6.0,5.0,restaurant_48,IDEAS
+session_588,2.0,3.0,living room_31,IDEAS
+session_588,6.0,5.0,restaurant_28,IDEAS
+session_588,6.0,6.0,restaurant_4,IDEAS
+session_588,7.0,7.0,office room_4,IDEAS
+session_588,6.0,7.0,office room_64,IDEAS
+session_588,6.0,7.0,office room_46,IDEAS
+session_589,7.0,7.0,living room_40,IDEAS
+session_589,6.0,2.0,restaurant_28,IDEAS
+session_589,6.0,4.0,living room_70,IDEAS
+session_589,2.0,2.0,living room_31,IDEAS
+session_589,6.0,6.0,office room_46,IDEAS
+session_589,7.0,7.0,office room_64,IDEAS
+session_589,3.0,7.0,office room_4,IDEAS
+session_589,4.0,7.0,restaurant_48,IDEAS
+session_590,6.0,7.0,restaurant_28,IDEAS
+session_590,7.0,3.0,living room_40,IDEAS
+session_590,6.0,4.0,living room_70,IDEAS
+session_590,3.0,5.0,office room_46,IDEAS
+session_590,1.0,5.0,living room_31,IDEAS
+session_590,6.0,6.0,office room_4,IDEAS
+session_590,6.0,5.0,restaurant_4,IDEAS
+session_590,5.0,7.0,office room_64,IDEAS
+session_590,6.0,6.0,restaurant_48,IDEAS
+session_591,6.0,7.0,office room_4,IDEAS
+session_591,7.0,7.0,restaurant_4,IDEAS
+session_591,7.0,7.0,living room_70,IDEAS
+session_591,5.0,5.0,restaurant_28,IDEAS
+session_591,7.0,7.0,living room_40,IDEAS
+session_591,3.0,5.0,office room_46,IDEAS
+session_591,6.0,6.0,restaurant_48,IDEAS
+session_591,3.0,4.0,office room_64,IDEAS
+session_591,1.0,7.0,living room_31,IDEAS
+session_592,2.0,1.0,office room_46,IDEAS
+session_592,2.0,4.0,office room_4,IDEAS
+session_592,1.0,6.0,living room_31,IDEAS
+session_592,3.0,6.0,restaurant_4,IDEAS
+session_592,5.0,4.0,living room_40,IDEAS
+session_592,5.0,3.0,living room_70,IDEAS
+session_592,3.0,4.0,restaurant_28,IDEAS
+session_592,3.0,4.0,office room_64,IDEAS
+session_592,5.0,5.0,restaurant_48,IDEAS
+session_594,6.0,3.0,office room_4,IDEAS
+session_594,6.0,3.0,living room_40,IDEAS
+session_594,5.0,3.0,living room_70,IDEAS
+session_594,2.0,6.0,office room_46,IDEAS
+session_594,3.0,5.0,restaurant_4,IDEAS
+session_594,3.0,4.0,restaurant_28,IDEAS
+session_594,3.0,5.0,living room_31,IDEAS
+session_594,3.0,6.0,office room_64,IDEAS
+session_594,4.0,5.0,restaurant_48,IDEAS
+session_595,4.0,6.0,living room_31,IDEAS
+session_595,6.0,7.0,office room_4,IDEAS
+session_595,7.0,6.0,living room_70,IDEAS
+session_595,6.0,7.0,restaurant_48,IDEAS
+session_595,6.0,5.0,office room_46,IDEAS
+session_595,6.0,7.0,living room_40,IDEAS
+session_595,3.0,2.0,restaurant_4,IDEAS
+session_595,6.0,6.0,office room_64,IDEAS
+session_595,1.0,2.0,restaurant_28,IDEAS
+session_596,2.0,4.0,living room_31,IDEAS
+session_596,6.0,6.0,living room_70,IDEAS
+session_596,4.0,3.0,office room_4,IDEAS
+session_596,6.0,6.0,living room_40,IDEAS
+session_596,3.0,4.0,restaurant_28,IDEAS
+session_596,4.0,6.0,office room_64,IDEAS
+session_596,4.0,4.0,restaurant_4,IDEAS
+session_596,4.0,4.0,restaurant_48,IDEAS
+session_596,5.0,5.0,office room_46,IDEAS
+session_597,5.0,5.0,living room_40,IDEAS
+session_597,7.0,7.0,restaurant_4,IDEAS
+session_597,7.0,6.0,office room_4,IDEAS
+session_597,1.0,1.0,office room_46,IDEAS
+session_597,7.0,7.0,living room_70,IDEAS
+session_597,7.0,7.0,restaurant_48,IDEAS
+session_597,4.0,2.0,restaurant_28,IDEAS
+session_597,7.0,7.0,office room_64,IDEAS
+session_597,2.0,1.0,living room_31,IDEAS
+session_598,5.0,3.0,restaurant_48,IDEAS
+session_598,3.0,5.0,office room_46,IDEAS
+session_598,4.0,3.0,living room_40,IDEAS
+session_598,5.0,3.0,living room_70,IDEAS
+session_598,4.0,4.0,restaurant_28,IDEAS
+session_598,1.0,7.0,office room_4,IDEAS
+session_598,3.0,5.0,living room_31,IDEAS
+session_598,4.0,5.0,office room_64,IDEAS
+session_598,5.0,5.0,restaurant_4,IDEAS
+session_599,6.0,3.0,living room_40,IDEAS
+session_599,3.0,4.0,office room_4,IDEAS
+session_599,4.0,5.0,restaurant_4,IDEAS
+session_599,4.0,5.0,restaurant_48,IDEAS
+session_599,4.0,5.0,office room_64,IDEAS
+session_599,3.0,5.0,office room_46,IDEAS
+session_599,5.0,4.0,restaurant_28,IDEAS
+session_599,4.0,5.0,living room_31,IDEAS
+session_599,6.0,6.0,living room_70,IDEAS
+session_600,3.0,6.0,office room_64,IDEAS
+session_600,3.0,4.0,living room_31,IDEAS
+session_600,6.0,5.0,restaurant_4,IDEAS
+session_600,5.0,3.0,living room_40,IDEAS
+session_600,3.0,6.0,restaurant_28,IDEAS
+session_600,2.0,6.0,office room_4,IDEAS
+session_600,5.0,7.0,living room_70,IDEAS
+session_600,2.0,6.0,office room_46,IDEAS
+session_600,6.0,4.0,restaurant_48,IDEAS
+session_601,2.0,5.0,office room_46,IDEAS
+session_601,3.0,6.0,office room_4,IDEAS
+session_601,5.0,6.0,restaurant_28,IDEAS
+session_601,6.0,3.0,living room_40,IDEAS
+session_601,5.0,7.0,living room_70,IDEAS
+session_601,6.0,7.0,restaurant_48,IDEAS
+session_601,5.0,7.0,restaurant_4,IDEAS
+session_601,6.0,3.0,living room_31,IDEAS
+session_601,3.0,7.0,office room_64,IDEAS
+session_602,5.0,6.0,restaurant_4,IDEAS
+session_602,5.0,5.0,restaurant_28,IDEAS
+session_602,2.0,5.0,office room_4,IDEAS
+session_602,3.0,5.0,office room_46,IDEAS
+session_602,4.0,4.0,restaurant_48,IDEAS
+session_602,5.0,5.0,living room_70,IDEAS
+session_602,1.0,6.0,living room_31,IDEAS
+session_602,6.0,7.0,office room_64,IDEAS
+session_602,6.0,6.0,living room_40,IDEAS
+session_603,6.0,6.0,living room_70,IDEAS
+session_603,4.0,6.0,office room_4,IDEAS
+session_603,4.0,4.0,restaurant_28,IDEAS
+session_603,2.0,4.0,living room_31,IDEAS
+session_603,5.0,5.0,office room_64,IDEAS
+session_603,3.0,4.0,office room_46,IDEAS
+session_603,5.0,5.0,restaurant_48,IDEAS
+session_603,4.0,4.0,living room_40,IDEAS
+session_603,6.0,3.0,restaurant_4,IDEAS
+session_604,6.0,6.0,living room_40,IDEAS
+session_604,2.0,6.0,living room_31,IDEAS
+session_604,6.0,6.0,office room_4,IDEAS
+session_604,5.0,3.0,office room_46,IDEAS
+session_604,6.0,6.0,restaurant_48,IDEAS
+session_604,7.0,3.0,living room_70,IDEAS
+session_604,6.0,7.0,office room_64,IDEAS
+session_604,6.0,7.0,restaurant_4,IDEAS
+session_604,2.0,5.0,restaurant_28,IDEAS
+session_605,7.0,7.0,living room_70,IDEAS
+session_605,7.0,4.0,living room_40,IDEAS
+session_605,2.0,6.0,office room_46,IDEAS
+session_605,6.0,6.0,restaurant_4,IDEAS
+session_605,7.0,7.0,office room_4,IDEAS
+session_605,1.0,6.0,living room_31,IDEAS
+session_605,7.0,7.0,restaurant_48,IDEAS
+session_605,3.0,4.0,restaurant_28,IDEAS
+session_605,7.0,6.0,office room_64,IDEAS
+session_606,6.0,5.0,living room_70,IDEAS
+session_606,4.0,4.0,restaurant_48,IDEAS
+session_606,2.0,5.0,restaurant_28,IDEAS
+session_606,4.0,4.0,office room_4,IDEAS
+session_606,3.0,5.0,office room_64,IDEAS
+session_606,2.0,6.0,living room_31,IDEAS
+session_606,4.0,4.0,restaurant_4,IDEAS
+session_606,4.0,4.0,living room_40,IDEAS
+session_606,5.0,4.0,office room_46,IDEAS
+session_607,4.0,6.0,office room_46,IDEAS
+session_607,1.0,7.0,living room_31,IDEAS
+session_607,3.0,7.0,restaurant_48,IDEAS
+session_607,7.0,5.0,living room_70,IDEAS
+session_607,3.0,5.0,restaurant_4,IDEAS
+session_607,2.0,6.0,office room_64,IDEAS
+session_607,3.0,7.0,restaurant_28,IDEAS
+session_607,4.0,6.0,office room_4,IDEAS
+session_607,4.0,5.0,living room_40,IDEAS
+session_608,1.0,6.0,office room_46,IDEAS
+session_608,2.0,6.0,restaurant_48,IDEAS
+session_608,2.0,7.0,office room_4,IDEAS
+session_608,2.0,7.0,office room_64,IDEAS
+session_608,5.0,4.0,living room_70,IDEAS
+session_608,4.0,3.0,living room_40,IDEAS
+session_608,2.0,5.0,restaurant_28,IDEAS
+session_608,1.0,7.0,living room_31,IDEAS
+session_608,1.0,7.0,restaurant_4,IDEAS
+session_609,4.0,4.0,office room_46,IDEAS
+session_609,6.0,6.0,office room_64,IDEAS
+session_609,5.0,6.0,office room_4,IDEAS
+session_609,5.0,6.0,living room_70,IDEAS
+session_609,2.0,2.0,living room_31,IDEAS
+session_609,6.0,7.0,living room_40,IDEAS
+session_609,5.0,6.0,restaurant_48,IDEAS
+session_609,2.0,1.0,restaurant_28,IDEAS
+session_609,5.0,6.0,restaurant_4,IDEAS
+session_610,4.0,5.0,office room_4,IDEAS
+session_610,6.0,3.0,restaurant_48,IDEAS
+session_610,2.0,6.0,office room_46,IDEAS
+session_610,6.0,4.0,living room_40,IDEAS
+session_610,4.0,4.0,living room_70,IDEAS
+session_610,4.0,4.0,office room_64,IDEAS
+session_610,5.0,4.0,living room_31,IDEAS
+session_610,4.0,4.0,restaurant_28,IDEAS
+session_610,6.0,3.0,restaurant_4,IDEAS
+session_611,4.0,6.0,office room_4,IDEAS
+session_611,7.0,2.0,living room_70,IDEAS
+session_611,1.0,7.0,office room_46,IDEAS
+session_611,1.0,2.0,living room_31,IDEAS
+session_611,7.0,3.0,living room_40,IDEAS
+session_611,4.0,4.0,office room_64,IDEAS
+session_611,7.0,5.0,restaurant_4,IDEAS
+session_611,7.0,7.0,restaurant_48,IDEAS
+session_611,7.0,5.0,restaurant_28,IDEAS
+session_612,5.0,4.0,living room_31,IDEAS
+session_612,6.0,7.0,office room_64,IDEAS
+session_612,3.0,3.0,restaurant_28,IDEAS
+session_612,3.0,6.0,office room_46,IDEAS
+session_612,7.0,7.0,living room_70,IDEAS
+session_612,5.0,6.0,office room_4,IDEAS
+session_612,6.0,6.0,restaurant_48,IDEAS
+session_612,6.0,6.0,living room_40,IDEAS
+session_612,6.0,6.0,restaurant_4,IDEAS
+session_614,6.0,4.0,restaurant_4,IDEAS
+session_614,7.0,2.0,living room_40,IDEAS
+session_614,2.0,4.0,living room_31,IDEAS
+session_614,6.0,6.0,restaurant_48,IDEAS
+session_614,3.0,6.0,office room_64,IDEAS
+session_614,6.0,3.0,living room_70,IDEAS
+session_614,1.0,3.0,office room_46,IDEAS
+session_614,2.0,6.0,restaurant_28,IDEAS
+session_614,2.0,6.0,office room_4,IDEAS
+session_615,7.0,7.0,restaurant_4,IDEAS
+session_615,7.0,6.0,living room_40,IDEAS
+session_615,4.0,4.0,office room_64,IDEAS
+session_615,5.0,5.0,office room_4,IDEAS
+session_615,7.0,3.0,living room_70,IDEAS
+session_615,1.0,7.0,living room_31,IDEAS
+session_615,5.0,6.0,restaurant_28,IDEAS
+session_615,5.0,4.0,office room_46,IDEAS
+session_615,7.0,7.0,restaurant_48,IDEAS
+session_616,4.0,6.0,office room_64,IDEAS
+session_616,6.0,2.0,living room_40,IDEAS
+session_616,2.0,2.0,restaurant_28,IDEAS
+session_616,6.0,5.0,living room_70,IDEAS
+session_616,1.0,7.0,office room_46,IDEAS
+session_616,6.0,6.0,restaurant_4,IDEAS
+session_616,5.0,5.0,restaurant_48,IDEAS
+session_616,3.0,6.0,living room_31,IDEAS
+session_616,3.0,5.0,office room_4,IDEAS
+session_617,2.0,5.0,office room_46,IDEAS
+session_617,7.0,7.0,living room_70,IDEAS
+session_617,6.0,7.0,restaurant_4,IDEAS
+session_617,7.0,7.0,office room_4,IDEAS
+session_617,3.0,4.0,office room_64,IDEAS
+session_617,5.0,7.0,restaurant_48,IDEAS
+session_617,1.0,5.0,living room_31,IDEAS
+session_617,4.0,3.0,restaurant_28,IDEAS
+session_617,7.0,6.0,living room_40,IDEAS
+session_618,5.0,6.0,restaurant_48,IDEAS
+session_618,6.0,7.0,restaurant_4,IDEAS
+session_618,4.0,4.0,office room_46,IDEAS
+session_618,5.0,6.0,living room_70,IDEAS
+session_618,2.0,1.0,living room_31,IDEAS
+session_618,5.0,6.0,office room_64,IDEAS
+session_618,5.0,6.0,office room_4,IDEAS
+session_618,5.0,6.0,living room_40,IDEAS
+session_618,3.0,2.0,restaurant_28,IDEAS
+session_619,2.0,3.0,living room_31,IDEAS
+session_619,3.0,6.0,office room_46,IDEAS
+session_619,6.0,3.0,living room_40,IDEAS
+session_619,6.0,3.0,living room_70,IDEAS
+session_619,5.0,6.0,restaurant_4,IDEAS
+session_619,2.0,7.0,office room_4,IDEAS
+session_619,6.0,6.0,restaurant_48,IDEAS
+session_619,2.0,7.0,office room_64,IDEAS
+session_619,2.0,6.0,restaurant_28,IDEAS
+session_620,1.0,7.0,living room_31,IDEAS
+session_620,7.0,5.0,living room_40,IDEAS
+session_620,4.0,4.0,office room_4,IDEAS
+session_620,4.0,4.0,restaurant_28,IDEAS
+session_620,7.0,7.0,restaurant_4,IDEAS
+session_620,7.0,7.0,living room_70,IDEAS
+session_620,7.0,7.0,restaurant_48,IDEAS
+session_620,7.0,7.0,office room_64,IDEAS
+session_620,4.0,4.0,office room_46,IDEAS
+session_621,1.0,7.0,office room_64,IDEAS
+session_621,5.0,3.0,living room_70,IDEAS
+session_621,2.0,7.0,restaurant_4,IDEAS
+session_621,1.0,2.0,living room_31,IDEAS
+session_621,5.0,3.0,living room_40,IDEAS
+session_621,1.0,7.0,office room_4,IDEAS
+session_621,6.0,7.0,restaurant_48,IDEAS
+session_621,6.0,7.0,restaurant_28,IDEAS
+session_621,2.0,6.0,office room_46,IDEAS
+session_622,3.0,5.0,office room_46,IDEAS
+session_622,2.0,1.0,office room_4,IDEAS
+session_622,5.0,5.0,office room_64,IDEAS
+session_622,5.0,4.0,living room_70,IDEAS
+session_622,5.0,5.0,living room_40,IDEAS
+session_622,3.0,4.0,restaurant_28,IDEAS
+session_622,4.0,5.0,restaurant_4,IDEAS
+session_622,6.0,3.0,living room_31,IDEAS
+session_622,6.0,3.0,restaurant_48,IDEAS
+session_623,7.0,5.0,restaurant_4,IDEAS
+session_623,1.0,2.0,office room_46,IDEAS
+session_623,7.0,7.0,office room_4,IDEAS
+session_623,7.0,7.0,living room_40,IDEAS
+session_623,7.0,6.0,office room_64,IDEAS
+session_623,1.0,1.0,restaurant_28,IDEAS
+session_623,7.0,2.0,living room_70,IDEAS
+session_623,1.0,1.0,living room_31,IDEAS
+session_623,7.0,7.0,restaurant_48,IDEAS
+session_624,2.0,6.0,living room_70,IDEAS
+session_624,6.0,5.0,restaurant_28,IDEAS
+session_624,4.0,6.0,office room_46,IDEAS
+session_624,2.0,6.0,living room_31,IDEAS
+session_624,6.0,2.0,restaurant_4,IDEAS
+session_624,6.0,7.0,living room_40,IDEAS
+session_624,4.0,6.0,office room_4,IDEAS
+session_624,5.0,5.0,restaurant_48,IDEAS
+session_624,6.0,5.0,office room_64,IDEAS
+session_625,2.0,2.0,office room_46,IDEAS
+session_625,7.0,5.0,living room_40,IDEAS
+session_625,4.0,2.0,restaurant_4,IDEAS
+session_625,6.0,6.0,living room_70,IDEAS
+session_625,3.0,6.0,office room_64,IDEAS
+session_625,4.0,3.0,restaurant_28,IDEAS
+session_625,5.0,3.0,restaurant_48,IDEAS
+session_625,1.0,1.0,office room_4,IDEAS
+session_625,2.0,6.0,living room_31,IDEAS
+session_626,2.0,6.0,office room_46,IDEAS
+session_626,1.0,7.0,living room_31,IDEAS
+session_626,2.0,6.0,office room_64,IDEAS
+session_626,4.0,6.0,living room_70,IDEAS
+session_626,2.0,5.0,office room_4,IDEAS
+session_626,6.0,3.0,living room_40,IDEAS
+session_626,4.0,4.0,restaurant_28,IDEAS
+session_626,5.0,5.0,restaurant_48,IDEAS
+session_626,4.0,6.0,restaurant_4,IDEAS
+session_628,2.0,2.0,living room_31,IDEAS
+session_628,4.0,6.0,restaurant_48,IDEAS
+session_628,6.0,7.0,restaurant_4,IDEAS
+session_628,5.0,7.0,office room_64,IDEAS
+session_628,6.0,2.0,living room_40,IDEAS
+session_628,3.0,5.0,restaurant_28,IDEAS
+session_628,2.0,6.0,office room_4,IDEAS
+session_628,4.0,6.0,office room_46,IDEAS
+session_628,6.0,6.0,living room_70,IDEAS
+session_629,1.0,6.0,living room_31,IDEAS
+session_629,7.0,2.0,living room_40,IDEAS
+session_629,5.0,4.0,restaurant_4,IDEAS
+session_629,3.0,4.0,office room_4,IDEAS
+session_629,3.0,4.0,office room_46,IDEAS
+session_629,1.0,7.0,office room_64,IDEAS
+session_629,4.0,5.0,restaurant_28,IDEAS
+session_629,6.0,6.0,restaurant_48,IDEAS
+session_629,6.0,5.0,living room_70,IDEAS
+session_630,6.0,6.0,office room_64,IDEAS
+session_630,2.0,6.0,living room_31,IDEAS
+session_630,3.0,4.0,restaurant_28,IDEAS
+session_630,5.0,5.0,living room_40,IDEAS
+session_630,6.0,2.0,living room_70,IDEAS
+session_630,4.0,4.0,restaurant_4,IDEAS
+session_630,3.0,4.0,office room_46,IDEAS
+session_630,1.0,7.0,office room_4,IDEAS
+session_630,6.0,6.0,restaurant_48,IDEAS
+session_631,6.0,6.0,restaurant_48,IDEAS
+session_631,6.0,7.0,living room_70,IDEAS
+session_631,3.0,6.0,restaurant_28,IDEAS
+session_631,5.0,6.0,office room_64,IDEAS
+session_631,2.0,3.0,living room_31,IDEAS
+session_631,6.0,6.0,office room_46,IDEAS
+session_631,6.0,7.0,living room_40,IDEAS
+session_631,7.0,7.0,office room_4,IDEAS
+session_631,5.0,6.0,restaurant_4,IDEAS
+session_632,3.0,4.0,restaurant_48,IDEAS
+session_632,4.0,5.0,office room_64,IDEAS
+session_632,2.0,5.0,restaurant_28,IDEAS
+session_632,7.0,4.0,living room_70,IDEAS
+session_632,2.0,5.0,office room_46,IDEAS
+session_632,6.0,5.0,restaurant_4,IDEAS
+session_632,2.0,7.0,living room_31,IDEAS
+session_632,6.0,5.0,living room_40,IDEAS
+session_632,3.0,6.0,office room_4,IDEAS
+session_633,2.0,4.0,office room_4,IDEAS
+session_633,2.0,5.0,office room_46,IDEAS
+session_633,5.0,3.0,living room_40,IDEAS
+session_633,4.0,4.0,restaurant_28,IDEAS
+session_633,5.0,5.0,restaurant_48,IDEAS
+session_633,5.0,5.0,restaurant_4,IDEAS
+session_633,3.0,6.0,office room_64,IDEAS
+session_633,5.0,5.0,living room_31,IDEAS
+session_633,6.0,6.0,living room_70,IDEAS
+session_634,2.0,4.0,office room_46,IDEAS
+session_634,7.0,4.0,restaurant_4,IDEAS
+session_634,6.0,5.0,living room_40,IDEAS
+session_634,4.0,5.0,office room_64,IDEAS
+session_634,3.0,3.0,restaurant_28,IDEAS
+session_634,2.0,4.0,living room_31,IDEAS
+session_634,3.0,3.0,office room_4,IDEAS
+session_634,6.0,4.0,living room_70,IDEAS
+session_634,7.0,6.0,restaurant_48,IDEAS
+session_637,7.0,5.0,living room_70,IDEAS
+session_637,3.0,4.0,restaurant_28,IDEAS
+session_637,5.0,5.0,office room_64,IDEAS
+session_637,6.0,5.0,living room_40,IDEAS
+session_637,2.0,4.0,office room_4,IDEAS
+session_637,5.0,4.0,restaurant_48,IDEAS
+session_637,5.0,4.0,restaurant_4,IDEAS
+session_637,3.0,4.0,office room_46,IDEAS
+session_637,2.0,4.0,living room_31,IDEAS
+session_638,7.0,7.0,restaurant_4,IDEAS
+session_638,7.0,7.0,restaurant_48,IDEAS
+session_638,4.0,7.0,office room_4,IDEAS
+session_638,1.0,7.0,office room_64,IDEAS
+session_638,1.0,7.0,living room_31,IDEAS
+session_638,4.0,7.0,office room_46,IDEAS
+session_638,1.0,7.0,restaurant_28,IDEAS
+session_638,7.0,7.0,living room_40,IDEAS
+session_638,7.0,7.0,living room_70,IDEAS
+session_639,3.0,4.0,office room_46,IDEAS
+session_639,4.0,4.0,restaurant_28,IDEAS
+session_639,5.0,6.0,office room_4,IDEAS
+session_639,7.0,7.0,restaurant_4,IDEAS
+session_639,7.0,7.0,office room_64,IDEAS
+session_639,7.0,7.0,living room_40,IDEAS
+session_639,1.0,7.0,living room_31,IDEAS
+session_639,7.0,7.0,living room_70,IDEAS
+session_639,7.0,7.0,restaurant_48,IDEAS
+session_640,1.0,7.0,living room_31,IDEAS
+session_640,4.0,6.0,restaurant_4,IDEAS
+session_640,2.0,7.0,restaurant_28,IDEAS
+session_640,6.0,3.0,living room_40,IDEAS
+session_640,7.0,7.0,restaurant_48,IDEAS
+session_640,7.0,7.0,living room_70,IDEAS
+session_640,6.0,7.0,office room_64,IDEAS
+session_640,3.0,7.0,office room_46,IDEAS
+session_640,3.0,7.0,office room_4,IDEAS
+session_641,5.0,4.0,living room_31,IDEAS
+session_641,6.0,6.0,office room_64,IDEAS
+session_641,2.0,3.0,office room_46,IDEAS
+session_641,4.0,6.0,restaurant_28,IDEAS
+session_641,4.0,5.0,restaurant_4,IDEAS
+session_641,7.0,6.0,living room_40,IDEAS
+session_641,6.0,7.0,office room_4,IDEAS
+session_641,6.0,5.0,restaurant_48,IDEAS
+session_641,7.0,3.0,living room_70,IDEAS
+session_642,2.0,5.0,office room_46,IDEAS
+session_642,2.0,5.0,living room_31,IDEAS
+session_642,3.0,4.0,restaurant_28,IDEAS
+session_642,4.0,5.0,office room_64,IDEAS
+session_642,6.0,6.0,restaurant_48,IDEAS
+session_642,2.0,6.0,office room_4,IDEAS
+session_642,6.0,5.0,living room_40,IDEAS
+session_642,7.0,4.0,living room_70,IDEAS
+session_642,5.0,5.0,restaurant_4,IDEAS
+session_645,2.0,5.0,office room_46,IDEAS
+session_645,2.0,3.0,living room_31,IDEAS
+session_645,7.0,3.0,living room_70,IDEAS
+session_645,4.0,4.0,restaurant_48,IDEAS
+session_645,4.0,6.0,restaurant_4,IDEAS
+session_645,2.0,6.0,office room_4,IDEAS
+session_645,5.0,3.0,living room_40,IDEAS
+session_645,2.0,4.0,office room_64,IDEAS
+session_645,3.0,4.0,restaurant_28,IDEAS
+session_646,2.0,6.0,living room_31,IDEAS
+session_646,3.0,6.0,office room_46,IDEAS
+session_646,2.0,7.0,office room_64,IDEAS
+session_646,3.0,6.0,restaurant_28,IDEAS
+session_646,3.0,6.0,restaurant_4,IDEAS
+session_646,6.0,6.0,living room_40,IDEAS
+session_646,5.0,6.0,office room_4,IDEAS
+session_646,5.0,6.0,restaurant_48,IDEAS
+session_646,6.0,5.0,living room_70,IDEAS
+session_647,1.0,7.0,office room_46,IDEAS
+session_647,7.0,7.0,restaurant_4,IDEAS
+session_647,1.0,1.0,living room_31,IDEAS
+session_647,1.0,7.0,office room_64,IDEAS
+session_647,7.0,7.0,restaurant_48,IDEAS
+session_647,7.0,7.0,living room_40,IDEAS
+session_647,7.0,7.0,living room_70,IDEAS
+session_647,6.0,7.0,restaurant_28,IDEAS
+session_647,7.0,7.0,office room_4,IDEAS
+session_648,7.0,7.0,restaurant_48,IDEAS
+session_648,6.0,7.0,restaurant_28,IDEAS
+session_648,7.0,7.0,living room_70,IDEAS
+session_648,7.0,7.0,living room_40,IDEAS
+session_648,7.0,7.0,office room_64,IDEAS
+session_648,7.0,4.0,office room_4,IDEAS
+session_648,7.0,7.0,office room_46,IDEAS
+session_648,6.0,7.0,restaurant_4,IDEAS
+session_648,1.0,1.0,living room_31,IDEAS
+session_649,3.0,6.0,office room_64,IDEAS
+session_649,5.0,5.0,office room_46,IDEAS
+session_649,6.0,6.0,office room_4,IDEAS
+session_649,3.0,4.0,living room_31,IDEAS
+session_649,6.0,6.0,living room_40,IDEAS
+session_649,6.0,6.0,living room_70,IDEAS
+session_649,5.0,5.0,restaurant_28,IDEAS
+session_649,5.0,5.0,restaurant_4,IDEAS
+session_649,5.0,5.0,restaurant_48,IDEAS
+session_650,4.0,6.0,office room_64,IDEAS
+session_650,2.0,7.0,restaurant_28,IDEAS
+session_650,1.0,7.0,restaurant_4,IDEAS
+session_650,7.0,3.0,living room_40,IDEAS
+session_650,1.0,7.0,office room_46,IDEAS
+session_650,2.0,6.0,living room_31,IDEAS
+session_650,3.0,6.0,office room_4,IDEAS
+session_650,6.0,6.0,restaurant_48,IDEAS
+session_650,7.0,6.0,living room_70,IDEAS
+session_651,6.0,5.0,living room_40,IDEAS
+session_651,2.0,3.0,office room_46,IDEAS
+session_651,5.0,4.0,living room_70,IDEAS
+session_651,2.0,6.0,restaurant_4,IDEAS
+session_651,2.0,6.0,living room_31,IDEAS
+session_651,2.0,4.0,restaurant_28,IDEAS
+session_651,3.0,6.0,office room_64,IDEAS
+session_651,4.0,6.0,office room_4,IDEAS
+session_651,2.0,6.0,restaurant_48,IDEAS
+session_652,3.0,7.0,office room_64,IDEAS
+session_652,5.0,5.0,restaurant_28,IDEAS
+session_652,5.0,6.0,living room_70,IDEAS
+session_652,3.0,5.0,office room_4,IDEAS
+session_652,5.0,3.0,living room_40,IDEAS
+session_652,5.0,6.0,office room_46,IDEAS
+session_652,5.0,5.0,living room_31,IDEAS
+session_652,3.0,6.0,restaurant_4,IDEAS
+session_652,5.0,6.0,restaurant_48,IDEAS
+session_653,7.0,2.0,living room_70,IDEAS
+session_653,1.0,7.0,office room_46,IDEAS
+session_653,1.0,7.0,living room_31,IDEAS
+session_653,3.0,6.0,office room_64,IDEAS
+session_653,7.0,7.0,restaurant_4,IDEAS
+session_653,2.0,6.0,restaurant_28,IDEAS
+session_653,3.0,7.0,office room_4,IDEAS
+session_653,7.0,3.0,living room_40,IDEAS
+session_653,7.0,7.0,restaurant_48,IDEAS
+session_654,7.0,7.0,office room_64,IDEAS
+session_654,3.0,7.0,office room_46,IDEAS
+session_654,7.0,7.0,office room_4,IDEAS
+session_654,7.0,7.0,restaurant_28,IDEAS
+session_654,7.0,7.0,living room_40,IDEAS
+session_654,7.0,7.0,living room_70,IDEAS
+session_654,1.0,6.0,living room_31,IDEAS
+session_654,7.0,7.0,restaurant_48,IDEAS
+session_654,7.0,7.0,restaurant_4,IDEAS
+session_655,6.0,5.0,restaurant_28,IDEAS
+session_655,7.0,1.0,living room_40,IDEAS
+session_655,4.0,5.0,restaurant_4,IDEAS
+session_655,1.0,7.0,living room_31,IDEAS
+session_655,5.0,3.0,living room_70,IDEAS
+session_655,1.0,7.0,office room_4,IDEAS
+session_655,3.0,3.0,office room_46,IDEAS
+session_655,4.0,6.0,office room_64,IDEAS
+session_655,4.0,7.0,restaurant_48,IDEAS
+session_656,4.0,5.0,restaurant_4,IDEAS
+session_656,1.0,2.0,office room_4,IDEAS
+session_656,3.0,2.0,restaurant_48,IDEAS
+session_656,6.0,3.0,living room_40,IDEAS
+session_656,2.0,2.0,restaurant_28,IDEAS
+session_656,7.0,7.0,living room_70,IDEAS
+session_656,6.0,6.0,office room_64,IDEAS
+session_656,1.0,7.0,living room_31,IDEAS
+session_656,3.0,2.0,office room_46,IDEAS
+session_657,4.0,4.0,restaurant_28,IDEAS
+session_657,4.0,4.0,restaurant_4,IDEAS
+session_657,1.0,7.0,office room_64,IDEAS
+session_657,2.0,6.0,office room_46,IDEAS
+session_657,4.0,2.0,living room_31,IDEAS
+session_657,6.0,6.0,living room_70,IDEAS
+session_657,4.0,4.0,living room_40,IDEAS
+session_657,4.0,6.0,office room_4,IDEAS
+session_657,5.0,4.0,restaurant_48,IDEAS
+session_658,7.0,4.0,restaurant_48,IDEAS
+session_658,7.0,7.0,living room_40,IDEAS
+session_658,5.0,5.0,restaurant_4,IDEAS
+session_658,7.0,2.0,living room_70,IDEAS
+session_658,1.0,7.0,office room_64,IDEAS
+session_658,1.0,1.0,office room_46,IDEAS
+session_658,1.0,7.0,living room_31,IDEAS
+session_658,5.0,7.0,restaurant_28,IDEAS
+session_658,1.0,3.0,office room_4,IDEAS
+session_660,1.0,7.0,office room_4,IDEAS
+session_660,7.0,7.0,office room_64,IDEAS
+session_660,7.0,6.0,restaurant_48,IDEAS
+session_660,5.0,7.0,restaurant_28,IDEAS
+session_660,1.0,7.0,living room_31,IDEAS
+session_660,7.0,1.0,living room_70,IDEAS
+session_660,7.0,1.0,living room_40,IDEAS
+session_660,7.0,7.0,restaurant_4,IDEAS
+session_660,1.0,7.0,office room_46,IDEAS
+session_662,7.0,7.0,office room_64,IDEAS
+session_662,5.0,7.0,restaurant_4,IDEAS
+session_662,3.0,4.0,restaurant_28,IDEAS
+session_662,7.0,5.0,restaurant_48,IDEAS
+session_662,1.0,7.0,living room_31,IDEAS
+session_662,5.0,5.0,office room_4,IDEAS
+session_662,3.0,6.0,office room_46,IDEAS
+session_662,6.0,3.0,living room_40,IDEAS
+session_662,7.0,7.0,living room_70,IDEAS
+session_663,5.0,6.0,office room_64,IDEAS
+session_663,5.0,7.0,restaurant_28,IDEAS
+session_663,7.0,7.0,living room_70,IDEAS
+session_663,1.0,5.0,living room_31,IDEAS
+session_663,7.0,7.0,living room_40,IDEAS
+session_663,7.0,6.0,restaurant_48,IDEAS
+session_663,6.0,7.0,office room_46,IDEAS
+session_663,7.0,7.0,office room_4,IDEAS
+session_663,7.0,7.0,restaurant_4,IDEAS
+session_664,7.0,7.0,restaurant_48,IDEAS
+session_664,7.0,7.0,living room_70,IDEAS
+session_664,7.0,6.0,office room_64,IDEAS
+session_664,7.0,7.0,restaurant_4,IDEAS
+session_664,1.0,1.0,office room_4,IDEAS
+session_664,5.0,4.0,office room_46,IDEAS
+session_664,7.0,3.0,living room_40,IDEAS
+session_664,3.0,2.0,restaurant_28,IDEAS
+session_664,2.0,3.0,living room_31,IDEAS
+session_665,6.0,6.0,office room_4,IDEAS
+session_665,6.0,6.0,office room_64,IDEAS
+session_665,4.0,6.0,office room_46,IDEAS
+session_665,5.0,5.0,restaurant_28,IDEAS
+session_665,5.0,6.0,restaurant_4,IDEAS
+session_665,5.0,3.0,living room_40,IDEAS
+session_665,5.0,6.0,restaurant_48,IDEAS
+session_665,2.0,7.0,living room_31,IDEAS
+session_665,5.0,5.0,living room_70,IDEAS
+session_666,2.0,6.0,office room_4,IDEAS
+session_666,7.0,1.0,living room_70,IDEAS
+session_666,1.0,6.0,office room_46,IDEAS
+session_666,6.0,2.0,living room_40,IDEAS
+session_666,7.0,3.0,restaurant_48,IDEAS
+session_666,2.0,6.0,living room_31,IDEAS
+session_666,4.0,4.0,office room_64,IDEAS
+session_666,5.0,4.0,restaurant_4,IDEAS
+session_666,1.0,6.0,restaurant_28,IDEAS
+session_667,2.0,6.0,office room_64,IDEAS
+session_667,2.0,3.0,office room_4,IDEAS
+session_667,6.0,4.0,living room_40,IDEAS
+session_667,6.0,6.0,restaurant_48,IDEAS
+session_667,6.0,3.0,living room_70,IDEAS
+session_667,5.0,5.0,restaurant_28,IDEAS
+session_667,2.0,6.0,office room_46,IDEAS
+session_667,6.0,6.0,restaurant_4,IDEAS
+session_667,3.0,4.0,living room_31,IDEAS
+session_668,7.0,7.0,restaurant_48,IDEAS
+session_668,7.0,7.0,living room_70,IDEAS
+session_668,7.0,7.0,living room_31,IDEAS
+session_668,7.0,7.0,living room_40,IDEAS
+session_668,7.0,7.0,restaurant_4,IDEAS
+session_668,7.0,7.0,office room_64,IDEAS
+session_668,6.0,7.0,office room_4,IDEAS
+session_668,7.0,7.0,restaurant_28,IDEAS
+session_668,7.0,7.0,office room_46,IDEAS
+session_669,4.0,6.0,restaurant_48,IDEAS
+session_669,3.0,6.0,office room_4,IDEAS
+session_669,1.0,6.0,living room_31,IDEAS
+session_669,2.0,5.0,living room_70,IDEAS
+session_669,3.0,6.0,office room_46,IDEAS
+session_669,1.0,7.0,office room_64,IDEAS
+session_669,1.0,6.0,restaurant_4,IDEAS
+session_669,6.0,6.0,living room_40,IDEAS
+session_669,2.0,6.0,restaurant_28,IDEAS
+session_670,2.0,6.0,office room_4,IDEAS
+session_670,6.0,6.0,living room_40,IDEAS
+session_670,5.0,4.0,restaurant_4,IDEAS
+session_670,5.0,6.0,living room_70,IDEAS
+session_670,5.0,5.0,office room_64,IDEAS
+session_670,3.0,4.0,restaurant_28,IDEAS
+session_670,3.0,5.0,office room_46,IDEAS
+session_670,1.0,2.0,living room_31,IDEAS
+session_670,6.0,6.0,restaurant_48,IDEAS
+session_671,6.0,6.0,office room_64,IDEAS
+session_671,7.0,3.0,living room_40,IDEAS
+session_671,7.0,1.0,living room_70,IDEAS
+session_671,1.0,7.0,living room_31,IDEAS
+session_671,3.0,4.0,office room_4,IDEAS
+session_671,1.0,7.0,office room_46,IDEAS
+session_671,3.0,4.0,restaurant_4,IDEAS
+session_671,2.0,3.0,restaurant_28,IDEAS
+session_671,7.0,4.0,restaurant_48,IDEAS
+session_673,5.0,5.0,restaurant_48,IDEAS
+session_673,5.0,3.0,living room_70,IDEAS
+session_673,4.0,5.0,restaurant_28,IDEAS
+session_673,4.0,5.0,office room_46,IDEAS
+session_673,3.0,6.0,office room_4,IDEAS
+session_673,3.0,6.0,office room_64,IDEAS
+session_673,4.0,4.0,restaurant_4,IDEAS
+session_673,3.0,4.0,living room_31,IDEAS
+session_673,6.0,4.0,living room_40,IDEAS
+session_674,5.0,5.0,restaurant_28,IDEAS
+session_674,2.0,6.0,office room_64,IDEAS
+session_674,3.0,5.0,restaurant_4,IDEAS
+session_674,3.0,4.0,office room_4,IDEAS
+session_674,5.0,5.0,office room_46,IDEAS
+session_674,5.0,5.0,living room_70,IDEAS
+session_674,1.0,6.0,living room_31,IDEAS
+session_674,5.0,5.0,living room_40,IDEAS
+session_674,5.0,5.0,restaurant_48,IDEAS
+session_675,7.0,4.0,living room_70,IDEAS
+session_675,6.0,6.0,office room_64,IDEAS
+session_675,1.0,7.0,living room_31,IDEAS
+session_675,7.0,7.0,office room_4,IDEAS
+session_675,7.0,7.0,restaurant_4,IDEAS
+session_675,7.0,7.0,restaurant_48,IDEAS
+session_675,6.0,6.0,office room_46,IDEAS
+session_675,6.0,7.0,restaurant_28,IDEAS
+session_675,7.0,7.0,living room_40,IDEAS
+session_676,6.0,5.0,restaurant_4,IDEAS
+session_676,2.0,4.0,living room_31,IDEAS
+session_676,5.0,2.0,living room_70,IDEAS
+session_676,6.0,7.0,office room_4,IDEAS
+session_676,6.0,6.0,office room_46,IDEAS
+session_676,6.0,7.0,office room_64,IDEAS
+session_676,6.0,5.0,restaurant_48,IDEAS
+session_676,5.0,5.0,restaurant_28,IDEAS
+session_676,6.0,2.0,living room_40,IDEAS
+session_677,7.0,7.0,office room_46,IDEAS
+session_677,1.0,1.0,living room_31,IDEAS
+session_677,7.0,7.0,living room_40,IDEAS
+session_677,5.0,5.0,restaurant_28,IDEAS
+session_677,7.0,7.0,office room_4,IDEAS
+session_677,5.0,5.0,living room_70,IDEAS
+session_677,7.0,7.0,restaurant_48,IDEAS
+session_677,7.0,7.0,restaurant_4,IDEAS
+session_677,5.0,5.0,office room_64,IDEAS
+session_678,5.0,7.0,office room_46,IDEAS
+session_678,7.0,7.0,restaurant_48,IDEAS
+session_678,6.0,7.0,office room_4,IDEAS
+session_678,7.0,1.0,living room_40,IDEAS
+session_678,4.0,1.0,living room_31,IDEAS
+session_678,7.0,7.0,restaurant_4,IDEAS
+session_678,7.0,5.0,living room_70,IDEAS
+session_678,7.0,4.0,restaurant_28,IDEAS
+session_678,7.0,7.0,office room_64,IDEAS
+session_679,7.0,4.0,living room_70,IDEAS
+session_679,1.0,6.0,living room_31,IDEAS
+session_679,7.0,2.0,living room_40,IDEAS
+session_679,3.0,7.0,office room_46,IDEAS
+session_679,1.0,4.0,restaurant_28,IDEAS
+session_679,3.0,5.0,office room_64,IDEAS
+session_679,3.0,7.0,restaurant_48,IDEAS
+session_679,5.0,7.0,office room_4,IDEAS
+session_679,4.0,7.0,restaurant_4,IDEAS
+session_680,7.0,7.0,office room_4,IDEAS
+session_680,7.0,7.0,living room_70,IDEAS
+session_680,1.0,7.0,living room_31,IDEAS
+session_680,7.0,7.0,restaurant_28,IDEAS
+session_680,7.0,7.0,office room_64,IDEAS
+session_680,7.0,7.0,office room_46,IDEAS
+session_680,7.0,7.0,living room_40,IDEAS
+session_680,7.0,7.0,restaurant_4,IDEAS
+session_680,7.0,7.0,restaurant_48,IDEAS
+session_681,7.0,7.0,restaurant_48,IDEAS
+session_681,1.0,1.0,restaurant_28,IDEAS
+session_681,7.0,7.0,office room_4,IDEAS
+session_681,1.0,2.0,restaurant_4,IDEAS
+session_681,1.0,6.0,living room_31,IDEAS
+session_681,7.0,4.0,living room_70,IDEAS
+session_681,4.0,7.0,office room_46,IDEAS
+session_681,7.0,7.0,office room_64,IDEAS
+session_681,6.0,6.0,living room_40,IDEAS
+session_683,6.0,6.0,living room_70,IDEAS
+session_683,6.0,6.0,living room_40,IDEAS
+session_683,2.0,5.0,living room_31,IDEAS
+session_683,2.0,5.0,office room_46,IDEAS
+session_683,4.0,7.0,office room_4,IDEAS
+session_683,3.0,6.0,restaurant_48,IDEAS
+session_683,3.0,6.0,restaurant_4,IDEAS
+session_683,2.0,6.0,restaurant_28,IDEAS
+session_683,5.0,6.0,office room_64,IDEAS
+session_685,7.0,7.0,restaurant_4,IDEAS
+session_685,7.0,7.0,restaurant_48,IDEAS
+session_685,7.0,5.0,living room_40,IDEAS
+session_685,7.0,3.0,office room_4,IDEAS
+session_685,7.0,3.0,living room_70,IDEAS
+session_685,4.0,6.0,living room_31,IDEAS
+session_685,5.0,6.0,office room_46,IDEAS
+session_685,7.0,5.0,restaurant_28,IDEAS
+session_685,7.0,6.0,office room_64,IDEAS
+session_686,7.0,5.0,living room_70,IDEAS
+session_686,7.0,6.0,restaurant_28,IDEAS
+session_686,7.0,7.0,office room_64,IDEAS
+session_686,7.0,1.0,living room_40,IDEAS
+session_686,7.0,7.0,restaurant_48,IDEAS
+session_686,7.0,7.0,office room_4,IDEAS
+session_686,7.0,7.0,office room_46,IDEAS
+session_686,7.0,1.0,living room_31,IDEAS
+session_686,7.0,7.0,restaurant_4,IDEAS
+session_687,6.0,3.0,living room_70,IDEAS
+session_687,3.0,4.0,office room_46,IDEAS
+session_687,7.0,7.0,restaurant_48,IDEAS
+session_687,6.0,5.0,restaurant_28,IDEAS
+session_687,3.0,1.0,living room_31,IDEAS
+session_687,7.0,7.0,restaurant_4,IDEAS
+session_687,7.0,7.0,living room_40,IDEAS
+session_687,2.0,6.0,office room_64,IDEAS
+session_687,1.0,7.0,office room_4,IDEAS
+session_688,3.0,2.0,office room_46,IDEAS
+session_688,7.0,6.0,living room_70,IDEAS
+session_688,3.0,3.0,office room_4,IDEAS
+session_688,7.0,7.0,restaurant_48,IDEAS
+session_688,7.0,7.0,office room_64,IDEAS
+session_688,3.0,4.0,restaurant_28,IDEAS
+session_688,3.0,3.0,living room_31,IDEAS
+session_688,7.0,2.0,living room_40,IDEAS
+session_688,6.0,5.0,restaurant_4,IDEAS
+session_690,1.0,7.0,restaurant_4,IDEAS
+session_690,6.0,4.0,living room_40,IDEAS
+session_690,7.0,3.0,living room_70,IDEAS
+session_690,7.0,4.0,restaurant_48,IDEAS
+session_690,6.0,5.0,office room_64,IDEAS
+session_690,1.0,7.0,living room_31,IDEAS
+session_690,4.0,4.0,restaurant_28,IDEAS
+session_690,5.0,5.0,office room_4,IDEAS
+session_690,1.0,7.0,office room_46,IDEAS
+session_691,1.0,4.0,restaurant_28,IDEAS
+session_691,4.0,7.0,restaurant_4,IDEAS
+session_691,3.0,3.0,restaurant_48,IDEAS
+session_691,1.0,5.0,office room_64,IDEAS
+session_691,1.0,6.0,living room_31,IDEAS
+session_691,7.0,7.0,living room_40,IDEAS
+session_691,3.0,7.0,office room_4,IDEAS
+session_691,7.0,7.0,living room_70,IDEAS
+session_691,4.0,4.0,office room_46,IDEAS
+session_692,7.0,5.0,living room_40,IDEAS
+session_692,4.0,4.0,office room_64,IDEAS
+session_692,5.0,4.0,office room_4,IDEAS
+session_692,2.0,2.0,restaurant_4,IDEAS
+session_692,1.0,1.0,restaurant_28,IDEAS
+session_692,7.0,7.0,living room_70,IDEAS
+session_692,4.0,5.0,office room_46,IDEAS
+session_692,1.0,2.0,restaurant_48,IDEAS
+session_692,2.0,2.0,living room_31,IDEAS
+session_693,6.0,5.0,restaurant_48,IDEAS
+session_693,4.0,5.0,office room_64,IDEAS
+session_693,2.0,6.0,living room_31,IDEAS
+session_693,2.0,3.0,restaurant_28,IDEAS
+session_693,4.0,4.0,office room_46,IDEAS
+session_693,5.0,6.0,living room_70,IDEAS
+session_693,4.0,4.0,living room_40,IDEAS
+session_693,3.0,6.0,restaurant_4,IDEAS
+session_693,2.0,7.0,office room_4,IDEAS
+session_695,4.0,5.0,office room_46,IDEAS
+session_695,4.0,5.0,office room_64,IDEAS
+session_695,5.0,5.0,restaurant_4,IDEAS
+session_695,5.0,6.0,living room_70,IDEAS
+session_695,5.0,5.0,living room_40,IDEAS
+session_695,6.0,3.0,restaurant_28,IDEAS
+session_695,6.0,6.0,restaurant_48,IDEAS
+session_695,4.0,4.0,living room_31,IDEAS
+session_695,3.0,5.0,office room_4,IDEAS
+session_696,5.0,7.0,restaurant_28,IDEAS
+session_696,1.0,7.0,office room_46,IDEAS
+session_696,1.0,7.0,living room_31,IDEAS
+session_696,3.0,7.0,living room_70,IDEAS
+session_696,3.0,7.0,office room_64,IDEAS
+session_696,6.0,7.0,restaurant_48,IDEAS
+session_696,3.0,7.0,office room_4,IDEAS
+session_696,6.0,4.0,restaurant_4,IDEAS
+session_696,6.0,7.0,living room_40,IDEAS
+session_697,1.0,4.0,living room_40,IDEAS
+session_697,1.0,6.0,office room_64,IDEAS
+session_697,7.0,7.0,office room_4,IDEAS
+session_697,1.0,7.0,living room_31,IDEAS
+session_697,2.0,6.0,restaurant_4,IDEAS
+session_697,1.0,7.0,office room_46,IDEAS
+session_697,4.0,4.0,restaurant_28,IDEAS
+session_697,7.0,3.0,living room_70,IDEAS
+session_697,7.0,7.0,restaurant_48,IDEAS
+session_699,2.0,6.0,office room_4,IDEAS
+session_699,6.0,4.0,living room_70,IDEAS
+session_699,6.0,5.0,office room_64,IDEAS
+session_699,5.0,5.0,restaurant_48,IDEAS
+session_699,6.0,6.0,living room_40,IDEAS
+session_699,5.0,5.0,restaurant_4,IDEAS
+session_699,3.0,5.0,office room_46,IDEAS
+session_699,3.0,6.0,restaurant_28,IDEAS
+session_699,2.0,5.0,living room_31,IDEAS
+session_700,2.0,7.0,office room_46,IDEAS
+session_700,6.0,5.0,restaurant_48,IDEAS
+session_700,3.0,6.0,office room_64,IDEAS
+session_700,5.0,6.0,restaurant_28,IDEAS
+session_700,6.0,7.0,restaurant_4,IDEAS
+session_700,1.0,6.0,living room_31,IDEAS
+session_700,6.0,7.0,living room_70,IDEAS
+session_700,7.0,6.0,living room_40,IDEAS
+session_700,3.0,7.0,office room_4,IDEAS
+session_701,4.0,6.0,office room_4,IDEAS
+session_701,5.0,5.0,restaurant_28,IDEAS
+session_701,1.0,5.0,living room_31,IDEAS
+session_701,5.0,4.0,office room_64,IDEAS
+session_701,7.0,7.0,living room_40,IDEAS
+session_701,5.0,4.0,office room_46,IDEAS
+session_701,6.0,4.0,restaurant_48,IDEAS
+session_701,7.0,7.0,restaurant_4,IDEAS
+session_701,7.0,7.0,living room_70,IDEAS
+session_702,7.0,7.0,office room_64,IDEAS
+session_702,1.0,7.0,living room_31,IDEAS
+session_702,2.0,5.0,restaurant_28,IDEAS
+session_702,7.0,7.0,living room_70,IDEAS
+session_702,7.0,6.0,office room_4,IDEAS
+session_702,5.0,6.0,restaurant_4,IDEAS
+session_702,1.0,4.0,office room_46,IDEAS
+session_702,7.0,5.0,restaurant_48,IDEAS
+session_702,7.0,7.0,living room_40,IDEAS
+session_703,3.0,6.0,office room_64,IDEAS
+session_703,1.0,5.0,office room_4,IDEAS
+session_703,7.0,5.0,living room_70,IDEAS
+session_703,6.0,5.0,living room_40,IDEAS
+session_703,3.0,5.0,restaurant_28,IDEAS
+session_703,5.0,3.0,restaurant_4,IDEAS
+session_703,5.0,5.0,restaurant_48,IDEAS
+session_703,2.0,5.0,living room_31,IDEAS
+session_703,2.0,3.0,office room_46,IDEAS
+session_704,5.0,7.0,restaurant_28,IDEAS
+session_704,3.0,6.0,office room_46,IDEAS
+session_704,6.0,1.0,living room_40,IDEAS
+session_704,3.0,6.0,office room_4,IDEAS
+session_704,6.0,6.0,restaurant_48,IDEAS
+session_704,3.0,6.0,living room_31,IDEAS
+session_704,4.0,6.0,office room_64,IDEAS
+session_704,5.0,5.0,restaurant_4,IDEAS
+session_704,6.0,3.0,living room_70,IDEAS
+session_705,4.0,7.0,restaurant_4,IDEAS
+session_705,5.0,4.0,restaurant_48,IDEAS
+session_705,1.0,7.0,restaurant_28,IDEAS
+session_705,6.0,6.0,office room_4,IDEAS
+session_705,7.0,1.0,living room_40,IDEAS
+session_705,5.0,7.0,office room_64,IDEAS
+session_705,2.0,3.0,living room_31,IDEAS
+session_705,6.0,2.0,living room_70,IDEAS
+session_705,5.0,4.0,office room_46,IDEAS
+session_706,2.0,4.0,living room_31,IDEAS
+session_706,7.0,6.0,living room_70,IDEAS
+session_706,4.0,5.0,office room_64,IDEAS
+session_706,5.0,6.0,restaurant_48,IDEAS
+session_706,5.0,6.0,restaurant_4,IDEAS
+session_706,4.0,6.0,office room_4,IDEAS
+session_706,3.0,6.0,restaurant_28,IDEAS
+session_706,6.0,5.0,office room_46,IDEAS
+session_706,6.0,6.0,living room_40,IDEAS
+session_707,2.0,7.0,restaurant_28,IDEAS
+session_707,7.0,7.0,restaurant_48,IDEAS
+session_707,5.0,7.0,restaurant_4,IDEAS
+session_707,3.0,7.0,office room_64,IDEAS
+session_707,5.0,7.0,office room_4,IDEAS
+session_707,1.0,7.0,office room_46,IDEAS
+session_707,7.0,1.0,living room_70,IDEAS
+session_707,1.0,6.0,living room_31,IDEAS
+session_707,7.0,1.0,living room_40,IDEAS
+session_708,7.0,7.0,restaurant_48,IDEAS
+session_708,6.0,6.0,living room_70,IDEAS
+session_708,7.0,7.0,office room_46,IDEAS
+session_708,7.0,2.0,living room_40,IDEAS
+session_708,7.0,7.0,restaurant_4,IDEAS
+session_708,7.0,7.0,office room_64,IDEAS
+session_708,1.0,5.0,office room_4,IDEAS
+session_708,2.0,5.0,restaurant_28,IDEAS
+session_708,7.0,4.0,living room_31,IDEAS
+session_709,7.0,5.0,living room_40,IDEAS
+session_709,1.0,6.0,living room_31,IDEAS
+session_709,2.0,7.0,office room_64,IDEAS
+session_709,5.0,7.0,office room_4,IDEAS
+session_709,6.0,3.0,living room_70,IDEAS
+session_709,5.0,6.0,restaurant_4,IDEAS
+session_709,6.0,6.0,restaurant_48,IDEAS
+session_709,1.0,6.0,restaurant_28,IDEAS
+session_709,2.0,6.0,office room_46,IDEAS
+session_710,7.0,7.0,office room_4,IDEAS
+session_710,7.0,7.0,living room_70,IDEAS
+session_710,6.0,5.0,office room_46,IDEAS
+session_710,7.0,7.0,restaurant_4,IDEAS
+session_710,7.0,7.0,restaurant_48,IDEAS
+session_710,1.0,7.0,living room_31,IDEAS
+session_710,7.0,2.0,living room_40,IDEAS
+session_710,2.0,7.0,restaurant_28,IDEAS
+session_710,7.0,7.0,office room_64,IDEAS
+session_712,3.0,6.0,living room_31,IDEAS
+session_712,3.0,7.0,office room_64,IDEAS
+session_712,6.0,6.0,restaurant_48,IDEAS
+session_712,3.0,7.0,restaurant_28,IDEAS
+session_712,7.0,7.0,living room_70,IDEAS
+session_712,2.0,7.0,office room_4,IDEAS
+session_712,3.0,7.0,office room_46,IDEAS
+session_712,5.0,7.0,restaurant_4,IDEAS
+session_712,6.0,7.0,living room_40,IDEAS
+session_713,1.0,1.0,office room_46,IDEAS
+session_713,7.0,7.0,restaurant_48,IDEAS
+session_713,7.0,6.0,living room_70,IDEAS
+session_713,7.0,6.0,office room_64,IDEAS
+session_713,7.0,1.0,living room_40,IDEAS
+session_713,7.0,7.0,restaurant_28,IDEAS
+session_713,7.0,6.0,restaurant_4,IDEAS
+session_713,1.0,1.0,living room_31,IDEAS
+session_713,7.0,7.0,office room_4,IDEAS
+session_714,6.0,5.0,restaurant_4,IDEAS
+session_714,3.0,2.0,office room_46,IDEAS
+session_714,1.0,1.0,living room_31,IDEAS
+session_714,7.0,7.0,office room_64,IDEAS
+session_714,7.0,7.0,living room_70,IDEAS
+session_714,7.0,1.0,restaurant_48,IDEAS
+session_714,7.0,7.0,office room_4,IDEAS
+session_714,1.0,1.0,restaurant_28,IDEAS
+session_714,7.0,7.0,living room_40,IDEAS
+session_715,5.0,7.0,office room_46,IDEAS
+session_715,5.0,5.0,restaurant_28,IDEAS
+session_715,6.0,7.0,restaurant_4,IDEAS
+session_715,7.0,7.0,living room_70,IDEAS
+session_715,7.0,7.0,office room_64,IDEAS
+session_715,7.0,7.0,living room_40,IDEAS
+session_715,7.0,7.0,restaurant_48,IDEAS
+session_715,5.0,7.0,office room_4,IDEAS
+session_715,2.0,7.0,living room_31,IDEAS
+session_716,6.0,7.0,restaurant_28,IDEAS
+session_716,6.0,6.0,office room_4,IDEAS
+session_716,7.0,6.0,office room_64,IDEAS
+session_716,1.0,6.0,living room_31,IDEAS
+session_716,7.0,3.0,restaurant_48,IDEAS
+session_716,5.0,4.0,restaurant_4,IDEAS
+session_716,5.0,4.0,office room_46,IDEAS
+session_716,5.0,4.0,living room_40,IDEAS
+session_716,6.0,6.0,living room_70,IDEAS
+session_717,7.0,7.0,office room_64,IDEAS
+session_717,7.0,7.0,living room_40,IDEAS
+session_717,7.0,7.0,restaurant_48,IDEAS
+session_717,7.0,2.0,living room_70,IDEAS
+session_717,1.0,7.0,office room_46,IDEAS
+session_717,1.0,7.0,restaurant_28,IDEAS
+session_717,1.0,7.0,living room_31,IDEAS
+session_717,1.0,7.0,office room_4,IDEAS
+session_717,3.0,7.0,restaurant_4,IDEAS
+session_719,2.0,5.0,living room_31,IDEAS
+session_719,3.0,2.0,office room_46,IDEAS
+session_719,2.0,6.0,restaurant_4,IDEAS
+session_719,4.0,6.0,restaurant_48,IDEAS
+session_719,1.0,6.0,office room_64,IDEAS
+session_719,3.0,3.0,restaurant_28,IDEAS
+session_719,4.0,5.0,office room_4,IDEAS
+session_719,7.0,2.0,living room_40,IDEAS
+session_719,6.0,7.0,living room_70,IDEAS
+session_721,6.0,5.0,office room_4,IDEAS
+session_721,7.0,7.0,restaurant_4,IDEAS
+session_721,2.0,1.0,living room_31,IDEAS
+session_721,7.0,7.0,living room_40,IDEAS
+session_721,7.0,7.0,living room_70,IDEAS
+session_721,7.0,6.0,office room_64,IDEAS
+session_721,1.0,1.0,restaurant_28,IDEAS
+session_721,7.0,7.0,restaurant_48,IDEAS
+session_721,6.0,7.0,office room_46,IDEAS
+session_722,3.0,3.0,living room_31,IDEAS
+session_722,6.0,6.0,living room_40,IDEAS
+session_722,6.0,6.0,restaurant_48,IDEAS
+session_722,5.0,5.0,restaurant_28,IDEAS
+session_722,6.0,6.0,living room_70,IDEAS
+session_722,5.0,5.0,office room_46,IDEAS
+session_722,5.0,5.0,restaurant_4,IDEAS
+session_722,5.0,5.0,office room_4,IDEAS
+session_722,5.0,5.0,office room_64,IDEAS
+session_723,3.0,3.0,restaurant_28,IDEAS
+session_723,7.0,7.0,restaurant_48,IDEAS
+session_723,7.0,7.0,office room_64,IDEAS
+session_723,2.0,7.0,living room_31,IDEAS
+session_723,7.0,7.0,restaurant_4,IDEAS
+session_723,7.0,7.0,living room_40,IDEAS
+session_723,7.0,7.0,office room_4,IDEAS
+session_723,7.0,7.0,office room_46,IDEAS
+session_723,7.0,7.0,living room_70,IDEAS
+session_724,7.0,7.0,restaurant_48,IDEAS
+session_724,1.0,7.0,living room_31,IDEAS
+session_724,7.0,7.0,office room_64,IDEAS
+session_724,1.0,7.0,office room_46,IDEAS
+session_724,7.0,7.0,restaurant_4,IDEAS
+session_724,6.0,4.0,living room_40,IDEAS
+session_724,5.0,6.0,restaurant_28,IDEAS
+session_724,3.0,7.0,office room_4,IDEAS
+session_724,7.0,7.0,living room_70,IDEAS
+session_725,7.0,7.0,office room_64,IDEAS
+session_725,7.0,1.0,restaurant_4,IDEAS
+session_725,7.0,7.0,living room_31,IDEAS
+session_725,7.0,7.0,living room_70,IDEAS
+session_725,7.0,7.0,office room_46,IDEAS
+session_725,7.0,7.0,restaurant_48,IDEAS
+session_725,7.0,7.0,living room_40,IDEAS
+session_725,7.0,7.0,office room_4,IDEAS
+session_725,7.0,7.0,restaurant_28,IDEAS
+session_726,7.0,7.0,restaurant_4,IDEAS
+session_726,7.0,7.0,office room_4,IDEAS
+session_726,7.0,7.0,living room_40,IDEAS
+session_726,7.0,7.0,restaurant_48,IDEAS
+session_726,7.0,7.0,office room_46,IDEAS
+session_726,6.0,7.0,restaurant_28,IDEAS
+session_726,7.0,7.0,office room_64,IDEAS
+session_726,1.0,7.0,living room_31,IDEAS
+session_726,7.0,7.0,living room_70,IDEAS
+session_727,3.0,4.0,restaurant_28,IDEAS
+session_727,5.0,5.0,restaurant_4,IDEAS
+session_727,5.0,5.0,restaurant_48,IDEAS
+session_727,4.0,4.0,office room_4,IDEAS
+session_727,5.0,5.0,living room_40,IDEAS
+session_727,2.0,5.0,living room_31,IDEAS
+session_727,5.0,4.0,office room_64,IDEAS
+session_727,6.0,3.0,living room_70,IDEAS
+session_727,3.0,4.0,office room_46,IDEAS
+session_728,2.0,6.0,living room_70,IDEAS
+session_728,1.0,7.0,living room_31,IDEAS
+session_728,1.0,7.0,office room_64,IDEAS
+session_728,1.0,7.0,restaurant_48,IDEAS
+session_728,2.0,6.0,office room_46,IDEAS
+session_728,6.0,7.0,restaurant_4,IDEAS
+session_728,6.0,3.0,office room_4,IDEAS
+session_728,1.0,7.0,restaurant_28,IDEAS
+session_728,7.0,1.0,living room_40,IDEAS
+session_729,6.0,2.0,living room_40,IDEAS
+session_729,5.0,5.0,office room_4,IDEAS
+session_729,6.0,5.0,restaurant_4,IDEAS
+session_729,7.0,3.0,living room_70,IDEAS
+session_729,4.0,5.0,restaurant_48,IDEAS
+session_729,6.0,5.0,office room_64,IDEAS
+session_729,1.0,3.0,living room_31,IDEAS
+session_729,1.0,1.0,office room_46,IDEAS
+session_729,2.0,3.0,restaurant_28,IDEAS
+session_730,3.0,2.0,restaurant_28,IDEAS
+session_730,4.0,6.0,restaurant_4,IDEAS
+session_730,3.0,4.0,office room_4,IDEAS
+session_730,4.0,4.0,living room_70,IDEAS
+session_730,3.0,6.0,restaurant_48,IDEAS
+session_730,3.0,5.0,office room_64,IDEAS
+session_730,2.0,4.0,living room_31,IDEAS
+session_730,3.0,4.0,office room_46,IDEAS
+session_730,3.0,5.0,living room_40,IDEAS
+session_731,7.0,7.0,living room_70,IDEAS
+session_731,1.0,1.0,office room_46,IDEAS
+session_731,7.0,7.0,restaurant_4,IDEAS
+session_731,7.0,7.0,office room_4,IDEAS
+session_731,7.0,7.0,office room_64,IDEAS
+session_731,7.0,7.0,restaurant_48,IDEAS
+session_731,7.0,7.0,living room_40,IDEAS
+session_731,1.0,7.0,living room_31,IDEAS
+session_731,1.0,7.0,restaurant_28,IDEAS
+session_732,6.0,4.0,office room_46,IDEAS
+session_732,2.0,5.0,office room_4,IDEAS
+session_732,2.0,6.0,office room_64,IDEAS
+session_732,2.0,6.0,living room_31,IDEAS
+session_732,5.0,5.0,restaurant_48,IDEAS
+session_732,5.0,4.0,restaurant_4,IDEAS
+session_732,5.0,4.0,restaurant_28,IDEAS
+session_732,6.0,3.0,living room_40,IDEAS
+session_732,5.0,3.0,living room_70,IDEAS
+session_733,6.0,7.0,restaurant_48,IDEAS
+session_733,6.0,5.0,living room_40,IDEAS
+session_733,5.0,6.0,restaurant_4,IDEAS
+session_733,5.0,6.0,restaurant_28,IDEAS
+session_733,4.0,4.0,office room_4,IDEAS
+session_733,5.0,7.0,office room_64,IDEAS
+session_733,4.0,3.0,office room_46,IDEAS
+session_733,6.0,4.0,living room_70,IDEAS
+session_733,2.0,5.0,living room_31,IDEAS
+session_736,6.0,6.0,living room_70,IDEAS
+session_736,3.0,6.0,office room_4,IDEAS
+session_736,3.0,5.0,restaurant_28,IDEAS
+session_736,3.0,5.0,office room_46,IDEAS
+session_736,1.0,7.0,living room_31,IDEAS
+session_736,3.0,5.0,office room_64,IDEAS
+session_736,5.0,5.0,restaurant_48,IDEAS
+session_736,2.0,5.0,restaurant_4,IDEAS
+session_736,5.0,5.0,living room_40,IDEAS
+session_737,7.0,6.0,office room_46,IDEAS
+session_737,1.0,7.0,restaurant_28,IDEAS
+session_737,7.0,7.0,restaurant_4,IDEAS
+session_737,5.0,7.0,office room_64,IDEAS
+session_737,1.0,7.0,living room_31,IDEAS
+session_737,5.0,7.0,office room_4,IDEAS
+session_737,7.0,7.0,restaurant_48,IDEAS
+session_737,7.0,7.0,living room_40,IDEAS
+session_737,7.0,7.0,living room_70,IDEAS
+session_738,2.0,6.0,living room_31,IDEAS
+session_738,7.0,1.0,living room_40,IDEAS
+session_738,5.0,7.0,office room_64,IDEAS
+session_738,7.0,2.0,living room_70,IDEAS
+session_738,1.0,7.0,restaurant_28,IDEAS
+session_738,6.0,7.0,restaurant_4,IDEAS
+session_738,5.0,7.0,office room_46,IDEAS
+session_738,6.0,7.0,restaurant_48,IDEAS
+session_738,5.0,7.0,office room_4,IDEAS
+session_739,7.0,7.0,office room_4,IDEAS
+session_739,7.0,7.0,restaurant_48,IDEAS
+session_739,7.0,7.0,living room_40,IDEAS
+session_739,7.0,7.0,office room_64,IDEAS
+session_739,2.0,7.0,living room_31,IDEAS
+session_739,7.0,7.0,restaurant_4,IDEAS
+session_739,7.0,7.0,office room_46,IDEAS
+session_739,6.0,7.0,restaurant_28,IDEAS
+session_739,7.0,7.0,living room_70,IDEAS
+session_740,7.0,7.0,restaurant_4,IDEAS
+session_740,7.0,6.0,office room_46,IDEAS
+session_740,7.0,7.0,office room_4,IDEAS
+session_740,7.0,6.0,living room_40,IDEAS
+session_740,7.0,7.0,living room_70,IDEAS
+session_740,7.0,7.0,office room_64,IDEAS
+session_740,5.0,6.0,restaurant_28,IDEAS
+session_740,7.0,7.0,restaurant_48,IDEAS
+session_740,3.0,4.0,living room_31,IDEAS
+session_741,7.0,7.0,office room_4,IDEAS
+session_741,7.0,7.0,living room_70,IDEAS
+session_741,7.0,6.0,restaurant_48,IDEAS
+session_741,6.0,7.0,restaurant_4,IDEAS
+session_741,6.0,7.0,living room_31,IDEAS
+session_741,5.0,5.0,restaurant_28,IDEAS
+session_741,6.0,7.0,office room_64,IDEAS
+session_741,6.0,6.0,office room_46,IDEAS
+session_741,7.0,6.0,living room_40,IDEAS
+session_742,2.0,5.0,office room_64,IDEAS
+session_742,4.0,4.0,restaurant_4,IDEAS
+session_742,1.0,7.0,living room_31,IDEAS
+session_742,7.0,2.0,restaurant_48,IDEAS
+session_742,7.0,1.0,living room_70,IDEAS
+session_742,2.0,6.0,restaurant_28,IDEAS
+session_742,6.0,4.0,office room_4,IDEAS
+session_742,1.0,7.0,office room_46,IDEAS
+session_742,6.0,2.0,living room_40,IDEAS
+session_743,7.0,2.0,living room_40,IDEAS
+session_743,2.0,6.0,office room_64,IDEAS
+session_743,7.0,7.0,restaurant_48,IDEAS
+session_743,5.0,2.0,living room_70,IDEAS
+session_743,1.0,6.0,living room_31,IDEAS
+session_743,2.0,5.0,restaurant_4,IDEAS
+session_743,2.0,5.0,office room_46,IDEAS
+session_743,3.0,4.0,office room_4,IDEAS
+session_743,3.0,5.0,restaurant_28,IDEAS
+session_744,7.0,4.0,living room_70,IDEAS
+session_744,6.0,4.0,restaurant_48,IDEAS
+session_744,4.0,4.0,restaurant_4,IDEAS
+session_744,1.0,6.0,living room_31,IDEAS
+session_744,6.0,6.0,office room_64,IDEAS
+session_744,3.0,6.0,restaurant_28,IDEAS
+session_744,5.0,4.0,living room_40,IDEAS
+session_744,2.0,7.0,office room_46,IDEAS
+session_744,4.0,4.0,office room_4,IDEAS
+session_745,2.0,4.0,restaurant_28,IDEAS
+session_745,3.0,6.0,restaurant_4,IDEAS
+session_745,1.0,5.0,office room_4,IDEAS
+session_745,1.0,4.0,living room_31,IDEAS
+session_745,6.0,4.0,living room_40,IDEAS
+session_745,1.0,5.0,office room_46,IDEAS
+session_745,4.0,7.0,restaurant_48,IDEAS
+session_745,2.0,6.0,office room_64,IDEAS
+session_745,6.0,7.0,living room_70,IDEAS
+session_747,7.0,7.0,living room_70,IDEAS
+session_747,7.0,7.0,office room_64,IDEAS
+session_747,7.0,7.0,restaurant_48,IDEAS
+session_747,3.0,3.0,restaurant_28,IDEAS
+session_747,6.0,6.0,living room_40,IDEAS
+session_747,5.0,5.0,office room_4,IDEAS
+session_747,3.0,3.0,living room_31,IDEAS
+session_747,3.0,3.0,office room_46,IDEAS
+session_747,6.0,6.0,restaurant_4,IDEAS
+session_748,6.0,6.0,office room_46,IDEAS
+session_748,3.0,5.0,restaurant_28,IDEAS
+session_748,6.0,6.0,living room_70,IDEAS
+session_748,6.0,5.0,office room_4,IDEAS
+session_748,4.0,6.0,office room_64,IDEAS
+session_748,5.0,5.0,living room_31,IDEAS
+session_748,7.0,6.0,restaurant_48,IDEAS
+session_748,4.0,6.0,living room_40,IDEAS
+session_748,7.0,6.0,restaurant_4,IDEAS
+session_749,5.0,4.0,restaurant_28,IDEAS
+session_749,2.0,6.0,office room_4,IDEAS
+session_749,1.0,5.0,living room_31,IDEAS
+session_749,6.0,3.0,living room_40,IDEAS
+session_749,7.0,3.0,living room_70,IDEAS
+session_749,2.0,5.0,office room_46,IDEAS
+session_749,6.0,5.0,restaurant_4,IDEAS
+session_749,7.0,5.0,restaurant_48,IDEAS
+session_749,6.0,6.0,office room_64,IDEAS
+session_750,1.0,5.0,living room_31,IDEAS
+session_750,5.0,5.0,restaurant_48,IDEAS
+session_750,6.0,2.0,living room_70,IDEAS
+session_750,2.0,4.0,office room_4,IDEAS
+session_750,6.0,5.0,living room_40,IDEAS
+session_750,4.0,4.0,restaurant_4,IDEAS
+session_750,5.0,4.0,office room_64,IDEAS
+session_750,4.0,3.0,restaurant_28,IDEAS
+session_750,3.0,4.0,office room_46,IDEAS
+session_751,5.0,6.0,living room_70,IDEAS
+session_751,6.0,5.0,living room_40,IDEAS
+session_751,2.0,4.0,office room_4,IDEAS
+session_751,5.0,4.0,restaurant_4,IDEAS
+session_751,3.0,4.0,living room_31,IDEAS
+session_751,2.0,4.0,office room_64,IDEAS
+session_751,5.0,7.0,restaurant_48,IDEAS
+session_751,4.0,3.0,restaurant_28,IDEAS
+session_751,2.0,4.0,office room_46,IDEAS
+session_752,7.0,3.0,restaurant_48,IDEAS
+session_752,2.0,7.0,office room_4,IDEAS
+session_752,1.0,7.0,office room_46,IDEAS
+session_752,4.0,7.0,living room_40,IDEAS
+session_752,7.0,4.0,restaurant_4,IDEAS
+session_752,1.0,6.0,living room_31,IDEAS
+session_752,7.0,2.0,living room_70,IDEAS
+session_752,2.0,7.0,office room_64,IDEAS
+session_752,2.0,2.0,restaurant_28,IDEAS
+session_753,6.0,5.0,restaurant_48,IDEAS
+session_753,5.0,5.0,restaurant_4,IDEAS
+session_753,6.0,6.0,living room_70,IDEAS
+session_753,2.0,5.0,office room_4,IDEAS
+session_753,6.0,6.0,office room_64,IDEAS
+session_753,6.0,4.0,living room_40,IDEAS
+session_753,1.0,7.0,office room_46,IDEAS
+session_753,2.0,6.0,living room_31,IDEAS
+session_753,2.0,4.0,restaurant_28,IDEAS
+session_754,5.0,5.0,restaurant_28,IDEAS
+session_754,6.0,6.0,living room_70,IDEAS
+session_754,1.0,7.0,office room_64,IDEAS
+session_754,3.0,5.0,living room_31,IDEAS
+session_754,1.0,7.0,office room_4,IDEAS
+session_754,6.0,4.0,living room_40,IDEAS
+session_754,5.0,6.0,restaurant_48,IDEAS
+session_754,5.0,5.0,restaurant_4,IDEAS
+session_754,3.0,6.0,office room_46,IDEAS
+session_755,4.0,5.0,office room_64,IDEAS
+session_755,4.0,6.0,office room_4,IDEAS
+session_755,7.0,7.0,restaurant_48,IDEAS
+session_755,3.0,7.0,living room_31,IDEAS
+session_755,7.0,3.0,living room_70,IDEAS
+session_755,2.0,7.0,office room_46,IDEAS
+session_755,5.0,4.0,restaurant_4,IDEAS
+session_755,5.0,4.0,restaurant_28,IDEAS
+session_755,7.0,4.0,living room_40,IDEAS
+session_756,1.0,5.0,restaurant_4,IDEAS
+session_756,1.0,7.0,office room_4,IDEAS
+session_756,1.0,7.0,office room_64,IDEAS
+session_756,1.0,5.0,restaurant_48,IDEAS
+session_756,7.0,2.0,living room_40,IDEAS
+session_756,1.0,7.0,office room_46,IDEAS
+session_756,1.0,7.0,restaurant_28,IDEAS
+session_756,7.0,1.0,living room_70,IDEAS
+session_756,1.0,7.0,living room_31,IDEAS
+session_757,6.0,5.0,living room_40,IDEAS
+session_757,6.0,4.0,restaurant_48,IDEAS
+session_757,1.0,6.0,living room_31,IDEAS
+session_757,5.0,6.0,office room_64,IDEAS
+session_757,3.0,6.0,office room_4,IDEAS
+session_757,2.0,5.0,restaurant_28,IDEAS
+session_757,7.0,1.0,living room_70,IDEAS
+session_757,4.0,4.0,office room_46,IDEAS
+session_757,6.0,5.0,restaurant_4,IDEAS
+session_758,5.0,5.0,living room_40,IDEAS
+session_758,5.0,4.0,restaurant_28,IDEAS
+session_758,5.0,5.0,office room_64,IDEAS
+session_758,3.0,4.0,office room_4,IDEAS
+session_758,5.0,5.0,restaurant_4,IDEAS
+session_758,3.0,4.0,living room_31,IDEAS
+session_758,3.0,4.0,office room_46,IDEAS
+session_758,5.0,5.0,restaurant_48,IDEAS
+session_758,5.0,5.0,living room_70,IDEAS
+session_759,5.0,6.0,restaurant_28,IDEAS
+session_759,5.0,6.0,restaurant_4,IDEAS
+session_759,1.0,5.0,living room_31,IDEAS
+session_759,5.0,7.0,living room_70,IDEAS
+session_759,4.0,6.0,office room_64,IDEAS
+session_759,5.0,5.0,living room_40,IDEAS
+session_759,5.0,6.0,office room_46,IDEAS
+session_759,4.0,5.0,office room_4,IDEAS
+session_759,5.0,6.0,restaurant_48,IDEAS
+session_760,6.0,3.0,restaurant_48,IDEAS
+session_760,4.0,4.0,office room_46,IDEAS
+session_760,1.0,7.0,living room_31,IDEAS
+session_760,7.0,3.0,living room_70,IDEAS
+session_760,6.0,3.0,living room_40,IDEAS
+session_760,4.0,5.0,office room_4,IDEAS
+session_760,6.0,2.0,restaurant_28,IDEAS
+session_760,4.0,3.0,office room_64,IDEAS
+session_760,6.0,3.0,restaurant_4,IDEAS
+session_761,6.0,6.0,restaurant_28,IDEAS
+session_761,4.0,7.0,office room_46,IDEAS
+session_761,7.0,7.0,living room_31,IDEAS
+session_761,7.0,7.0,restaurant_48,IDEAS
+session_761,7.0,7.0,living room_70,IDEAS
+session_761,5.0,3.0,office room_4,IDEAS
+session_761,7.0,7.0,office room_64,IDEAS
+session_761,7.0,7.0,living room_40,IDEAS
+session_761,7.0,7.0,restaurant_4,IDEAS
+session_762,4.0,6.0,office room_46,IDEAS
+session_762,5.0,6.0,office room_64,IDEAS
+session_762,5.0,6.0,restaurant_48,IDEAS
+session_762,6.0,5.0,living room_40,IDEAS
+session_762,4.0,6.0,office room_4,IDEAS
+session_762,5.0,5.0,restaurant_28,IDEAS
+session_762,5.0,5.0,restaurant_4,IDEAS
+session_762,6.0,5.0,living room_70,IDEAS
+session_762,4.0,5.0,living room_31,IDEAS
+session_763,7.0,7.0,office room_4,IDEAS
+session_763,6.0,5.0,restaurant_4,IDEAS
+session_763,7.0,6.0,living room_70,IDEAS
+session_763,3.0,6.0,restaurant_48,IDEAS
+session_763,5.0,6.0,office room_64,IDEAS
+session_763,5.0,6.0,restaurant_28,IDEAS
+session_763,6.0,6.0,office room_46,IDEAS
+session_763,1.0,5.0,living room_31,IDEAS
+session_763,7.0,4.0,living room_40,IDEAS
+session_765,4.0,6.0,office room_64,IDEAS
+session_765,2.0,3.0,office room_46,IDEAS
+session_765,7.0,6.0,restaurant_48,IDEAS
+session_765,4.0,6.0,restaurant_28,IDEAS
+session_765,6.0,3.0,living room_40,IDEAS
+session_765,1.0,6.0,living room_31,IDEAS
+session_765,6.0,6.0,restaurant_4,IDEAS
+session_765,2.0,4.0,office room_4,IDEAS
+session_765,7.0,3.0,living room_70,IDEAS
+session_766,5.0,4.0,living room_70,IDEAS
+session_766,3.0,6.0,office room_64,IDEAS
+session_766,3.0,7.0,restaurant_4,IDEAS
+session_766,6.0,3.0,living room_40,IDEAS
+session_766,1.0,7.0,office room_4,IDEAS
+session_766,1.0,7.0,office room_46,IDEAS
+session_766,3.0,4.0,restaurant_28,IDEAS
+session_766,2.0,6.0,restaurant_48,IDEAS
+session_766,5.0,4.0,living room_31,IDEAS
+session_767,7.0,2.0,living room_70,IDEAS
+session_767,1.0,7.0,living room_31,IDEAS
+session_767,2.0,7.0,office room_4,IDEAS
+session_767,1.0,7.0,restaurant_28,IDEAS
+session_767,2.0,7.0,office room_46,IDEAS
+session_767,2.0,7.0,restaurant_4,IDEAS
+session_767,7.0,1.0,living room_40,IDEAS
+session_767,2.0,7.0,office room_64,IDEAS
+session_767,3.0,6.0,restaurant_48,IDEAS
+session_768,3.0,2.0,office room_4,IDEAS
+session_768,1.0,5.0,living room_31,IDEAS
+session_768,7.0,7.0,living room_70,IDEAS
+session_768,7.0,7.0,restaurant_48,IDEAS
+session_768,4.0,4.0,restaurant_28,IDEAS
+session_768,7.0,5.0,living room_40,IDEAS
+session_768,5.0,7.0,office room_46,IDEAS
+session_768,1.0,7.0,office room_64,IDEAS
+session_768,5.0,7.0,restaurant_4,IDEAS
+session_769,1.0,7.0,office room_46,IDEAS
+session_769,5.0,6.0,restaurant_48,IDEAS
+session_769,6.0,3.0,living room_40,IDEAS
+session_769,1.0,7.0,office room_4,IDEAS
+session_769,6.0,3.0,living room_70,IDEAS
+session_769,1.0,7.0,living room_31,IDEAS
+session_769,2.0,6.0,office room_64,IDEAS
+session_769,1.0,7.0,restaurant_28,IDEAS
+session_769,2.0,6.0,restaurant_4,IDEAS
+session_770,2.0,5.0,office room_46,IDEAS
+session_770,6.0,4.0,living room_70,IDEAS
+session_770,6.0,4.0,restaurant_48,IDEAS
+session_770,6.0,5.0,restaurant_4,IDEAS
+session_770,5.0,5.0,living room_40,IDEAS
+session_770,2.0,5.0,office room_4,IDEAS
+session_770,4.0,4.0,office room_64,IDEAS
+session_770,2.0,4.0,living room_31,IDEAS
+session_770,4.0,4.0,restaurant_28,IDEAS
+session_771,7.0,7.0,living room_40,IDEAS
+session_771,7.0,7.0,office room_64,IDEAS
+session_771,6.0,6.0,restaurant_4,IDEAS
+session_771,7.0,7.0,office room_46,IDEAS
+session_771,7.0,7.0,restaurant_48,IDEAS
+session_771,5.0,5.0,restaurant_28,IDEAS
+session_771,7.0,7.0,office room_4,IDEAS
+session_771,7.0,7.0,living room_70,IDEAS
+session_771,1.0,1.0,living room_31,IDEAS
+session_772,4.0,6.0,office room_64,IDEAS
+session_772,2.0,5.0,restaurant_28,IDEAS
+session_772,3.0,3.0,office room_4,IDEAS
+session_772,6.0,3.0,living room_40,IDEAS
+session_772,3.0,4.0,restaurant_4,IDEAS
+session_772,4.0,4.0,living room_31,IDEAS
+session_772,4.0,4.0,office room_46,IDEAS
+session_772,3.0,5.0,restaurant_48,IDEAS
+session_772,6.0,5.0,living room_70,IDEAS
+session_773,6.0,6.0,office room_64,IDEAS
+session_773,7.0,4.0,living room_40,IDEAS
+session_773,3.0,5.0,office room_46,IDEAS
+session_773,6.0,4.0,office room_4,IDEAS
+session_773,6.0,5.0,restaurant_48,IDEAS
+session_773,7.0,5.0,living room_70,IDEAS
+session_773,5.0,5.0,restaurant_4,IDEAS
+session_773,2.0,5.0,restaurant_28,IDEAS
+session_773,5.0,5.0,living room_31,IDEAS
+session_774,7.0,7.0,restaurant_4,IDEAS
+session_774,4.0,4.0,office room_46,IDEAS
+session_774,7.0,7.0,living room_70,IDEAS
+session_774,7.0,7.0,living room_40,IDEAS
+session_774,5.0,5.0,office room_4,IDEAS
+session_774,4.0,4.0,restaurant_28,IDEAS
+session_774,5.0,5.0,office room_64,IDEAS
+session_774,2.0,4.0,living room_31,IDEAS
+session_774,7.0,7.0,restaurant_48,IDEAS
+session_776,4.0,4.0,restaurant_28,IDEAS
+session_776,2.0,6.0,office room_4,IDEAS
+session_776,7.0,7.0,office room_64,IDEAS
+session_776,6.0,5.0,living room_70,IDEAS
+session_776,6.0,4.0,restaurant_48,IDEAS
+session_776,2.0,3.0,living room_31,IDEAS
+session_776,4.0,4.0,living room_40,IDEAS
+session_776,4.0,4.0,office room_46,IDEAS
+session_776,4.0,4.0,restaurant_4,IDEAS
+session_777,7.0,7.0,living room_40,IDEAS
+session_777,7.0,7.0,office room_4,IDEAS
+session_777,7.0,7.0,restaurant_48,IDEAS
+session_777,1.0,1.0,living room_31,IDEAS
+session_777,7.0,7.0,living room_70,IDEAS
+session_777,7.0,7.0,office room_46,IDEAS
+session_777,7.0,7.0,office room_64,IDEAS
+session_777,7.0,7.0,restaurant_28,IDEAS
+session_777,7.0,7.0,restaurant_4,IDEAS
+session_778,4.0,6.0,restaurant_28,IDEAS
+session_778,7.0,7.0,restaurant_4,IDEAS
+session_778,7.0,1.0,office room_46,IDEAS
+session_778,7.0,7.0,office room_4,IDEAS
+session_778,7.0,7.0,restaurant_48,IDEAS
+session_778,7.0,7.0,office room_64,IDEAS
+session_778,7.0,7.0,living room_70,IDEAS
+session_778,7.0,3.0,living room_40,IDEAS
+session_778,7.0,2.0,living room_31,IDEAS
+session_779,5.0,6.0,restaurant_48,IDEAS
+session_779,6.0,3.0,living room_40,IDEAS
+session_779,4.0,3.0,office room_46,IDEAS
+session_779,3.0,4.0,restaurant_4,IDEAS
+session_779,5.0,4.0,living room_31,IDEAS
+session_779,2.0,6.0,office room_4,IDEAS
+session_779,1.0,7.0,office room_64,IDEAS
+session_779,5.0,4.0,living room_70,IDEAS
+session_779,4.0,4.0,restaurant_28,IDEAS
+session_780,7.0,6.0,living room_40,IDEAS
+session_780,7.0,6.0,office room_46,IDEAS
+session_780,7.0,7.0,living room_31,IDEAS
+session_780,6.0,7.0,restaurant_4,IDEAS
+session_780,7.0,7.0,office room_4,IDEAS
+session_780,6.0,7.0,living room_70,IDEAS
+session_780,6.0,6.0,restaurant_48,IDEAS
+session_780,7.0,7.0,office room_64,IDEAS
+session_780,6.0,6.0,restaurant_28,IDEAS
+session_781,4.0,4.0,restaurant_4,IDEAS
+session_781,5.0,5.0,restaurant_48,IDEAS
+session_781,2.0,6.0,office room_4,IDEAS
+session_781,6.0,3.0,living room_40,IDEAS
+session_781,5.0,4.0,restaurant_28,IDEAS
+session_781,2.0,7.0,office room_64,IDEAS
+session_781,6.0,6.0,living room_70,IDEAS
+session_781,2.0,5.0,living room_31,IDEAS
+session_781,4.0,4.0,office room_46,IDEAS
+session_782,4.0,6.0,office room_4,IDEAS
+session_782,5.0,6.0,office room_46,IDEAS
+session_782,6.0,7.0,restaurant_48,IDEAS
+session_782,5.0,7.0,living room_40,IDEAS
+session_782,5.0,5.0,restaurant_4,IDEAS
+session_782,1.0,4.0,restaurant_28,IDEAS
+session_782,6.0,7.0,living room_70,IDEAS
+session_782,1.0,6.0,living room_31,IDEAS
+session_782,3.0,5.0,office room_64,IDEAS
+session_783,7.0,7.0,living room_70,IDEAS
+session_783,2.0,2.0,restaurant_28,IDEAS
+session_783,3.0,1.0,living room_31,IDEAS
+session_783,5.0,7.0,restaurant_4,IDEAS
+session_783,6.0,7.0,restaurant_48,IDEAS
+session_783,7.0,5.0,office room_64,IDEAS
+session_783,5.0,3.0,office room_46,IDEAS
+session_783,4.0,6.0,office room_4,IDEAS
+session_783,6.0,7.0,living room_40,IDEAS
+session_785,7.0,4.0,living room_40,IDEAS
+session_785,3.0,6.0,office room_64,IDEAS
+session_785,3.0,5.0,office room_4,IDEAS
+session_785,5.0,5.0,restaurant_28,IDEAS
+session_785,4.0,3.0,restaurant_4,IDEAS
+session_785,3.0,3.0,office room_46,IDEAS
+session_785,7.0,6.0,living room_70,IDEAS
+session_785,2.0,5.0,living room_31,IDEAS
+session_785,6.0,6.0,restaurant_48,IDEAS
+session_786,1.0,6.0,office room_46,IDEAS
+session_786,6.0,2.0,living room_40,IDEAS
+session_786,3.0,5.0,restaurant_4,IDEAS
+session_786,2.0,7.0,office room_64,IDEAS
+session_786,2.0,6.0,restaurant_48,IDEAS
+session_786,6.0,4.0,living room_70,IDEAS
+session_786,4.0,4.0,restaurant_28,IDEAS
+session_786,3.0,4.0,living room_31,IDEAS
+session_786,1.0,7.0,office room_4,IDEAS
+session_788,7.0,7.0,office room_64,IDEAS
+session_788,7.0,6.0,restaurant_4,IDEAS
+session_788,7.0,7.0,living room_70,IDEAS
+session_788,6.0,6.0,living room_31,IDEAS
+session_788,7.0,6.0,living room_40,IDEAS
+session_788,7.0,7.0,restaurant_48,IDEAS
+session_788,7.0,6.0,restaurant_28,IDEAS
+session_788,6.0,7.0,office room_46,IDEAS
+session_788,6.0,7.0,office room_4,IDEAS
+session_789,1.0,7.0,office room_4,IDEAS
+session_789,3.0,3.0,living room_31,IDEAS
+session_789,2.0,6.0,restaurant_48,IDEAS
+session_789,7.0,4.0,living room_40,IDEAS
+session_789,3.0,7.0,restaurant_4,IDEAS
+session_789,1.0,7.0,office room_64,IDEAS
+session_789,7.0,3.0,living room_70,IDEAS
+session_789,2.0,5.0,restaurant_28,IDEAS
+session_789,1.0,7.0,office room_46,IDEAS
+session_791,1.0,4.0,living room_31,IDEAS
+session_791,2.0,4.0,office room_46,IDEAS
+session_791,5.0,5.0,office room_64,IDEAS
+session_791,3.0,5.0,office room_4,IDEAS
+session_791,7.0,3.0,living room_70,IDEAS
+session_791,6.0,4.0,restaurant_48,IDEAS
+session_791,3.0,5.0,restaurant_28,IDEAS
+session_791,5.0,6.0,restaurant_4,IDEAS
+session_791,6.0,5.0,living room_40,IDEAS
+session_792,7.0,7.0,living room_70,IDEAS
+session_792,1.0,5.0,office room_4,IDEAS
+session_792,1.0,4.0,living room_31,IDEAS
+session_792,3.0,6.0,office room_46,IDEAS
+session_792,7.0,7.0,living room_40,IDEAS
+session_792,4.0,5.0,restaurant_28,IDEAS
+session_792,7.0,7.0,restaurant_48,IDEAS
+session_792,7.0,7.0,office room_64,IDEAS
+session_792,5.0,6.0,restaurant_4,IDEAS
+session_793,2.0,6.0,restaurant_28,IDEAS
+session_793,7.0,2.0,living room_70,IDEAS
+session_793,2.0,7.0,office room_4,IDEAS
+session_793,1.0,5.0,restaurant_48,IDEAS
+session_793,1.0,7.0,office room_64,IDEAS
+session_793,6.0,1.0,living room_40,IDEAS
+session_793,3.0,5.0,restaurant_4,IDEAS
+session_793,1.0,7.0,living room_31,IDEAS
+session_793,2.0,6.0,office room_46,IDEAS
+session_794,1.0,7.0,living room_31,IDEAS
+session_794,1.0,5.0,office room_4,IDEAS
+session_794,7.0,7.0,restaurant_48,IDEAS
+session_794,7.0,5.0,living room_70,IDEAS
+session_794,5.0,5.0,office room_64,IDEAS
+session_794,3.0,3.0,office room_46,IDEAS
+session_794,2.0,5.0,restaurant_28,IDEAS
+session_794,6.0,2.0,living room_40,IDEAS
+session_794,3.0,4.0,restaurant_4,IDEAS
+session_795,2.0,6.0,office room_4,IDEAS
+session_795,5.0,4.0,living room_31,IDEAS
+session_795,6.0,3.0,living room_70,IDEAS
+session_795,3.0,6.0,restaurant_48,IDEAS
+session_795,2.0,6.0,restaurant_4,IDEAS
+session_795,2.0,6.0,restaurant_28,IDEAS
+session_795,3.0,5.0,office room_64,IDEAS
+session_795,6.0,3.0,living room_40,IDEAS
+session_795,3.0,6.0,office room_46,IDEAS
+session_796,1.0,7.0,office room_46,IDEAS
+session_796,2.0,3.0,restaurant_28,IDEAS
+session_796,6.0,6.0,restaurant_4,IDEAS
+session_796,1.0,7.0,living room_31,IDEAS
+session_796,6.0,2.0,living room_40,IDEAS
+session_796,7.0,3.0,living room_70,IDEAS
+session_796,6.0,7.0,office room_64,IDEAS
+session_796,2.0,3.0,office room_4,IDEAS
+session_796,7.0,7.0,restaurant_48,IDEAS
+session_797,7.0,7.0,restaurant_48,IDEAS
+session_797,6.0,6.0,restaurant_28,IDEAS
+session_797,7.0,7.0,office room_64,IDEAS
+session_797,5.0,6.0,living room_40,IDEAS
+session_797,1.0,6.0,office room_46,IDEAS
+session_797,1.0,6.0,living room_31,IDEAS
+session_797,5.0,7.0,living room_70,IDEAS
+session_797,6.0,3.0,office room_4,IDEAS
+session_797,6.0,2.0,restaurant_4,IDEAS
+session_798,7.0,4.0,restaurant_28,IDEAS
+session_798,7.0,7.0,restaurant_48,IDEAS
+session_798,7.0,5.0,restaurant_4,IDEAS
+session_798,6.0,6.0,living room_40,IDEAS
+session_798,7.0,7.0,living room_70,IDEAS
+session_798,7.0,7.0,office room_4,IDEAS
+session_798,7.0,5.0,office room_46,IDEAS
+session_798,1.0,1.0,living room_31,IDEAS
+session_798,7.0,7.0,office room_64,IDEAS
+session_799,7.0,7.0,office room_64,IDEAS
+session_799,6.0,6.0,living room_40,IDEAS
+session_799,7.0,6.0,restaurant_4,IDEAS
+session_799,7.0,7.0,restaurant_48,IDEAS
+session_799,1.0,1.0,office room_46,IDEAS
+session_799,1.0,1.0,living room_31,IDEAS
+session_799,7.0,7.0,living room_70,IDEAS
+session_799,7.0,7.0,office room_4,IDEAS
+session_799,1.0,1.0,restaurant_28,IDEAS
+session_800,1.0,7.0,office room_46,IDEAS
+session_800,7.0,7.0,living room_70,IDEAS
+session_800,3.0,5.0,office room_64,IDEAS
+session_800,1.0,7.0,office room_4,IDEAS
+session_800,1.0,7.0,living room_31,IDEAS
+session_800,5.0,5.0,restaurant_4,IDEAS
+session_800,2.0,5.0,restaurant_28,IDEAS
+session_800,5.0,5.0,restaurant_48,IDEAS
+session_800,4.0,4.0,living room_40,IDEAS
+session_801,3.0,6.0,restaurant_48,IDEAS
+session_801,4.0,7.0,living room_40,IDEAS
+session_801,3.0,6.0,living room_70,IDEAS
+session_801,2.0,7.0,living room_31,IDEAS
+session_801,3.0,7.0,office room_64,IDEAS
+session_801,7.0,2.0,restaurant_28,IDEAS
+session_801,3.0,3.0,restaurant_4,IDEAS
+session_801,3.0,6.0,office room_46,IDEAS
+session_801,1.0,7.0,office room_4,IDEAS
+session_802,5.0,7.0,restaurant_28,IDEAS
+session_802,7.0,7.0,office room_4,IDEAS
+session_802,7.0,7.0,restaurant_4,IDEAS
+session_802,7.0,7.0,living room_40,IDEAS
+session_802,7.0,7.0,restaurant_48,IDEAS
+session_802,7.0,7.0,living room_70,IDEAS
+session_802,7.0,7.0,office room_46,IDEAS
+session_802,5.0,7.0,living room_31,IDEAS
+session_802,7.0,7.0,office room_64,IDEAS
+session_803,2.0,5.0,restaurant_28,IDEAS
+session_803,4.0,6.0,office room_64,IDEAS
+session_803,7.0,3.0,living room_70,IDEAS
+session_803,6.0,4.0,restaurant_4,IDEAS
+session_803,6.0,4.0,living room_40,IDEAS
+session_803,6.0,6.0,restaurant_48,IDEAS
+session_803,2.0,6.0,office room_46,IDEAS
+session_803,3.0,6.0,office room_4,IDEAS
+session_803,2.0,5.0,living room_31,IDEAS
+session_804,7.0,4.0,restaurant_48,IDEAS
+session_804,4.0,4.0,restaurant_4,IDEAS
+session_804,5.0,5.0,office room_64,IDEAS
+session_804,4.0,4.0,restaurant_28,IDEAS
+session_804,2.0,5.0,office room_46,IDEAS
+session_804,5.0,3.0,living room_40,IDEAS
+session_804,4.0,4.0,office room_4,IDEAS
+session_804,2.0,6.0,living room_31,IDEAS
+session_804,6.0,2.0,living room_70,IDEAS
+session_805,7.0,2.0,living room_70,IDEAS
+session_805,5.0,5.0,restaurant_4,IDEAS
+session_805,6.0,2.0,living room_40,IDEAS
+session_805,2.0,6.0,office room_46,IDEAS
+session_805,2.0,6.0,restaurant_28,IDEAS
+session_805,2.0,7.0,office room_64,IDEAS
+session_805,1.0,6.0,living room_31,IDEAS
+session_805,5.0,7.0,office room_4,IDEAS
+session_805,5.0,5.0,restaurant_48,IDEAS
+session_806,7.0,3.0,living room_40,IDEAS
+session_806,6.0,6.0,restaurant_4,IDEAS
+session_806,7.0,3.0,living room_70,IDEAS
+session_806,4.0,4.0,restaurant_28,IDEAS
+session_806,4.0,4.0,living room_31,IDEAS
+session_806,1.0,7.0,office room_4,IDEAS
+session_806,6.0,5.0,restaurant_48,IDEAS
+session_806,2.0,4.0,office room_64,IDEAS
+session_806,1.0,7.0,office room_46,IDEAS
+session_807,4.0,5.0,restaurant_28,IDEAS
+session_807,6.0,3.0,office room_4,IDEAS
+session_807,3.0,4.0,restaurant_4,IDEAS
+session_807,7.0,6.0,office room_64,IDEAS
+session_807,2.0,4.0,office room_46,IDEAS
+session_807,1.0,3.0,living room_31,IDEAS
+session_807,7.0,3.0,restaurant_48,IDEAS
+session_807,7.0,5.0,living room_70,IDEAS
+session_807,7.0,3.0,living room_40,IDEAS
+session_809,1.0,6.0,living room_31,IDEAS
+session_809,6.0,4.0,restaurant_48,IDEAS
+session_809,4.0,6.0,office room_64,IDEAS
+session_809,6.0,2.0,living room_70,IDEAS
+session_809,6.0,6.0,restaurant_4,IDEAS
+session_809,3.0,4.0,office room_4,IDEAS
+session_809,5.0,5.0,restaurant_28,IDEAS
+session_809,6.0,2.0,living room_40,IDEAS
+session_809,4.0,5.0,office room_46,IDEAS
+session_810,1.0,7.0,office room_4,IDEAS
+session_810,7.0,7.0,restaurant_4,IDEAS
+session_810,1.0,7.0,office room_64,IDEAS
+session_810,1.0,7.0,office room_46,IDEAS
+session_810,1.0,7.0,living room_31,IDEAS
+session_810,7.0,7.0,restaurant_28,IDEAS
+session_810,7.0,7.0,restaurant_48,IDEAS
+session_810,7.0,1.0,living room_40,IDEAS
+session_810,7.0,7.0,living room_70,IDEAS
+session_811,5.0,6.0,living room_70,IDEAS
+session_811,5.0,5.0,restaurant_4,IDEAS
+session_811,3.0,6.0,office room_64,IDEAS
+session_811,2.0,4.0,living room_31,IDEAS
+session_811,2.0,5.0,living room_40,IDEAS
+session_811,2.0,5.0,office room_4,IDEAS
+session_811,2.0,5.0,restaurant_28,IDEAS
+session_811,3.0,5.0,office room_46,IDEAS
+session_811,4.0,5.0,restaurant_48,IDEAS
+session_813,2.0,7.0,office room_4,IDEAS
+session_813,4.0,4.0,restaurant_28,IDEAS
+session_813,6.0,7.0,restaurant_4,IDEAS
+session_813,4.0,4.0,office room_64,IDEAS
+session_813,6.0,4.0,restaurant_48,IDEAS
+session_813,6.0,4.0,living room_40,IDEAS
+session_813,7.0,4.0,living room_70,IDEAS
+session_813,3.0,4.0,office room_46,IDEAS
+session_813,1.0,7.0,living room_31,IDEAS
+session_814,7.0,6.0,restaurant_48,IDEAS
+session_814,2.0,6.0,office room_46,IDEAS
+session_814,3.0,7.0,office room_64,IDEAS
+session_814,4.0,4.0,restaurant_28,IDEAS
+session_814,6.0,6.0,restaurant_4,IDEAS
+session_814,2.0,6.0,living room_31,IDEAS
+session_814,3.0,6.0,office room_4,IDEAS
+session_814,5.0,4.0,living room_40,IDEAS
+session_814,7.0,6.0,living room_70,IDEAS
+session_816,5.0,4.0,living room_40,IDEAS
+session_816,3.0,4.0,restaurant_4,IDEAS
+session_816,3.0,5.0,office room_64,IDEAS
+session_816,4.0,4.0,living room_70,IDEAS
+session_816,1.0,5.0,living room_31,IDEAS
+session_816,3.0,5.0,office room_4,IDEAS
+session_816,3.0,5.0,office room_46,IDEAS
+session_816,5.0,4.0,restaurant_48,IDEAS
+session_816,3.0,4.0,restaurant_28,IDEAS
+session_818,6.0,5.0,office room_46,IDEAS
+session_818,6.0,6.0,office room_64,IDEAS
+session_818,6.0,6.0,office room_4,IDEAS
+session_818,2.0,5.0,restaurant_28,IDEAS
+session_818,6.0,2.0,living room_40,IDEAS
+session_818,1.0,7.0,living room_31,IDEAS
+session_818,4.0,5.0,restaurant_48,IDEAS
+session_818,6.0,2.0,living room_70,IDEAS
+session_818,3.0,3.0,restaurant_4,IDEAS
+session_819,2.0,6.0,living room_31,IDEAS
+session_819,6.0,5.0,restaurant_4,IDEAS
+session_819,2.0,5.0,office room_4,IDEAS
+session_819,3.0,5.0,office room_46,IDEAS
+session_819,2.0,5.0,restaurant_28,IDEAS
+session_819,6.0,3.0,living room_70,IDEAS
+session_819,2.0,5.0,office room_64,IDEAS
+session_819,5.0,4.0,restaurant_48,IDEAS
+session_819,6.0,4.0,living room_40,IDEAS
+session_821,3.0,6.0,office room_64,IDEAS
+session_821,5.0,4.0,office room_4,IDEAS
+session_821,4.0,3.0,living room_70,IDEAS
+session_821,6.0,3.0,living room_40,IDEAS
+session_821,3.0,6.0,restaurant_48,IDEAS
+session_821,7.0,2.0,office room_46,IDEAS
+session_821,2.0,7.0,restaurant_28,IDEAS
+session_821,2.0,7.0,living room_31,IDEAS
+session_821,4.0,6.0,restaurant_4,IDEAS
+session_822,7.0,7.0,living room_40,IDEAS
+session_822,7.0,6.0,office room_4,IDEAS
+session_822,7.0,6.0,restaurant_4,IDEAS
+session_822,7.0,7.0,living room_70,IDEAS
+session_822,7.0,7.0,restaurant_48,IDEAS
+session_822,7.0,7.0,office room_64,IDEAS
+session_822,2.0,4.0,office room_46,IDEAS
+session_822,1.0,2.0,living room_31,IDEAS
+session_822,2.0,3.0,restaurant_28,IDEAS
+session_824,5.0,4.0,restaurant_28,IDEAS
+session_824,7.0,7.0,restaurant_48,IDEAS
+session_824,7.0,7.0,living room_40,IDEAS
+session_824,7.0,7.0,living room_70,IDEAS
+session_824,7.0,7.0,office room_64,IDEAS
+session_824,1.0,1.0,living room_31,IDEAS
+session_824,7.0,7.0,restaurant_4,IDEAS
+session_824,1.0,7.0,office room_46,IDEAS
+session_824,1.0,7.0,office room_4,IDEAS
+session_825,6.0,5.0,living room_40,IDEAS
+session_825,1.0,7.0,office room_46,IDEAS
+session_825,1.0,7.0,living room_31,IDEAS
+session_825,1.0,7.0,office room_64,IDEAS
+session_825,4.0,4.0,living room_70,IDEAS
+session_825,1.0,7.0,restaurant_4,IDEAS
+session_825,5.0,7.0,restaurant_48,IDEAS
+session_825,1.0,7.0,office room_4,IDEAS
+session_825,1.0,7.0,restaurant_28,IDEAS
+session_826,3.0,5.0,office room_4,IDEAS
+session_826,6.0,3.0,living room_70,IDEAS
+session_826,2.0,7.0,office room_64,IDEAS
+session_826,3.0,6.0,restaurant_28,IDEAS
+session_826,3.0,6.0,restaurant_48,IDEAS
+session_826,4.0,6.0,restaurant_4,IDEAS
+session_826,2.0,6.0,office room_46,IDEAS
+session_826,6.0,6.0,living room_31,IDEAS
+session_826,6.0,2.0,living room_40,IDEAS
+session_827,5.0,6.0,restaurant_48,IDEAS
+session_827,2.0,5.0,office room_64,IDEAS
+session_827,2.0,6.0,office room_4,IDEAS
+session_827,4.0,4.0,office room_46,IDEAS
+session_827,6.0,5.0,restaurant_4,IDEAS
+session_827,7.0,3.0,living room_70,IDEAS
+session_827,1.0,3.0,restaurant_28,IDEAS
+session_827,3.0,7.0,living room_31,IDEAS
+session_827,7.0,2.0,living room_40,IDEAS
+session_829,3.0,6.0,living room_31,IDEAS
+session_829,7.0,2.0,living room_70,IDEAS
+session_829,2.0,5.0,office room_4,IDEAS
+session_829,7.0,2.0,restaurant_48,IDEAS
+session_829,6.0,6.0,office room_64,IDEAS
+session_829,4.0,3.0,office room_46,IDEAS
+session_829,6.0,6.0,living room_40,IDEAS
+session_829,6.0,6.0,restaurant_4,IDEAS
+session_829,2.0,5.0,restaurant_28,IDEAS
+session_830,6.0,6.0,living room_70,IDEAS
+session_830,5.0,5.0,restaurant_4,IDEAS
+session_830,5.0,7.0,office room_4,IDEAS
+session_830,2.0,5.0,living room_31,IDEAS
+session_830,4.0,6.0,office room_64,IDEAS
+session_830,6.0,6.0,living room_40,IDEAS
+session_830,5.0,5.0,restaurant_48,IDEAS
+session_830,2.0,2.0,office room_46,IDEAS
+session_830,2.0,3.0,restaurant_28,IDEAS
+session_831,5.0,7.0,restaurant_48,IDEAS
+session_831,5.0,7.0,restaurant_4,IDEAS
+session_831,2.0,7.0,restaurant_28,IDEAS
+session_831,6.0,5.0,living room_40,IDEAS
+session_831,1.0,5.0,office room_46,IDEAS
+session_831,3.0,6.0,office room_64,IDEAS
+session_831,5.0,5.0,living room_70,IDEAS
+session_831,1.0,5.0,living room_31,IDEAS
+session_831,4.0,7.0,office room_4,IDEAS
+session_832,7.0,7.0,restaurant_48,IDEAS
+session_832,1.0,4.0,restaurant_28,IDEAS
+session_832,1.0,1.0,living room_31,IDEAS
+session_832,7.0,7.0,office room_4,IDEAS
+session_832,2.0,3.0,office room_46,IDEAS
+session_832,7.0,7.0,living room_40,IDEAS
+session_832,7.0,7.0,restaurant_4,IDEAS
+session_832,7.0,7.0,office room_64,IDEAS
+session_832,7.0,7.0,living room_70,IDEAS
+session_833,7.0,1.0,office room_4,IDEAS
+session_833,7.0,1.0,restaurant_4,IDEAS
+session_833,4.0,4.0,restaurant_48,IDEAS
+session_833,7.0,1.0,office room_46,IDEAS
+session_833,7.0,1.0,office room_64,IDEAS
+session_833,7.0,3.0,living room_70,IDEAS
+session_833,1.0,7.0,living room_31,IDEAS
+session_833,7.0,1.0,living room_40,IDEAS
+session_833,2.0,4.0,restaurant_28,IDEAS
+session_834,4.0,5.0,restaurant_48,IDEAS
+session_834,3.0,5.0,office room_64,IDEAS
+session_834,6.0,5.0,living room_40,IDEAS
+session_834,4.0,6.0,office room_46,IDEAS
+session_834,5.0,6.0,living room_70,IDEAS
+session_834,3.0,6.0,living room_31,IDEAS
+session_834,5.0,7.0,restaurant_4,IDEAS
+session_834,4.0,7.0,office room_4,IDEAS
+session_834,6.0,5.0,restaurant_28,IDEAS
+session_835,3.0,7.0,restaurant_28,IDEAS
+session_835,3.0,7.0,office room_46,IDEAS
+session_835,1.0,7.0,living room_31,IDEAS
+session_835,5.0,6.0,office room_64,IDEAS
+session_835,6.0,3.0,living room_70,IDEAS
+session_835,5.0,6.0,restaurant_4,IDEAS
+session_835,3.0,7.0,office room_4,IDEAS
+session_835,4.0,4.0,living room_40,IDEAS
+session_835,3.0,7.0,restaurant_48,IDEAS
+session_836,6.0,4.0,restaurant_48,IDEAS
+session_836,6.0,4.0,living room_40,IDEAS
+session_836,3.0,5.0,living room_31,IDEAS
+session_836,5.0,4.0,restaurant_4,IDEAS
+session_836,5.0,5.0,office room_64,IDEAS
+session_836,5.0,5.0,office room_46,IDEAS
+session_836,7.0,7.0,living room_70,IDEAS
+session_836,5.0,3.0,restaurant_28,IDEAS
+session_836,3.0,5.0,office room_4,IDEAS
+session_837,7.0,7.0,office room_64,IDEAS
+session_837,6.0,7.0,living room_40,IDEAS
+session_837,4.0,5.0,restaurant_28,IDEAS
+session_837,5.0,6.0,restaurant_4,IDEAS
+session_837,3.0,3.0,office room_46,IDEAS
+session_837,6.0,5.0,office room_4,IDEAS
+session_837,1.0,4.0,living room_31,IDEAS
+session_837,6.0,5.0,restaurant_48,IDEAS
+session_837,7.0,5.0,living room_70,IDEAS
+session_838,6.0,4.0,living room_40,IDEAS
+session_838,3.0,6.0,restaurant_4,IDEAS
+session_838,2.0,6.0,office room_64,IDEAS
+session_838,3.0,5.0,living room_31,IDEAS
+session_838,7.0,3.0,living room_70,IDEAS
+session_838,2.0,5.0,restaurant_48,IDEAS
+session_838,1.0,7.0,office room_4,IDEAS
+session_838,3.0,6.0,restaurant_28,IDEAS
+session_838,2.0,6.0,office room_46,IDEAS
+session_839,7.0,1.0,living room_40,IDEAS
+session_839,3.0,5.0,restaurant_48,IDEAS
+session_839,1.0,7.0,office room_46,IDEAS
+session_839,2.0,4.0,restaurant_28,IDEAS
+session_839,7.0,3.0,living room_70,IDEAS
+session_839,5.0,3.0,restaurant_4,IDEAS
+session_839,1.0,7.0,office room_4,IDEAS
+session_839,1.0,7.0,office room_64,IDEAS
+session_839,1.0,7.0,living room_31,IDEAS
+session_840,5.0,4.0,living room_31,IDEAS
+session_840,1.0,5.0,office room_46,IDEAS
+session_840,2.0,4.0,office room_64,IDEAS
+session_840,7.0,7.0,living room_70,IDEAS
+session_840,1.0,1.0,office room_4,IDEAS
+session_840,7.0,7.0,living room_40,IDEAS
+session_840,7.0,7.0,restaurant_48,IDEAS
+session_840,7.0,7.0,restaurant_4,IDEAS
+session_840,1.0,4.0,restaurant_28,IDEAS
+session_841,5.0,5.0,restaurant_4,IDEAS
+session_841,5.0,6.0,office room_4,IDEAS
+session_841,5.0,7.0,office room_64,IDEAS
+session_841,7.0,7.0,living room_70,IDEAS
+session_841,5.0,5.0,restaurant_48,IDEAS
+session_841,1.0,2.0,living room_31,IDEAS
+session_841,5.0,5.0,restaurant_28,IDEAS
+session_841,3.0,7.0,office room_46,IDEAS
+session_841,7.0,7.0,living room_40,IDEAS
+session_842,5.0,7.0,office room_46,IDEAS
+session_842,7.0,7.0,restaurant_4,IDEAS
+session_842,4.0,6.0,restaurant_28,IDEAS
+session_842,7.0,7.0,office room_4,IDEAS
+session_842,7.0,7.0,restaurant_48,IDEAS
+session_842,7.0,7.0,office room_64,IDEAS
+session_842,1.0,7.0,living room_31,IDEAS
+session_842,7.0,7.0,living room_40,IDEAS
+session_842,7.0,7.0,living room_70,IDEAS
+session_843,6.0,5.0,restaurant_48,IDEAS
+session_843,3.0,5.0,restaurant_28,IDEAS
+session_843,1.0,7.0,office room_64,IDEAS
+session_843,1.0,4.0,living room_31,IDEAS
+session_843,7.0,2.0,living room_70,IDEAS
+session_843,1.0,7.0,office room_4,IDEAS
+session_843,3.0,6.0,office room_46,IDEAS
+session_843,6.0,3.0,living room_40,IDEAS
+session_843,6.0,4.0,restaurant_4,IDEAS
+session_846,4.0,4.0,office room_46,IDEAS
+session_846,7.0,7.0,office room_4,IDEAS
+session_846,7.0,5.0,restaurant_48,IDEAS
+session_846,6.0,3.0,living room_70,IDEAS
+session_846,7.0,5.0,office room_64,IDEAS
+session_846,1.0,7.0,living room_31,IDEAS
+session_846,3.0,5.0,living room_40,IDEAS
+session_846,1.0,5.0,restaurant_28,IDEAS
+session_846,3.0,4.0,restaurant_4,IDEAS
+session_848,4.0,4.0,office room_4,IDEAS
+session_848,7.0,6.0,office room_64,IDEAS
+session_848,4.0,4.0,office room_46,IDEAS
+session_848,5.0,6.0,restaurant_28,IDEAS
+session_848,7.0,1.0,living room_70,IDEAS
+session_848,1.0,7.0,living room_31,IDEAS
+session_848,7.0,7.0,restaurant_48,IDEAS
+session_848,7.0,2.0,living room_40,IDEAS
+session_848,6.0,5.0,restaurant_4,IDEAS
+session_849,1.0,7.0,office room_64,IDEAS
+session_849,7.0,7.0,restaurant_4,IDEAS
+session_849,7.0,1.0,living room_70,IDEAS
+session_849,7.0,4.0,restaurant_48,IDEAS
+session_849,7.0,1.0,living room_40,IDEAS
+session_849,1.0,7.0,restaurant_28,IDEAS
+session_849,4.0,7.0,living room_31,IDEAS
+session_849,1.0,7.0,office room_46,IDEAS
+session_849,1.0,7.0,office room_4,IDEAS
+session_850,7.0,6.0,living room_40,IDEAS
+session_850,6.0,5.0,office room_64,IDEAS
+session_850,2.0,1.0,living room_31,IDEAS
+session_850,4.0,5.0,living room_70,IDEAS
+session_850,6.0,7.0,restaurant_48,IDEAS
+session_850,6.0,7.0,office room_4,IDEAS
+session_850,4.0,2.0,restaurant_28,IDEAS
+session_850,3.0,1.0,office room_46,IDEAS
+session_850,6.0,6.0,restaurant_4,IDEAS
+session_851,4.0,6.0,restaurant_48,IDEAS
+session_851,3.0,4.0,living room_31,IDEAS
+session_851,7.0,2.0,office room_4,IDEAS
+session_851,5.0,6.0,living room_40,IDEAS
+session_851,6.0,2.0,office room_46,IDEAS
+session_851,5.0,4.0,living room_70,IDEAS
+session_851,5.0,5.0,restaurant_4,IDEAS
+session_851,2.0,7.0,office room_64,IDEAS
+session_851,5.0,5.0,restaurant_28,IDEAS
+session_852,4.0,6.0,restaurant_28,IDEAS
+session_852,1.0,7.0,living room_31,IDEAS
+session_852,3.0,5.0,office room_64,IDEAS
+session_852,1.0,7.0,office room_46,IDEAS
+session_852,7.0,1.0,living room_40,IDEAS
+session_852,2.0,6.0,office room_4,IDEAS
+session_852,6.0,6.0,restaurant_4,IDEAS
+session_852,7.0,3.0,living room_70,IDEAS
+session_852,7.0,7.0,restaurant_48,IDEAS
+session_853,3.0,5.0,restaurant_28,IDEAS
+session_853,6.0,2.0,living room_40,IDEAS
+session_853,3.0,5.0,office room_46,IDEAS
+session_853,3.0,5.0,living room_31,IDEAS
+session_853,6.0,2.0,living room_70,IDEAS
+session_853,3.0,5.0,restaurant_48,IDEAS
+session_853,2.0,6.0,office room_4,IDEAS
+session_853,2.0,6.0,office room_64,IDEAS
+session_853,3.0,5.0,restaurant_4,IDEAS
+session_854,7.0,7.0,restaurant_4,IDEAS
+session_854,1.0,7.0,living room_31,IDEAS
+session_854,7.0,1.0,living room_70,IDEAS
+session_854,1.0,6.0,restaurant_28,IDEAS
+session_854,1.0,7.0,office room_4,IDEAS
+session_854,4.0,4.0,restaurant_48,IDEAS
+session_854,7.0,5.0,living room_40,IDEAS
+session_854,1.0,6.0,office room_46,IDEAS
+session_854,4.0,7.0,office room_64,IDEAS
+session_855,6.0,6.0,office room_4,IDEAS
+session_855,6.0,6.0,restaurant_4,IDEAS
+session_855,3.0,3.0,living room_31,IDEAS
+session_855,6.0,6.0,office room_64,IDEAS
+session_855,6.0,6.0,living room_70,IDEAS
+session_855,6.0,6.0,living room_40,IDEAS
+session_855,5.0,5.0,restaurant_48,IDEAS
+session_855,6.0,6.0,office room_46,IDEAS
+session_855,5.0,5.0,restaurant_28,IDEAS
+session_856,7.0,7.0,restaurant_48,IDEAS
+session_856,5.0,3.0,living room_70,IDEAS
+session_856,5.0,5.0,office room_4,IDEAS
+session_856,6.0,6.0,restaurant_4,IDEAS
+session_856,5.0,5.0,office room_64,IDEAS
+session_856,6.0,5.0,living room_40,IDEAS
+session_856,1.0,3.0,living room_31,IDEAS
+session_856,5.0,5.0,office room_46,IDEAS
+session_856,3.0,3.0,restaurant_28,IDEAS
+session_857,6.0,7.0,living room_40,IDEAS
+session_857,7.0,7.0,living room_70,IDEAS
+session_857,6.0,6.0,restaurant_4,IDEAS
+session_857,5.0,6.0,office room_64,IDEAS
+session_857,2.0,2.0,office room_46,IDEAS
+session_857,2.0,5.0,restaurant_48,IDEAS
+session_857,5.0,4.0,office room_4,IDEAS
+session_857,3.0,3.0,restaurant_28,IDEAS
+session_857,1.0,1.0,living room_31,IDEAS
+session_858,3.0,5.0,living room_31,IDEAS
+session_858,4.0,4.0,restaurant_4,IDEAS
+session_858,5.0,3.0,living room_40,IDEAS
+session_858,4.0,5.0,office room_46,IDEAS
+session_858,5.0,4.0,living room_70,IDEAS
+session_858,4.0,4.0,restaurant_48,IDEAS
+session_858,3.0,5.0,office room_4,IDEAS
+session_858,4.0,4.0,office room_64,IDEAS
+session_858,4.0,4.0,restaurant_28,IDEAS
+session_859,2.0,6.0,office room_4,IDEAS
+session_859,7.0,1.0,living room_70,IDEAS
+session_859,7.0,1.0,living room_40,IDEAS
+session_859,3.0,5.0,office room_46,IDEAS
+session_859,4.0,6.0,office room_64,IDEAS
+session_859,5.0,5.0,restaurant_28,IDEAS
+session_859,5.0,5.0,restaurant_4,IDEAS
+session_859,2.0,6.0,living room_31,IDEAS
+session_859,5.0,5.0,restaurant_48,IDEAS
+session_860,1.0,7.0,living room_31,IDEAS
+session_860,5.0,2.0,living room_70,IDEAS
+session_860,1.0,7.0,office room_4,IDEAS
+session_860,6.0,4.0,living room_40,IDEAS
+session_860,1.0,7.0,office room_46,IDEAS
+session_860,6.0,6.0,restaurant_4,IDEAS
+session_860,6.0,6.0,office room_64,IDEAS
+session_860,1.0,7.0,restaurant_28,IDEAS
+session_860,6.0,6.0,restaurant_48,IDEAS
+session_861,6.0,4.0,living room_40,IDEAS
+session_861,1.0,6.0,office room_46,IDEAS
+session_861,6.0,3.0,living room_70,IDEAS
+session_861,1.0,6.0,office room_4,IDEAS
+session_861,1.0,5.0,living room_31,IDEAS
+session_861,4.0,6.0,office room_64,IDEAS
+session_861,6.0,6.0,restaurant_4,IDEAS
+session_861,4.0,5.0,restaurant_28,IDEAS
+session_861,7.0,6.0,restaurant_48,IDEAS
+session_863,4.0,4.0,living room_31,IDEAS
+session_863,7.0,7.0,living room_70,IDEAS
+session_863,7.0,7.0,living room_40,IDEAS
+session_863,4.0,7.0,office room_4,IDEAS
+session_863,7.0,7.0,restaurant_48,IDEAS
+session_863,7.0,7.0,restaurant_4,IDEAS
+session_863,7.0,7.0,office room_64,IDEAS
+session_863,7.0,7.0,restaurant_28,IDEAS
+session_863,7.0,7.0,office room_46,IDEAS
+session_864,2.0,4.0,restaurant_28,IDEAS
+session_864,5.0,6.0,office room_4,IDEAS
+session_864,5.0,5.0,restaurant_4,IDEAS
+session_864,4.0,5.0,office room_64,IDEAS
+session_864,6.0,5.0,living room_40,IDEAS
+session_864,5.0,5.0,restaurant_48,IDEAS
+session_864,5.0,5.0,living room_70,IDEAS
+session_864,2.0,5.0,living room_31,IDEAS
+session_864,2.0,5.0,office room_46,IDEAS
+session_865,3.0,5.0,office room_64,IDEAS
+session_865,4.0,6.0,office room_46,IDEAS
+session_865,7.0,7.0,restaurant_4,IDEAS
+session_865,7.0,1.0,living room_40,IDEAS
+session_865,6.0,6.0,restaurant_28,IDEAS
+session_865,1.0,7.0,office room_4,IDEAS
+session_865,4.0,6.0,living room_31,IDEAS
+session_865,7.0,2.0,living room_70,IDEAS
+session_865,7.0,7.0,restaurant_48,IDEAS
+session_866,7.0,6.0,office room_64,IDEAS
+session_866,1.0,7.0,living room_31,IDEAS
+session_866,6.0,3.0,office room_46,IDEAS
+session_866,5.0,5.0,restaurant_28,IDEAS
+session_866,7.0,3.0,office room_4,IDEAS
+session_866,7.0,2.0,living room_70,IDEAS
+session_866,7.0,5.0,restaurant_48,IDEAS
+session_866,7.0,2.0,living room_40,IDEAS
+session_866,5.0,2.0,restaurant_4,IDEAS
+session_867,2.0,7.0,restaurant_4,IDEAS
+session_867,2.0,6.0,restaurant_28,IDEAS
+session_867,5.0,2.0,office room_46,IDEAS
+session_867,7.0,7.0,living room_70,IDEAS
+session_867,6.0,1.0,living room_31,IDEAS
+session_867,7.0,7.0,living room_40,IDEAS
+session_867,6.0,7.0,restaurant_48,IDEAS
+session_867,7.0,7.0,office room_4,IDEAS
+session_867,7.0,7.0,office room_64,IDEAS
+session_869,6.0,3.0,living room_70,IDEAS
+session_869,7.0,7.0,restaurant_4,IDEAS
+session_869,6.0,5.0,office room_64,IDEAS
+session_869,7.0,6.0,office room_46,IDEAS
+session_869,6.0,3.0,living room_40,IDEAS
+session_869,6.0,5.0,restaurant_28,IDEAS
+session_869,5.0,6.0,office room_4,IDEAS
+session_869,5.0,6.0,restaurant_48,IDEAS
+session_869,2.0,6.0,living room_31,IDEAS
+session_870,5.0,4.0,office room_64,IDEAS
+session_870,6.0,3.0,restaurant_48,IDEAS
+session_870,1.0,7.0,living room_31,IDEAS
+session_870,5.0,6.0,office room_4,IDEAS
+session_870,3.0,6.0,restaurant_28,IDEAS
+session_870,7.0,3.0,living room_40,IDEAS
+session_870,4.0,5.0,office room_46,IDEAS
+session_870,7.0,3.0,living room_70,IDEAS
+session_870,5.0,6.0,restaurant_4,IDEAS
+session_871,7.0,7.0,living room_40,IDEAS
+session_871,3.0,2.0,living room_31,IDEAS
+session_871,6.0,7.0,office room_46,IDEAS
+session_871,6.0,3.0,restaurant_28,IDEAS
+session_871,1.0,7.0,office room_4,IDEAS
+session_871,6.0,7.0,restaurant_48,IDEAS
+session_871,7.0,7.0,office room_64,IDEAS
+session_871,7.0,7.0,restaurant_4,IDEAS
+session_871,7.0,7.0,living room_70,IDEAS
+session_872,1.0,7.0,living room_31,IDEAS
+session_872,7.0,2.0,living room_40,IDEAS
+session_872,7.0,4.0,living room_70,IDEAS
+session_872,1.0,7.0,restaurant_28,IDEAS
+session_872,1.0,6.0,office room_46,IDEAS
+session_872,7.0,7.0,office room_64,IDEAS
+session_872,6.0,6.0,office room_4,IDEAS
+session_872,6.0,4.0,restaurant_4,IDEAS
+session_872,6.0,4.0,restaurant_48,IDEAS
+session_873,1.0,5.0,restaurant_4,IDEAS
+session_873,6.0,5.0,living room_40,IDEAS
+session_873,7.0,3.0,living room_70,IDEAS
+session_873,7.0,3.0,office room_46,IDEAS
+session_873,6.0,6.0,office room_4,IDEAS
+session_873,7.0,6.0,restaurant_48,IDEAS
+session_873,2.0,5.0,living room_31,IDEAS
+session_873,3.0,6.0,restaurant_28,IDEAS
+session_873,6.0,7.0,office room_64,IDEAS
+session_874,2.0,2.0,office room_46,IDEAS
+session_874,2.0,6.0,office room_4,IDEAS
+session_874,4.0,4.0,living room_31,IDEAS
+session_874,7.0,4.0,living room_40,IDEAS
+session_874,5.0,6.0,restaurant_4,IDEAS
+session_874,5.0,6.0,restaurant_28,IDEAS
+session_874,4.0,6.0,office room_64,IDEAS
+session_874,5.0,6.0,restaurant_48,IDEAS
+session_874,7.0,3.0,living room_70,IDEAS
+session_875,3.0,5.0,restaurant_28,IDEAS
+session_875,2.0,6.0,living room_31,IDEAS
+session_875,7.0,7.0,restaurant_4,IDEAS
+session_875,1.0,7.0,office room_46,IDEAS
+session_875,7.0,7.0,living room_70,IDEAS
+session_875,3.0,6.0,office room_64,IDEAS
+session_875,3.0,6.0,office room_4,IDEAS
+session_875,7.0,7.0,restaurant_48,IDEAS
+session_875,7.0,7.0,living room_40,IDEAS
+session_876,5.0,7.0,office room_64,IDEAS
+session_876,3.0,6.0,office room_46,IDEAS
+session_876,7.0,4.0,living room_40,IDEAS
+session_876,6.0,5.0,restaurant_28,IDEAS
+session_876,2.0,3.0,office room_4,IDEAS
+session_876,7.0,7.0,restaurant_48,IDEAS
+session_876,2.0,4.0,living room_31,IDEAS
+session_876,6.0,6.0,restaurant_4,IDEAS
+session_876,5.0,6.0,living room_70,IDEAS
+session_877,5.0,6.0,restaurant_28,IDEAS
+session_877,2.0,4.0,living room_31,IDEAS
+session_877,6.0,5.0,office room_46,IDEAS
+session_877,6.0,6.0,office room_4,IDEAS
+session_877,6.0,5.0,restaurant_4,IDEAS
+session_877,7.0,3.0,living room_40,IDEAS
+session_877,6.0,6.0,office room_64,IDEAS
+session_877,6.0,6.0,restaurant_48,IDEAS
+session_877,6.0,6.0,living room_70,IDEAS
+session_878,2.0,4.0,office room_4,IDEAS
+session_878,2.0,6.0,office room_46,IDEAS
+session_878,7.0,7.0,restaurant_4,IDEAS
+session_878,7.0,7.0,living room_70,IDEAS
+session_878,4.0,2.0,restaurant_28,IDEAS
+session_878,7.0,7.0,office room_64,IDEAS
+session_878,1.0,4.0,living room_31,IDEAS
+session_878,7.0,7.0,living room_40,IDEAS
+session_878,7.0,7.0,restaurant_48,IDEAS
+session_879,6.0,5.0,restaurant_4,IDEAS
+session_879,1.0,7.0,living room_31,IDEAS
+session_879,5.0,5.0,living room_40,IDEAS
+session_879,1.0,7.0,restaurant_28,IDEAS
+session_879,5.0,6.0,restaurant_48,IDEAS
+session_879,5.0,3.0,office room_64,IDEAS
+session_879,5.0,4.0,office room_4,IDEAS
+session_879,7.0,2.0,living room_70,IDEAS
+session_879,1.0,7.0,office room_46,IDEAS
+session_880,7.0,7.0,restaurant_48,IDEAS
+session_880,7.0,7.0,restaurant_4,IDEAS
+session_880,6.0,5.0,living room_40,IDEAS
+session_880,6.0,6.0,restaurant_28,IDEAS
+session_880,6.0,6.0,office room_64,IDEAS
+session_880,2.0,5.0,living room_31,IDEAS
+session_880,6.0,6.0,office room_4,IDEAS
+session_880,6.0,5.0,living room_70,IDEAS
+session_880,5.0,6.0,office room_46,IDEAS
+session_881,6.0,6.0,living room_40,IDEAS
+session_881,7.0,7.0,living room_70,IDEAS
+session_881,6.0,5.0,office room_4,IDEAS
+session_881,1.0,1.0,restaurant_4,IDEAS
+session_881,7.0,7.0,office room_46,IDEAS
+session_881,2.0,2.0,restaurant_28,IDEAS
+session_881,7.0,7.0,office room_64,IDEAS
+session_881,4.0,4.0,restaurant_48,IDEAS
+session_881,1.0,1.0,living room_31,IDEAS
+session_882,6.0,3.0,restaurant_48,IDEAS
+session_882,6.0,5.0,living room_40,IDEAS
+session_882,7.0,5.0,living room_70,IDEAS
+session_882,1.0,7.0,living room_31,IDEAS
+session_882,2.0,7.0,office room_46,IDEAS
+session_882,5.0,4.0,restaurant_4,IDEAS
+session_882,5.0,5.0,office room_4,IDEAS
+session_882,2.0,7.0,restaurant_28,IDEAS
+session_882,5.0,5.0,office room_64,IDEAS
+session_883,6.0,7.0,office room_64,IDEAS
+session_883,1.0,2.0,living room_31,IDEAS
+session_883,7.0,1.0,living room_40,IDEAS
+session_883,7.0,1.0,living room_70,IDEAS
+session_883,5.0,6.0,restaurant_48,IDEAS
+session_883,5.0,7.0,office room_4,IDEAS
+session_883,5.0,5.0,office room_46,IDEAS
+session_883,3.0,4.0,restaurant_28,IDEAS
+session_883,5.0,5.0,restaurant_4,IDEAS
+session_885,5.0,7.0,office room_4,IDEAS
+session_885,3.0,2.0,office room_46,IDEAS
+session_885,3.0,4.0,restaurant_28,IDEAS
+session_885,6.0,7.0,restaurant_4,IDEAS
+session_885,6.0,7.0,living room_70,IDEAS
+session_885,5.0,7.0,restaurant_48,IDEAS
+session_885,5.0,7.0,office room_64,IDEAS
+session_885,7.0,6.0,living room_40,IDEAS
+session_885,1.0,3.0,living room_31,IDEAS
+session_886,2.0,7.0,living room_31,IDEAS
+session_886,6.0,5.0,living room_40,IDEAS
+session_886,7.0,5.0,restaurant_4,IDEAS
+session_886,3.0,7.0,restaurant_28,IDEAS
+session_886,2.0,7.0,office room_4,IDEAS
+session_886,7.0,7.0,restaurant_48,IDEAS
+session_886,3.0,7.0,office room_64,IDEAS
+session_886,7.0,3.0,living room_70,IDEAS
+session_886,5.0,3.0,office room_46,IDEAS
+session_888,6.0,5.0,restaurant_48,IDEAS
+session_888,3.0,3.0,living room_31,IDEAS
+session_888,3.0,4.0,restaurant_28,IDEAS
+session_888,3.0,6.0,office room_64,IDEAS
+session_888,5.0,5.0,restaurant_4,IDEAS
+session_888,2.0,5.0,office room_46,IDEAS
+session_888,1.0,7.0,office room_4,IDEAS
+session_888,5.0,2.0,living room_40,IDEAS
+session_888,5.0,5.0,living room_70,IDEAS
+session_889,6.0,5.0,office room_64,IDEAS
+session_889,5.0,6.0,restaurant_28,IDEAS
+session_889,5.0,6.0,restaurant_4,IDEAS
+session_889,6.0,5.0,living room_70,IDEAS
+session_889,5.0,4.0,living room_40,IDEAS
+session_889,6.0,6.0,office room_4,IDEAS
+session_889,6.0,5.0,restaurant_48,IDEAS
+session_889,7.0,5.0,living room_31,IDEAS
+session_889,6.0,5.0,office room_46,IDEAS
+session_890,6.0,7.0,restaurant_48,IDEAS
+session_890,6.0,5.0,living room_70,IDEAS
+session_890,5.0,6.0,living room_40,IDEAS
+session_890,2.0,5.0,office room_64,IDEAS
+session_890,5.0,4.0,restaurant_4,IDEAS
+session_890,4.0,2.0,office room_46,IDEAS
+session_890,2.0,2.0,office room_4,IDEAS
+session_890,5.0,3.0,living room_31,IDEAS
+session_890,4.0,3.0,restaurant_28,IDEAS
+session_891,1.0,6.0,living room_31,IDEAS
+session_891,7.0,6.0,restaurant_48,IDEAS
+session_891,2.0,4.0,office room_46,IDEAS
+session_891,5.0,3.0,office room_64,IDEAS
+session_891,6.0,4.0,restaurant_4,IDEAS
+session_891,6.0,3.0,living room_40,IDEAS
+session_891,3.0,4.0,restaurant_28,IDEAS
+session_891,3.0,6.0,office room_4,IDEAS
+session_891,6.0,3.0,living room_70,IDEAS
+session_892,2.0,4.0,office room_4,IDEAS
+session_892,4.0,7.0,living room_40,IDEAS
+session_892,1.0,7.0,living room_31,IDEAS
+session_892,6.0,6.0,restaurant_48,IDEAS
+session_892,5.0,6.0,restaurant_28,IDEAS
+session_892,6.0,7.0,restaurant_4,IDEAS
+session_892,1.0,7.0,office room_46,IDEAS
+session_892,7.0,7.0,living room_70,IDEAS
+session_892,4.0,7.0,office room_64,IDEAS
+session_893,6.0,6.0,restaurant_4,IDEAS
+session_893,5.0,6.0,office room_64,IDEAS
+session_893,7.0,4.0,living room_40,IDEAS
+session_893,7.0,6.0,living room_70,IDEAS
+session_893,1.0,6.0,office room_46,IDEAS
+session_893,7.0,6.0,restaurant_48,IDEAS
+session_893,3.0,5.0,restaurant_28,IDEAS
+session_893,3.0,3.0,living room_31,IDEAS
+session_893,2.0,6.0,office room_4,IDEAS
+session_894,7.0,2.0,living room_40,IDEAS
+session_894,4.0,4.0,office room_64,IDEAS
+session_894,6.0,5.0,living room_70,IDEAS
+session_894,4.0,4.0,office room_4,IDEAS
+session_894,3.0,4.0,restaurant_28,IDEAS
+session_894,3.0,5.0,living room_31,IDEAS
+session_894,5.0,5.0,office room_46,IDEAS
+session_894,6.0,4.0,restaurant_48,IDEAS
+session_894,6.0,5.0,restaurant_4,IDEAS
+session_895,5.0,6.0,living room_40,IDEAS
+session_895,1.0,7.0,living room_31,IDEAS
+session_895,5.0,6.0,living room_70,IDEAS
+session_895,3.0,6.0,office room_46,IDEAS
+session_895,1.0,7.0,office room_64,IDEAS
+session_895,5.0,6.0,restaurant_28,IDEAS
+session_895,1.0,7.0,office room_4,IDEAS
+session_895,6.0,6.0,restaurant_4,IDEAS
+session_895,5.0,5.0,restaurant_48,IDEAS
+session_896,6.0,2.0,living room_40,IDEAS
+session_896,6.0,6.0,restaurant_4,IDEAS
+session_896,7.0,2.0,living room_70,IDEAS
+session_896,6.0,7.0,restaurant_48,IDEAS
+session_896,4.0,5.0,restaurant_28,IDEAS
+session_896,4.0,3.0,office room_46,IDEAS
+session_896,2.0,6.0,office room_64,IDEAS
+session_896,2.0,5.0,office room_4,IDEAS
+session_896,1.0,4.0,living room_31,IDEAS
+session_897,3.0,6.0,office room_4,IDEAS
+session_897,4.0,5.0,restaurant_4,IDEAS
+session_897,5.0,4.0,living room_40,IDEAS
+session_897,6.0,3.0,living room_70,IDEAS
+session_897,4.0,4.0,restaurant_48,IDEAS
+session_897,4.0,5.0,restaurant_28,IDEAS
+session_897,2.0,5.0,living room_31,IDEAS
+session_897,4.0,4.0,office room_46,IDEAS
+session_897,4.0,5.0,office room_64,IDEAS
+session_898,2.0,6.0,office room_46,IDEAS
+session_898,6.0,3.0,living room_40,IDEAS
+session_898,4.0,4.0,living room_70,IDEAS
+session_898,6.0,4.0,restaurant_48,IDEAS
+session_898,5.0,5.0,restaurant_4,IDEAS
+session_898,5.0,3.0,living room_31,IDEAS
+session_898,6.0,3.0,restaurant_28,IDEAS
+session_898,3.0,6.0,office room_64,IDEAS
+session_898,2.0,7.0,office room_4,IDEAS
+session_899,4.0,3.0,restaurant_28,IDEAS
+session_899,6.0,4.0,office room_46,IDEAS
+session_899,2.0,3.0,living room_31,IDEAS
+session_899,5.0,4.0,restaurant_48,IDEAS
+session_899,6.0,4.0,office room_4,IDEAS
+session_899,5.0,6.0,living room_40,IDEAS
+session_899,6.0,4.0,living room_70,IDEAS
+session_899,3.0,5.0,restaurant_4,IDEAS
+session_899,3.0,5.0,office room_64,IDEAS
+session_900,6.0,5.0,restaurant_4,IDEAS
+session_900,7.0,2.0,living room_40,IDEAS
+session_900,3.0,5.0,office room_4,IDEAS
+session_900,5.0,4.0,living room_31,IDEAS
+session_900,3.0,5.0,office room_46,IDEAS
+session_900,2.0,6.0,office room_64,IDEAS
+session_900,5.0,4.0,restaurant_28,IDEAS
+session_900,7.0,3.0,living room_70,IDEAS
+session_900,5.0,5.0,restaurant_48,IDEAS
+session_901,5.0,6.0,office room_64,IDEAS
+session_901,1.0,7.0,living room_31,IDEAS
+session_901,5.0,3.0,restaurant_28,IDEAS
+session_901,7.0,7.0,restaurant_4,IDEAS
+session_901,4.0,1.0,office room_4,IDEAS
+session_901,7.0,7.0,living room_40,IDEAS
+session_901,1.0,1.0,office room_46,IDEAS
+session_901,7.0,7.0,living room_70,IDEAS
+session_901,7.0,7.0,restaurant_48,IDEAS
+session_902,7.0,7.0,office room_4,IDEAS
+session_902,7.0,7.0,living room_40,IDEAS
+session_902,7.0,6.0,office room_46,IDEAS
+session_902,1.0,1.0,living room_31,IDEAS
+session_902,6.0,5.0,restaurant_4,IDEAS
+session_902,7.0,7.0,office room_64,IDEAS
+session_902,7.0,7.0,restaurant_48,IDEAS
+session_902,7.0,7.0,living room_70,IDEAS
+session_902,3.0,2.0,restaurant_28,IDEAS
+session_903,1.0,1.0,office room_46,IDEAS
+session_903,7.0,7.0,office room_64,IDEAS
+session_903,1.0,1.0,living room_31,IDEAS
+session_903,7.0,7.0,living room_70,IDEAS
+session_903,1.0,3.0,restaurant_28,IDEAS
+session_903,5.0,7.0,restaurant_4,IDEAS
+session_903,7.0,7.0,restaurant_48,IDEAS
+session_903,6.0,7.0,living room_40,IDEAS
+session_903,5.0,3.0,office room_4,IDEAS
+session_904,6.0,6.0,restaurant_4,IDEAS
+session_904,5.0,2.0,living room_40,IDEAS
+session_904,2.0,6.0,living room_31,IDEAS
+session_904,5.0,7.0,restaurant_28,IDEAS
+session_904,1.0,7.0,office room_4,IDEAS
+session_904,7.0,6.0,living room_70,IDEAS
+session_904,6.0,6.0,restaurant_48,IDEAS
+session_904,2.0,7.0,office room_46,IDEAS
+session_904,2.0,7.0,office room_64,IDEAS
+session_905,6.0,5.0,office room_46,IDEAS
+session_905,6.0,7.0,office room_4,IDEAS
+session_905,1.0,6.0,living room_31,IDEAS
+session_905,7.0,2.0,living room_70,IDEAS
+session_905,6.0,3.0,living room_40,IDEAS
+session_905,2.0,4.0,office room_64,IDEAS
+session_905,7.0,7.0,restaurant_4,IDEAS
+session_905,5.0,6.0,restaurant_28,IDEAS
+session_905,7.0,7.0,restaurant_48,IDEAS
+session_906,6.0,6.0,restaurant_48,IDEAS
+session_906,6.0,6.0,office room_64,IDEAS
+session_906,1.0,7.0,living room_31,IDEAS
+session_906,5.0,6.0,restaurant_4,IDEAS
+session_906,5.0,6.0,living room_70,IDEAS
+session_906,6.0,7.0,living room_40,IDEAS
+session_906,6.0,7.0,office room_46,IDEAS
+session_906,5.0,6.0,restaurant_28,IDEAS
+session_906,6.0,6.0,office room_4,IDEAS
+session_907,2.0,5.0,office room_64,IDEAS
+session_907,3.0,4.0,office room_46,IDEAS
+session_907,4.0,4.0,restaurant_48,IDEAS
+session_907,4.0,4.0,living room_70,IDEAS
+session_907,2.0,6.0,office room_4,IDEAS
+session_907,4.0,4.0,restaurant_4,IDEAS
+session_907,4.0,4.0,restaurant_28,IDEAS
+session_907,6.0,2.0,living room_40,IDEAS
+session_907,4.0,4.0,living room_31,IDEAS
+session_908,7.0,1.0,living room_40,IDEAS
+session_908,1.0,7.0,living room_31,IDEAS
+session_908,7.0,7.0,restaurant_48,IDEAS
+session_908,1.0,7.0,office room_46,IDEAS
+session_908,7.0,2.0,living room_70,IDEAS
+session_908,7.0,7.0,restaurant_4,IDEAS
+session_908,1.0,7.0,office room_64,IDEAS
+session_908,3.0,7.0,office room_4,IDEAS
+session_908,2.0,5.0,restaurant_28,IDEAS
+session_909,7.0,7.0,restaurant_48,IDEAS
+session_909,7.0,7.0,living room_40,IDEAS
+session_909,3.0,5.0,living room_31,IDEAS
+session_909,6.0,6.0,restaurant_4,IDEAS
+session_909,5.0,6.0,office room_64,IDEAS
+session_909,5.0,5.0,restaurant_28,IDEAS
+session_909,7.0,7.0,office room_4,IDEAS
+session_909,7.0,7.0,living room_70,IDEAS
+session_909,5.0,5.0,office room_46,IDEAS
+session_910,7.0,6.0,restaurant_48,IDEAS
+session_910,7.0,3.0,living room_40,IDEAS
+session_910,7.0,5.0,restaurant_4,IDEAS
+session_910,7.0,6.0,office room_64,IDEAS
+session_910,2.0,6.0,office room_4,IDEAS
+session_910,6.0,5.0,restaurant_28,IDEAS
+session_910,1.0,7.0,living room_31,IDEAS
+session_910,5.0,6.0,office room_46,IDEAS
+session_910,7.0,7.0,living room_70,IDEAS
+session_913,7.0,7.0,office room_4,IDEAS
+session_913,7.0,7.0,restaurant_28,IDEAS
+session_913,7.0,4.0,living room_70,IDEAS
+session_913,7.0,7.0,restaurant_4,IDEAS
+session_913,5.0,7.0,office room_64,IDEAS
+session_913,7.0,7.0,restaurant_48,IDEAS
+session_913,1.0,7.0,living room_31,IDEAS
+session_913,7.0,7.0,living room_40,IDEAS
+session_913,5.0,7.0,office room_46,IDEAS
+session_914,3.0,5.0,restaurant_28,IDEAS
+session_914,4.0,5.0,restaurant_4,IDEAS
+session_914,1.0,6.0,living room_31,IDEAS
+session_914,5.0,6.0,office room_64,IDEAS
+session_914,7.0,4.0,living room_40,IDEAS
+session_914,7.0,6.0,living room_70,IDEAS
+session_914,2.0,3.0,office room_4,IDEAS
+session_914,2.0,3.0,office room_46,IDEAS
+session_914,6.0,6.0,restaurant_48,IDEAS
+session_915,7.0,1.0,living room_40,IDEAS
+session_915,7.0,7.0,restaurant_48,IDEAS
+session_915,1.0,7.0,living room_31,IDEAS
+session_915,7.0,7.0,office room_64,IDEAS
+session_915,7.0,1.0,living room_70,IDEAS
+session_915,7.0,7.0,office room_4,IDEAS
+session_915,5.0,5.0,restaurant_4,IDEAS
+session_915,4.0,4.0,office room_46,IDEAS
+session_915,4.0,4.0,restaurant_28,IDEAS
+session_917,6.0,6.0,restaurant_48,IDEAS
+session_917,3.0,6.0,living room_31,IDEAS
+session_917,6.0,4.0,living room_40,IDEAS
+session_917,6.0,6.0,restaurant_4,IDEAS
+session_917,3.0,3.0,office room_4,IDEAS
+session_917,3.0,3.0,office room_46,IDEAS
+session_917,7.0,6.0,living room_70,IDEAS
+session_917,3.0,5.0,restaurant_28,IDEAS
+session_917,3.0,4.0,office room_64,IDEAS
+session_918,3.0,5.0,living room_31,IDEAS
+session_918,5.0,7.0,living room_70,IDEAS
+session_918,3.0,7.0,office room_4,IDEAS
+session_918,4.0,7.0,restaurant_4,IDEAS
+session_918,4.0,7.0,office room_64,IDEAS
+session_918,3.0,7.0,office room_46,IDEAS
+session_918,6.0,7.0,living room_40,IDEAS
+session_918,3.0,7.0,restaurant_28,IDEAS
+session_918,4.0,7.0,restaurant_48,IDEAS
+session_919,6.0,5.0,living room_70,IDEAS
+session_919,2.0,3.0,restaurant_28,IDEAS
+session_919,6.0,5.0,living room_40,IDEAS
+session_919,2.0,2.0,living room_31,IDEAS
+session_919,3.0,2.0,office room_46,IDEAS
+session_919,2.0,6.0,office room_64,IDEAS
+session_919,5.0,5.0,restaurant_48,IDEAS
+session_919,6.0,6.0,restaurant_4,IDEAS
+session_919,2.0,2.0,office room_4,IDEAS
+session_920,7.0,6.0,living room_70,IDEAS
+session_920,5.0,2.0,office room_46,IDEAS
+session_920,4.0,4.0,restaurant_28,IDEAS
+session_920,7.0,7.0,restaurant_48,IDEAS
+session_920,4.0,4.0,living room_40,IDEAS
+session_920,7.0,7.0,restaurant_4,IDEAS
+session_921,1.0,5.0,living room_31,IDEAS
+session_921,7.0,7.0,restaurant_48,IDEAS
+session_921,7.0,7.0,office room_64,IDEAS
+session_921,7.0,7.0,office room_4,IDEAS
+session_921,7.0,7.0,living room_70,IDEAS
+session_921,7.0,7.0,restaurant_4,IDEAS
+session_921,5.0,7.0,office room_46,IDEAS
+session_921,2.0,5.0,restaurant_28,IDEAS
+session_921,7.0,7.0,living room_40,IDEAS
+session_922,5.0,5.0,office room_46,IDEAS
+session_922,6.0,5.0,office room_64,IDEAS
+session_922,6.0,5.0,living room_40,IDEAS
+session_922,5.0,6.0,restaurant_48,IDEAS
+session_922,6.0,6.0,living room_70,IDEAS
+session_922,6.0,4.0,office room_4,IDEAS
+session_922,5.0,6.0,restaurant_4,IDEAS
+session_922,5.0,2.0,living room_31,IDEAS
+session_922,6.0,6.0,restaurant_28,IDEAS
+session_923,5.0,6.0,office room_64,IDEAS
+session_923,6.0,5.0,living room_70,IDEAS
+session_923,6.0,6.0,restaurant_28,IDEAS
+session_923,5.0,6.0,office room_4,IDEAS
+session_923,5.0,6.0,office room_46,IDEAS
+session_923,5.0,6.0,restaurant_48,IDEAS
+session_923,6.0,3.0,living room_40,IDEAS
+session_923,5.0,6.0,restaurant_4,IDEAS
+session_923,6.0,4.0,living room_31,IDEAS
+session_924,4.0,4.0,office room_46,IDEAS
+session_924,7.0,7.0,restaurant_48,IDEAS
+session_924,7.0,7.0,living room_70,IDEAS
+session_924,7.0,7.0,office room_4,IDEAS
+session_924,7.0,7.0,living room_40,IDEAS
+session_924,7.0,7.0,restaurant_4,IDEAS
+session_924,4.0,4.0,restaurant_28,IDEAS
+session_924,7.0,7.0,office room_64,IDEAS
+session_924,4.0,4.0,living room_31,IDEAS
+session_925,3.0,5.0,restaurant_48,IDEAS
+session_925,2.0,7.0,living room_70,IDEAS
+session_925,3.0,5.0,office room_46,IDEAS
+session_925,5.0,5.0,living room_40,IDEAS
+session_925,2.0,5.0,restaurant_28,IDEAS
+session_925,3.0,4.0,restaurant_4,IDEAS
+session_925,6.0,2.0,office room_4,IDEAS
+session_925,6.0,3.0,office room_64,IDEAS
+session_925,6.0,2.0,living room_31,IDEAS
+session_927,4.0,4.0,restaurant_28,IDEAS
+session_927,7.0,7.0,restaurant_4,IDEAS
+session_927,1.0,5.0,living room_31,IDEAS
+session_927,7.0,7.0,restaurant_48,IDEAS
+session_927,1.0,4.0,office room_64,IDEAS
+session_927,7.0,5.0,living room_40,IDEAS
+session_927,1.0,4.0,office room_46,IDEAS
+session_927,7.0,7.0,living room_70,IDEAS
+session_927,1.0,2.0,office room_4,IDEAS
+session_928,1.0,7.0,office room_64,IDEAS
+session_928,1.0,1.0,office room_4,IDEAS
+session_928,1.0,3.0,living room_31,IDEAS
+session_928,7.0,7.0,restaurant_48,IDEAS
+session_928,4.0,1.0,living room_40,IDEAS
+session_928,7.0,7.0,living room_70,IDEAS
+session_928,7.0,6.0,restaurant_4,IDEAS
+session_928,1.0,3.0,office room_46,IDEAS
+session_928,7.0,3.0,restaurant_28,IDEAS
+session_929,7.0,7.0,office room_64,IDEAS
+session_929,7.0,7.0,restaurant_28,IDEAS
+session_929,7.0,7.0,office room_46,IDEAS
+session_929,7.0,7.0,living room_70,IDEAS
+session_929,7.0,7.0,office room_4,IDEAS
+session_929,1.0,1.0,living room_31,IDEAS
+session_929,7.0,7.0,restaurant_4,IDEAS
+session_929,7.0,7.0,living room_40,IDEAS
+session_929,7.0,7.0,restaurant_48,IDEAS
+session_930,5.0,5.0,restaurant_4,IDEAS
+session_930,7.0,5.0,living room_70,IDEAS
+session_930,3.0,6.0,office room_64,IDEAS
+session_930,4.0,6.0,office room_4,IDEAS
+session_930,3.0,6.0,restaurant_28,IDEAS
+session_930,4.0,6.0,living room_31,IDEAS
+session_930,6.0,6.0,restaurant_48,IDEAS
+session_930,2.0,6.0,office room_46,IDEAS
+session_930,5.0,6.0,living room_40,IDEAS
+session_931,2.0,3.0,office room_46,IDEAS
+session_931,6.0,7.0,living room_70,IDEAS
+session_931,4.0,3.0,restaurant_28,IDEAS
+session_931,3.0,5.0,living room_31,IDEAS
+session_931,5.0,6.0,restaurant_4,IDEAS
+session_931,6.0,3.0,living room_40,IDEAS
+session_931,2.0,6.0,office room_64,IDEAS
+session_931,5.0,4.0,restaurant_48,IDEAS
+session_931,2.0,2.0,office room_4,IDEAS
+session_932,7.0,7.0,living room_70,IDEAS
+session_932,7.0,7.0,restaurant_48,IDEAS
+session_932,7.0,7.0,office room_64,IDEAS
+session_932,7.0,5.0,living room_40,IDEAS
+session_932,6.0,7.0,office room_4,IDEAS
+session_932,6.0,6.0,office room_46,IDEAS
+session_932,7.0,7.0,restaurant_4,IDEAS
+session_932,4.0,5.0,restaurant_28,IDEAS
+session_932,1.0,2.0,living room_31,IDEAS
+session_933,1.0,2.0,restaurant_28,IDEAS
+session_933,5.0,7.0,office room_64,IDEAS
+session_933,6.0,6.0,restaurant_4,IDEAS
+session_933,4.0,5.0,living room_70,IDEAS
+session_933,7.0,7.0,living room_40,IDEAS
+session_933,7.0,7.0,restaurant_48,IDEAS
+session_933,7.0,6.0,office room_4,IDEAS
+session_933,1.0,2.0,office room_46,IDEAS
+session_933,1.0,7.0,living room_31,IDEAS
+session_934,4.0,5.0,office room_4,IDEAS
+session_934,6.0,5.0,living room_70,IDEAS
+session_934,5.0,6.0,restaurant_48,IDEAS
+session_934,3.0,6.0,restaurant_28,IDEAS
+session_934,6.0,3.0,office room_46,IDEAS
+session_934,2.0,7.0,office room_64,IDEAS
+session_934,5.0,6.0,restaurant_4,IDEAS
+session_934,4.0,3.0,living room_31,IDEAS
+session_934,7.0,3.0,living room_40,IDEAS
+session_935,7.0,5.0,restaurant_48,IDEAS
+session_935,7.0,7.0,living room_40,IDEAS
+session_935,7.0,7.0,restaurant_4,IDEAS
+session_935,7.0,7.0,living room_70,IDEAS
+session_935,5.0,3.0,restaurant_28,IDEAS
+session_935,2.0,1.0,living room_31,IDEAS
+session_935,7.0,6.0,office room_46,IDEAS
+session_935,7.0,7.0,office room_64,IDEAS
+session_935,7.0,7.0,office room_4,IDEAS
+session_936,3.0,7.0,office room_4,IDEAS
+session_936,7.0,7.0,restaurant_4,IDEAS
+session_936,7.0,4.0,living room_40,IDEAS
+session_936,3.0,4.0,living room_31,IDEAS
+session_936,5.0,5.0,restaurant_48,IDEAS
+session_936,3.0,4.0,restaurant_28,IDEAS
+session_936,1.0,3.0,office room_64,IDEAS
+session_936,1.0,3.0,office room_46,IDEAS
+session_936,7.0,4.0,living room_70,IDEAS
+session_937,7.0,7.0,living room_70,IDEAS
+session_937,7.0,7.0,restaurant_48,IDEAS
+session_937,7.0,7.0,restaurant_4,IDEAS
+session_937,6.0,6.0,office room_46,IDEAS
+session_937,7.0,7.0,office room_64,IDEAS
+session_937,7.0,7.0,living room_40,IDEAS
+session_937,7.0,7.0,living room_31,IDEAS
+session_937,7.0,7.0,restaurant_28,IDEAS
+session_937,7.0,7.0,office room_4,IDEAS
+session_938,3.0,6.0,restaurant_28,IDEAS
+session_938,7.0,3.0,living room_31,IDEAS
+session_938,4.0,6.0,restaurant_4,IDEAS
+session_938,3.0,6.0,office room_46,IDEAS
+session_938,2.0,6.0,office room_64,IDEAS
+session_938,2.0,4.0,office room_4,IDEAS
+session_938,6.0,1.0,living room_70,IDEAS
+session_938,6.0,3.0,living room_40,IDEAS
+session_938,6.0,5.0,restaurant_48,IDEAS
+session_939,7.0,7.0,office room_4,IDEAS
+session_939,6.0,5.0,restaurant_4,IDEAS
+session_939,1.0,7.0,living room_31,IDEAS
+session_939,6.0,3.0,restaurant_48,IDEAS
+session_939,5.0,7.0,restaurant_28,IDEAS
+session_939,5.0,7.0,office room_46,IDEAS
+session_939,6.0,7.0,office room_64,IDEAS
+session_939,7.0,4.0,living room_70,IDEAS
+session_939,7.0,5.0,living room_40,IDEAS
+session_940,5.0,7.0,office room_4,IDEAS
+session_940,5.0,7.0,restaurant_4,IDEAS
+session_940,7.0,7.0,restaurant_48,IDEAS
+session_940,7.0,2.0,living room_70,IDEAS
+session_940,1.0,7.0,office room_46,IDEAS
+session_940,7.0,7.0,office room_64,IDEAS
+session_940,1.0,7.0,living room_31,IDEAS
+session_940,7.0,1.0,living room_40,IDEAS
+session_940,1.0,6.0,restaurant_28,IDEAS
+session_941,3.0,4.0,restaurant_28,IDEAS
+session_941,1.0,7.0,living room_31,IDEAS
+session_941,5.0,5.0,restaurant_4,IDEAS
+session_941,7.0,2.0,living room_70,IDEAS
+session_941,6.0,5.0,restaurant_48,IDEAS
+session_941,5.0,6.0,office room_64,IDEAS
+session_941,5.0,4.0,office room_46,IDEAS
+session_941,7.0,1.0,living room_40,IDEAS
+session_941,6.0,5.0,office room_4,IDEAS
+session_943,2.0,6.0,office room_46,IDEAS
+session_943,3.0,6.0,restaurant_48,IDEAS
+session_943,7.0,4.0,living room_40,IDEAS
+session_943,3.0,6.0,restaurant_4,IDEAS
+session_943,7.0,2.0,living room_70,IDEAS
+session_943,2.0,7.0,office room_64,IDEAS
+session_943,1.0,7.0,office room_4,IDEAS
+session_943,1.0,7.0,living room_31,IDEAS
+session_943,1.0,7.0,restaurant_28,IDEAS
+session_944,5.0,2.0,office room_4,IDEAS
+session_944,7.0,7.0,restaurant_4,IDEAS
+session_944,7.0,6.0,living room_40,IDEAS
+session_944,2.0,2.0,restaurant_28,IDEAS
+session_944,1.0,6.0,office room_46,IDEAS
+session_944,4.0,6.0,living room_31,IDEAS
+session_944,5.0,3.0,office room_64,IDEAS
+session_944,6.0,7.0,living room_70,IDEAS
+session_944,7.0,7.0,restaurant_48,IDEAS
+session_945,2.0,4.0,living room_31,IDEAS
+session_945,6.0,6.0,restaurant_4,IDEAS
+session_945,6.0,3.0,living room_40,IDEAS
+session_945,5.0,5.0,restaurant_48,IDEAS
+session_945,5.0,5.0,restaurant_28,IDEAS
+session_945,6.0,4.0,living room_70,IDEAS
+session_945,3.0,6.0,office room_46,IDEAS
+session_945,4.0,6.0,office room_64,IDEAS
+session_945,4.0,5.0,office room_4,IDEAS
+session_946,4.0,3.0,office room_64,IDEAS
+session_946,1.0,5.0,restaurant_28,IDEAS
+session_946,7.0,7.0,living room_70,IDEAS
+session_946,7.0,7.0,office room_4,IDEAS
+session_946,5.0,5.0,restaurant_48,IDEAS
+session_946,7.0,6.0,living room_40,IDEAS
+session_946,1.0,3.0,office room_46,IDEAS
+session_946,1.0,7.0,living room_31,IDEAS
+session_946,5.0,6.0,restaurant_4,IDEAS
+session_947,2.0,3.0,office room_46,IDEAS
+session_947,7.0,6.0,office room_4,IDEAS
+session_947,7.0,7.0,restaurant_48,IDEAS
+session_947,7.0,6.0,living room_70,IDEAS
+session_947,5.0,4.0,restaurant_28,IDEAS
+session_947,6.0,6.0,office room_64,IDEAS
+session_947,6.0,6.0,restaurant_4,IDEAS
+session_947,6.0,6.0,living room_40,IDEAS
+session_947,6.0,6.0,living room_31,IDEAS
+session_948,1.0,5.0,living room_31,IDEAS
+session_948,7.0,7.0,restaurant_48,IDEAS
+session_948,7.0,1.0,living room_70,IDEAS
+session_948,7.0,1.0,living room_40,IDEAS
+session_948,2.0,7.0,office room_64,IDEAS
+session_948,3.0,4.0,restaurant_28,IDEAS
+session_948,6.0,7.0,restaurant_4,IDEAS
+session_948,6.0,6.0,office room_4,IDEAS
+session_948,3.0,7.0,office room_46,IDEAS
+session_950,6.0,6.0,office room_4,IDEAS
+session_950,4.0,6.0,restaurant_48,IDEAS
+session_950,3.0,7.0,living room_31,IDEAS
+session_950,4.0,6.0,restaurant_4,IDEAS
+session_950,4.0,6.0,office room_64,IDEAS
+session_950,5.0,6.0,restaurant_28,IDEAS
+session_950,5.0,7.0,living room_40,IDEAS
+session_950,5.0,7.0,living room_70,IDEAS
+session_950,6.0,7.0,office room_46,IDEAS
+session_951,7.0,1.0,office room_4,IDEAS
+session_951,7.0,1.0,restaurant_48,IDEAS
+session_951,6.0,6.0,living room_70,IDEAS
+session_951,4.0,4.0,restaurant_4,IDEAS
+session_951,3.0,2.0,office room_46,IDEAS
+session_951,1.0,1.0,living room_31,IDEAS
+session_951,5.0,5.0,living room_40,IDEAS
+session_951,4.0,4.0,office room_64,IDEAS
+session_951,1.0,1.0,restaurant_28,IDEAS
+session_952,6.0,5.0,office room_4,IDEAS
+session_952,1.0,7.0,office room_46,IDEAS
+session_952,6.0,7.0,office room_64,IDEAS
+session_952,6.0,3.0,living room_70,IDEAS
+session_952,2.0,6.0,living room_31,IDEAS
+session_952,3.0,6.0,restaurant_4,IDEAS
+session_952,7.0,5.0,restaurant_48,IDEAS
+session_952,5.0,2.0,living room_40,IDEAS
+session_952,2.0,7.0,restaurant_28,IDEAS
+session_953,7.0,7.0,office room_64,IDEAS
+session_953,7.0,7.0,office room_46,IDEAS
+session_953,7.0,7.0,living room_40,IDEAS
+session_953,7.0,7.0,office room_4,IDEAS
+session_953,1.0,1.0,living room_31,IDEAS
+session_953,4.0,4.0,restaurant_28,IDEAS
+session_953,7.0,7.0,restaurant_48,IDEAS
+session_953,5.0,5.0,restaurant_4,IDEAS
+session_953,6.0,6.0,living room_70,IDEAS
+session_955,4.0,4.0,office room_46,IDEAS
+session_955,6.0,4.0,living room_70,IDEAS
+session_955,2.0,2.0,restaurant_28,IDEAS
+session_955,4.0,5.0,restaurant_4,IDEAS
+session_955,4.0,5.0,office room_64,IDEAS
+session_955,2.0,5.0,living room_31,IDEAS
+session_955,4.0,4.0,restaurant_48,IDEAS
+session_955,6.0,5.0,office room_4,IDEAS
+session_955,5.0,4.0,living room_40,IDEAS
+session_956,4.0,4.0,office room_64,IDEAS
+session_956,2.0,5.0,office room_4,IDEAS
+session_956,2.0,5.0,office room_46,IDEAS
+session_956,6.0,5.0,living room_70,IDEAS
+session_956,3.0,5.0,living room_31,IDEAS
+session_956,4.0,4.0,restaurant_4,IDEAS
+session_956,2.0,5.0,restaurant_28,IDEAS
+session_956,4.0,6.0,restaurant_48,IDEAS
+session_956,7.0,4.0,living room_40,IDEAS
+session_957,7.0,6.0,living room_40,IDEAS
+session_957,5.0,7.0,office room_4,IDEAS
+session_957,7.0,7.0,restaurant_48,IDEAS
+session_957,1.0,7.0,office room_46,IDEAS
+session_957,1.0,7.0,restaurant_28,IDEAS
+session_957,7.0,1.0,living room_70,IDEAS
+session_957,6.0,5.0,restaurant_4,IDEAS
+session_957,1.0,1.0,living room_31,IDEAS
+session_957,6.0,6.0,office room_64,IDEAS
+session_958,4.0,6.0,restaurant_48,IDEAS
+session_958,4.0,6.0,office room_4,IDEAS
+session_958,7.0,3.0,living room_70,IDEAS
+session_958,5.0,3.0,restaurant_4,IDEAS
+session_958,2.0,5.0,office room_46,IDEAS
+session_958,2.0,3.0,office room_64,IDEAS
+session_958,1.0,5.0,living room_31,IDEAS
+session_958,4.0,5.0,restaurant_28,IDEAS
+session_958,6.0,3.0,living room_40,IDEAS
+session_960,5.0,5.0,office room_46,IDEAS
+session_960,3.0,7.0,office room_4,IDEAS
+session_960,1.0,7.0,office room_64,IDEAS
+session_960,7.0,3.0,living room_40,IDEAS
+session_960,4.0,6.0,restaurant_4,IDEAS
+session_960,7.0,7.0,restaurant_48,IDEAS
+session_960,1.0,7.0,living room_31,IDEAS
+session_960,7.0,7.0,living room_70,IDEAS
+session_960,3.0,3.0,restaurant_28,IDEAS
+session_962,7.0,7.0,office room_4,IDEAS
+session_962,5.0,7.0,restaurant_48,IDEAS
+session_962,6.0,6.0,restaurant_28,IDEAS
+session_962,5.0,6.0,restaurant_4,IDEAS
+session_962,4.0,7.0,living room_31,IDEAS
+session_962,6.0,6.0,living room_70,IDEAS
+session_962,3.0,7.0,office room_46,IDEAS
+session_962,5.0,6.0,office room_64,IDEAS
+session_962,6.0,6.0,living room_40,IDEAS
+session_963,3.0,5.0,office room_4,IDEAS
+session_963,1.0,5.0,living room_31,IDEAS
+session_963,4.0,5.0,restaurant_28,IDEAS
+session_963,6.0,5.0,restaurant_48,IDEAS
+session_963,6.0,6.0,restaurant_4,IDEAS
+session_963,5.0,3.0,living room_70,IDEAS
+session_963,3.0,3.0,office room_46,IDEAS
+session_963,5.0,3.0,office room_64,IDEAS
+session_963,6.0,2.0,living room_40,IDEAS
+session_964,7.0,7.0,office room_4,IDEAS
+session_964,3.0,7.0,office room_46,IDEAS
+session_964,2.0,7.0,restaurant_4,IDEAS
+session_964,2.0,7.0,living room_31,IDEAS
+session_964,6.0,4.0,living room_40,IDEAS
+session_964,2.0,6.0,restaurant_28,IDEAS
+session_964,6.0,3.0,restaurant_48,IDEAS
+session_964,5.0,6.0,office room_64,IDEAS
+session_964,7.0,1.0,living room_70,IDEAS
+session_965,7.0,1.0,living room_40,IDEAS
+session_965,2.0,3.0,office room_46,IDEAS
+session_965,3.0,3.0,living room_31,IDEAS
+session_965,5.0,4.0,restaurant_4,IDEAS
+session_965,4.0,4.0,living room_70,IDEAS
+session_965,5.0,3.0,restaurant_28,IDEAS
+session_965,6.0,5.0,office room_64,IDEAS
+session_965,6.0,4.0,office room_4,IDEAS
+session_965,7.0,5.0,restaurant_48,IDEAS
+session_966,4.0,4.0,restaurant_28,IDEAS
+session_966,3.0,4.0,restaurant_4,IDEAS
+session_966,3.0,6.0,living room_70,IDEAS
+session_966,2.0,4.0,living room_31,IDEAS
+session_966,5.0,6.0,restaurant_48,IDEAS
+session_966,4.0,6.0,office room_64,IDEAS
+session_966,6.0,4.0,living room_40,IDEAS
+session_966,6.0,6.0,office room_46,IDEAS
+session_966,4.0,4.0,office room_4,IDEAS
+session_967,6.0,6.0,restaurant_4,IDEAS
+session_967,4.0,6.0,restaurant_28,IDEAS
+session_967,4.0,7.0,office room_64,IDEAS
+session_967,7.0,2.0,living room_70,IDEAS
+session_967,4.0,4.0,office room_46,IDEAS
+session_967,7.0,7.0,living room_40,IDEAS
+session_967,1.0,7.0,living room_31,IDEAS
+session_967,7.0,6.0,restaurant_48,IDEAS
+session_967,6.0,7.0,office room_4,IDEAS
+session_969,5.0,7.0,restaurant_48,IDEAS
+session_969,6.0,6.0,restaurant_4,IDEAS
+session_969,7.0,2.0,office room_4,IDEAS
+session_969,4.0,6.0,office room_64,IDEAS
+session_969,6.0,5.0,living room_70,IDEAS
+session_969,5.0,5.0,restaurant_28,IDEAS
+session_969,7.0,5.0,office room_46,IDEAS
+session_969,3.0,7.0,living room_31,IDEAS
+session_969,4.0,5.0,living room_40,IDEAS
+session_970,6.0,4.0,living room_70,IDEAS
+session_970,6.0,5.0,living room_31,IDEAS
+session_970,2.0,6.0,office room_46,IDEAS
+session_970,6.0,5.0,restaurant_4,IDEAS
+session_970,2.0,6.0,office room_64,IDEAS
+session_970,6.0,5.0,living room_40,IDEAS
+session_970,5.0,5.0,restaurant_28,IDEAS
+session_970,2.0,6.0,office room_4,IDEAS
+session_970,6.0,5.0,restaurant_48,IDEAS
+session_971,3.0,5.0,office room_46,IDEAS
+session_971,6.0,4.0,restaurant_4,IDEAS
+session_971,3.0,5.0,office room_64,IDEAS
+session_971,4.0,3.0,restaurant_28,IDEAS
+session_971,1.0,2.0,living room_31,IDEAS
+session_971,7.0,6.0,living room_70,IDEAS
+session_971,7.0,4.0,living room_40,IDEAS
+session_971,7.0,6.0,restaurant_48,IDEAS
+session_971,1.0,6.0,office room_4,IDEAS
+session_972,6.0,4.0,restaurant_48,IDEAS
+session_972,5.0,5.0,living room_40,IDEAS
+session_972,3.0,5.0,office room_46,IDEAS
+session_972,2.0,6.0,office room_4,IDEAS
+session_972,3.0,6.0,office room_64,IDEAS
+session_972,1.0,5.0,restaurant_28,IDEAS
+session_972,5.0,4.0,restaurant_4,IDEAS
+session_972,2.0,5.0,living room_31,IDEAS
+session_972,5.0,3.0,living room_70,IDEAS
+session_973,5.0,7.0,restaurant_48,IDEAS
+session_973,6.0,5.0,living room_70,IDEAS
+session_973,6.0,7.0,office room_64,IDEAS
+session_973,5.0,6.0,office room_46,IDEAS
+session_973,3.0,7.0,living room_31,IDEAS
+session_973,4.0,7.0,office room_4,IDEAS
+session_973,6.0,4.0,living room_40,IDEAS
+session_973,3.0,7.0,restaurant_28,IDEAS
+session_973,7.0,7.0,restaurant_4,IDEAS
+session_974,6.0,5.0,restaurant_48,IDEAS
+session_974,5.0,6.0,living room_70,IDEAS
+session_974,3.0,7.0,office room_64,IDEAS
+session_974,3.0,6.0,restaurant_28,IDEAS
+session_974,5.0,6.0,office room_46,IDEAS
+session_974,7.0,1.0,living room_40,IDEAS
+session_974,2.0,5.0,living room_31,IDEAS
+session_974,1.0,7.0,office room_4,IDEAS
+session_974,5.0,4.0,restaurant_4,IDEAS
+session_975,6.0,5.0,living room_70,IDEAS
+session_975,2.0,6.0,office room_46,IDEAS
+session_975,4.0,6.0,restaurant_4,IDEAS
+session_975,6.0,6.0,restaurant_48,IDEAS
+session_975,1.0,6.0,living room_31,IDEAS
+session_975,1.0,7.0,office room_4,IDEAS
+session_975,6.0,3.0,living room_40,IDEAS
+session_975,6.0,6.0,office room_64,IDEAS
+session_975,2.0,4.0,restaurant_28,IDEAS
+session_976,7.0,7.0,office room_46,IDEAS
+session_976,7.0,7.0,living room_40,IDEAS
+session_976,7.0,7.0,living room_70,IDEAS
+session_976,6.0,5.0,restaurant_4,IDEAS
+session_976,7.0,7.0,office room_64,IDEAS
+session_976,7.0,7.0,restaurant_48,IDEAS
+session_976,1.0,1.0,living room_31,IDEAS
+session_976,7.0,7.0,office room_4,IDEAS
+session_976,4.0,4.0,restaurant_28,IDEAS
+session_1000,7.0,4.0,living room_40,IDEAS
+session_1000,1.0,6.0,office room_46,IDEAS
+session_1000,6.0,5.0,restaurant_4,IDEAS
+session_1000,2.0,5.0,restaurant_28,IDEAS
+session_1000,7.0,4.0,office room_4,IDEAS
+session_1000,2.0,6.0,living room_31,IDEAS
+session_1000,7.0,7.0,restaurant_48,IDEAS
+session_1000,7.0,1.0,living room_70,IDEAS
+session_1000,7.0,7.0,office room_64,IDEAS
+session_1001,6.0,2.0,office room_46,IDEAS
+session_1001,1.0,4.0,living room_31,IDEAS
+session_1001,7.0,3.0,living room_70,IDEAS
+session_1001,7.0,5.0,living room_40,IDEAS
+session_1001,5.0,7.0,office room_64,IDEAS
+session_1001,6.0,6.0,restaurant_48,IDEAS
+session_1001,6.0,6.0,office room_4,IDEAS
+session_1001,5.0,5.0,restaurant_4,IDEAS
+session_1001,1.0,7.0,restaurant_28,IDEAS
+session_1002,1.0,7.0,restaurant_4,IDEAS
+session_1002,6.0,7.0,restaurant_48,IDEAS
+session_1002,3.0,7.0,office room_46,IDEAS
+session_1002,2.0,7.0,office room_64,IDEAS
+session_1002,7.0,7.0,living room_70,IDEAS
+session_1002,7.0,5.0,living room_40,IDEAS
+session_1002,6.0,6.0,restaurant_28,IDEAS
+session_1002,1.0,7.0,living room_31,IDEAS
+session_1002,3.0,7.0,office room_4,IDEAS
+session_1003,4.0,7.0,office room_4,IDEAS
+session_1003,4.0,7.0,living room_70,IDEAS
+session_1003,4.0,6.0,restaurant_4,IDEAS
+session_1003,2.0,7.0,restaurant_48,IDEAS
+session_1003,2.0,7.0,office room_64,IDEAS
+session_1003,2.0,6.0,restaurant_28,IDEAS
+session_1003,5.0,5.0,office room_46,IDEAS
+session_1003,1.0,7.0,living room_31,IDEAS
+session_1003,7.0,1.0,living room_40,IDEAS
+session_1004,3.0,7.0,office room_64,IDEAS
+session_1004,1.0,6.0,living room_31,IDEAS
+session_1004,6.0,5.0,restaurant_4,IDEAS
+session_1004,1.0,6.0,office room_4,IDEAS
+session_1004,6.0,4.0,restaurant_48,IDEAS
+session_1004,1.0,6.0,office room_46,IDEAS
+session_1004,2.0,5.0,restaurant_28,IDEAS
+session_1004,5.0,6.0,living room_70,IDEAS
+session_1004,6.0,5.0,living room_40,IDEAS
+session_1005,5.0,2.0,office room_46,IDEAS
+session_1005,4.0,7.0,office room_64,IDEAS
+session_1005,6.0,3.0,restaurant_4,IDEAS
+session_1005,5.0,6.0,living room_40,IDEAS
+session_1005,2.0,6.0,restaurant_28,IDEAS
+session_1005,5.0,6.0,living room_70,IDEAS
+session_1005,5.0,5.0,office room_4,IDEAS
+session_1005,1.0,7.0,living room_31,IDEAS
+session_1005,7.0,7.0,restaurant_48,IDEAS
+session_978,7.0,6.0,restaurant_4,IDEAS
+session_978,7.0,7.0,office room_4,IDEAS
+session_978,3.0,2.0,restaurant_28,IDEAS
+session_978,3.0,1.0,living room_31,IDEAS
+session_978,6.0,7.0,living room_40,IDEAS
+session_978,6.0,7.0,living room_70,IDEAS
+session_978,7.0,7.0,office room_64,IDEAS
+session_978,5.0,1.0,office room_46,IDEAS
+session_978,7.0,7.0,restaurant_48,IDEAS
+session_979,1.0,1.0,office room_46,IDEAS
+session_979,1.0,1.0,living room_31,IDEAS
+session_979,4.0,4.0,restaurant_48,IDEAS
+session_979,4.0,4.0,restaurant_4,IDEAS
+session_979,7.0,7.0,living room_70,IDEAS
+session_979,7.0,7.0,living room_40,IDEAS
+session_979,7.0,7.0,office room_64,IDEAS
+session_979,4.0,4.0,office room_4,IDEAS
+session_979,1.0,1.0,restaurant_28,IDEAS
+session_981,7.0,7.0,living room_70,IDEAS
+session_981,5.0,5.0,office room_46,IDEAS
+session_981,1.0,1.0,living room_31,IDEAS
+session_981,6.0,5.0,restaurant_4,IDEAS
+session_981,7.0,7.0,restaurant_48,IDEAS
+session_981,7.0,7.0,office room_64,IDEAS
+session_981,6.0,4.0,office room_4,IDEAS
+session_981,6.0,6.0,living room_40,IDEAS
+session_981,1.0,1.0,restaurant_28,IDEAS
+session_982,2.0,2.0,living room_31,IDEAS
+session_982,7.0,4.0,living room_40,IDEAS
+session_982,7.0,7.0,office room_64,IDEAS
+session_982,6.0,7.0,restaurant_4,IDEAS
+session_982,7.0,7.0,living room_70,IDEAS
+session_982,5.0,5.0,office room_46,IDEAS
+session_982,7.0,7.0,restaurant_48,IDEAS
+session_982,5.0,4.0,restaurant_28,IDEAS
+session_982,6.0,5.0,office room_4,IDEAS
+session_983,7.0,7.0,restaurant_28,IDEAS
+session_983,7.0,7.0,office room_64,IDEAS
+session_983,7.0,7.0,restaurant_48,IDEAS
+session_983,7.0,7.0,living room_40,IDEAS
+session_983,1.0,7.0,living room_31,IDEAS
+session_983,7.0,7.0,living room_70,IDEAS
+session_983,6.0,7.0,office room_46,IDEAS
+session_983,5.0,2.0,office room_4,IDEAS
+session_983,7.0,7.0,restaurant_4,IDEAS
+session_985,3.0,5.0,restaurant_4,IDEAS
+session_985,7.0,5.0,living room_40,IDEAS
+session_985,5.0,7.0,living room_70,IDEAS
+session_985,2.0,5.0,office room_64,IDEAS
+session_985,5.0,3.0,restaurant_28,IDEAS
+session_985,6.0,5.0,restaurant_48,IDEAS
+session_985,3.0,6.0,living room_31,IDEAS
+session_985,1.0,7.0,office room_4,IDEAS
+session_985,3.0,5.0,office room_46,IDEAS
+session_986,7.0,7.0,office room_4,IDEAS
+session_986,7.0,7.0,restaurant_48,IDEAS
+session_986,1.0,5.0,living room_31,IDEAS
+session_986,7.0,7.0,restaurant_4,IDEAS
+session_986,6.0,5.0,living room_40,IDEAS
+session_986,7.0,7.0,office room_64,IDEAS
+session_986,6.0,5.0,office room_46,IDEAS
+session_986,7.0,6.0,living room_70,IDEAS
+session_986,6.0,5.0,restaurant_28,IDEAS
+session_988,5.0,5.0,restaurant_48,IDEAS
+session_988,1.0,7.0,living room_31,IDEAS
+session_988,5.0,3.0,office room_4,IDEAS
+session_988,7.0,4.0,living room_40,IDEAS
+session_988,6.0,5.0,living room_70,IDEAS
+session_988,4.0,3.0,office room_46,IDEAS
+session_988,5.0,5.0,restaurant_4,IDEAS
+session_988,3.0,6.0,office room_64,IDEAS
+session_988,5.0,4.0,restaurant_28,IDEAS
+session_989,7.0,7.0,office room_4,IDEAS
+session_989,6.0,7.0,office room_46,IDEAS
+session_989,3.0,5.0,restaurant_28,IDEAS
+session_989,7.0,7.0,office room_64,IDEAS
+session_989,1.0,1.0,living room_31,IDEAS
+session_989,7.0,7.0,restaurant_48,IDEAS
+session_989,7.0,3.0,living room_40,IDEAS
+session_989,7.0,7.0,restaurant_4,IDEAS
+session_989,7.0,7.0,living room_70,IDEAS
+session_990,6.0,5.0,living room_70,IDEAS
+session_990,6.0,7.0,restaurant_4,IDEAS
+session_990,2.0,7.0,restaurant_28,IDEAS
+session_990,1.0,7.0,living room_31,IDEAS
+session_990,7.0,6.0,living room_40,IDEAS
+session_990,7.0,7.0,office room_64,IDEAS
+session_990,6.0,6.0,restaurant_48,IDEAS
+session_990,7.0,7.0,office room_4,IDEAS
+session_990,3.0,7.0,office room_46,IDEAS
+session_992,2.0,7.0,living room_31,IDEAS
+session_992,4.0,7.0,restaurant_48,IDEAS
+session_992,4.0,6.0,restaurant_28,IDEAS
+session_992,4.0,6.0,restaurant_4,IDEAS
+session_992,2.0,7.0,office room_4,IDEAS
+session_992,6.0,4.0,living room_70,IDEAS
+session_992,3.0,7.0,office room_46,IDEAS
+session_992,6.0,5.0,living room_40,IDEAS
+session_992,5.0,6.0,office room_64,IDEAS
+session_993,1.0,6.0,living room_31,IDEAS
+session_993,3.0,6.0,office room_46,IDEAS
+session_993,4.0,5.0,restaurant_28,IDEAS
+session_993,7.0,2.0,living room_40,IDEAS
+session_993,7.0,2.0,living room_70,IDEAS
+session_993,4.0,6.0,office room_64,IDEAS
+session_993,5.0,5.0,restaurant_4,IDEAS
+session_993,4.0,6.0,restaurant_48,IDEAS
+session_993,2.0,6.0,office room_4,IDEAS
+session_994,3.0,1.0,office room_4,IDEAS
+session_994,2.0,6.0,office room_46,IDEAS
+session_994,3.0,4.0,restaurant_28,IDEAS
+session_994,5.0,5.0,office room_64,IDEAS
+session_994,7.0,6.0,living room_40,IDEAS
+session_994,4.0,4.0,restaurant_4,IDEAS
+session_994,4.0,5.0,restaurant_48,IDEAS
+session_994,7.0,5.0,living room_70,IDEAS
+session_994,1.0,5.0,living room_31,IDEAS
+session_995,6.0,5.0,restaurant_28,IDEAS
+session_995,5.0,5.0,restaurant_4,IDEAS
+session_995,3.0,7.0,living room_70,IDEAS
+session_995,1.0,7.0,office room_46,IDEAS
+session_995,1.0,7.0,living room_31,IDEAS
+session_995,7.0,2.0,living room_40,IDEAS
+session_995,7.0,7.0,restaurant_48,IDEAS
+session_995,2.0,7.0,office room_64,IDEAS
+session_995,1.0,7.0,office room_4,IDEAS
+session_996,4.0,5.0,office room_46,IDEAS
+session_996,5.0,4.0,office room_64,IDEAS
+session_996,2.0,4.0,restaurant_48,IDEAS
+session_996,1.0,2.0,restaurant_28,IDEAS
+session_996,1.0,7.0,living room_31,IDEAS
+session_996,7.0,4.0,living room_40,IDEAS
+session_996,7.0,4.0,living room_70,IDEAS
+session_996,7.0,4.0,office room_4,IDEAS
+session_996,4.0,5.0,restaurant_4,IDEAS
+session_997,3.0,5.0,restaurant_28,IDEAS
+session_997,7.0,7.0,restaurant_48,IDEAS
+session_997,7.0,7.0,living room_40,IDEAS
+session_997,7.0,7.0,office room_4,IDEAS
+session_997,6.0,7.0,living room_70,IDEAS
+session_997,4.0,7.0,restaurant_4,IDEAS
+session_997,1.0,7.0,living room_31,IDEAS
+session_997,7.0,7.0,office room_64,IDEAS
+session_997,4.0,4.0,office room_46,IDEAS
+session_998,3.0,5.0,office room_46,IDEAS
+session_998,5.0,5.0,restaurant_28,IDEAS
+session_998,7.0,7.0,living room_40,IDEAS
+session_998,6.0,5.0,restaurant_4,IDEAS
+session_998,6.0,6.0,office room_4,IDEAS
+session_998,6.0,6.0,office room_64,IDEAS
+session_998,6.0,5.0,restaurant_48,IDEAS
+session_998,1.0,6.0,living room_31,IDEAS
+session_998,4.0,6.0,living room_70,IDEAS
+session_999,6.0,3.0,living room_40,IDEAS
+session_999,7.0,3.0,living room_70,IDEAS
+session_999,4.0,6.0,restaurant_4,IDEAS
+session_999,1.0,6.0,living room_31,IDEAS
+session_999,7.0,5.0,restaurant_48,IDEAS
+session_999,3.0,7.0,office room_64,IDEAS
+session_999,1.0,7.0,office room_4,IDEAS
+session_999,2.0,6.0,office room_46,IDEAS
+session_999,7.0,5.0,restaurant_28,IDEAS
+session_1006,6.0,6.0,office room_64,IDEAS
+session_1006,4.0,6.0,office room_4,IDEAS
+session_1006,5.0,5.0,restaurant_48,IDEAS
+session_1006,2.0,4.0,office room_46,IDEAS
+session_1006,4.0,5.0,restaurant_4,IDEAS
+session_1006,4.0,4.0,restaurant_28,IDEAS
+session_1006,6.0,6.0,living room_40,IDEAS
+session_1006,6.0,6.0,living room_70,IDEAS
+session_1006,1.0,6.0,living room_31,IDEAS
+session_1007,3.0,6.0,living room_31,IDEAS
+session_1007,7.0,7.0,office room_64,IDEAS
+session_1007,5.0,3.0,office room_46,IDEAS
+session_1007,5.0,4.0,restaurant_28,IDEAS
+session_1007,6.0,6.0,living room_70,IDEAS
+session_1007,5.0,7.0,restaurant_48,IDEAS
+session_1007,1.0,5.0,office room_4,IDEAS
+session_1007,5.0,6.0,restaurant_4,IDEAS
+session_1007,6.0,5.0,living room_40,IDEAS
+session_1008,3.0,6.0,living room_31,IDEAS
+session_1008,2.0,6.0,office room_64,IDEAS
+session_1008,2.0,7.0,office room_4,IDEAS
+session_1008,4.0,6.0,living room_40,IDEAS
+session_1008,3.0,6.0,office room_46,IDEAS
+session_1008,5.0,6.0,restaurant_28,IDEAS
+session_1008,5.0,5.0,restaurant_4,IDEAS
+session_1008,6.0,5.0,living room_70,IDEAS
+session_1008,3.0,6.0,restaurant_48,IDEAS
+session_1009,7.0,3.0,living room_40,IDEAS
+session_1009,3.0,6.0,restaurant_28,IDEAS
+session_1009,6.0,7.0,restaurant_4,IDEAS
+session_1009,3.0,7.0,office room_46,IDEAS
+session_1009,2.0,4.0,living room_31,IDEAS
+session_1009,7.0,4.0,living room_70,IDEAS
+session_1009,4.0,4.0,office room_4,IDEAS
+session_1009,6.0,6.0,restaurant_48,IDEAS
+session_1009,4.0,7.0,office room_64,IDEAS
+session_1010,1.0,3.0,living room_31,IDEAS
+session_1010,5.0,5.0,restaurant_4,IDEAS
+session_1010,2.0,7.0,office room_4,IDEAS
+session_1010,7.0,2.0,living room_40,IDEAS
+session_1010,7.0,2.0,living room_70,IDEAS
+session_1010,2.0,7.0,office room_64,IDEAS
+session_1010,4.0,7.0,restaurant_28,IDEAS
+session_1010,1.0,7.0,office room_46,IDEAS
+session_1010,5.0,7.0,restaurant_48,IDEAS
+session_1011,2.0,7.0,restaurant_28,IDEAS
+session_1011,2.0,7.0,office room_4,IDEAS
+session_1011,2.0,5.0,office room_46,IDEAS
+session_1011,6.0,5.0,restaurant_4,IDEAS
+session_1011,6.0,6.0,living room_40,IDEAS
+session_1011,3.0,5.0,office room_64,IDEAS
+session_1011,6.0,7.0,restaurant_48,IDEAS
+session_1011,3.0,6.0,living room_31,IDEAS
+session_1011,7.0,3.0,living room_70,IDEAS
+session_1012,3.0,6.0,office room_64,IDEAS
+session_1012,6.0,5.0,living room_40,IDEAS
+session_1012,2.0,4.0,living room_31,IDEAS
+session_1012,2.0,4.0,office room_46,IDEAS
+session_1012,6.0,4.0,restaurant_28,IDEAS
+session_1012,2.0,4.0,office room_4,IDEAS
+session_1012,4.0,5.0,restaurant_4,IDEAS
+session_1012,6.0,4.0,living room_70,IDEAS
+session_1012,6.0,3.0,restaurant_48,IDEAS
+session_1013,1.0,5.0,living room_31,IDEAS
+session_1013,2.0,2.0,office room_46,IDEAS
+session_1013,7.0,5.0,restaurant_28,IDEAS
+session_1013,5.0,5.0,restaurant_4,IDEAS
+session_1013,3.0,3.0,office room_4,IDEAS
+session_1013,7.0,4.0,living room_40,IDEAS
+session_1013,5.0,5.0,office room_64,IDEAS
+session_1013,6.0,5.0,restaurant_48,IDEAS
+session_1013,7.0,3.0,living room_70,IDEAS
+session_1015,1.0,4.0,office room_46,IDEAS
+session_1015,6.0,6.0,restaurant_4,IDEAS
+session_1015,6.0,2.0,living room_40,IDEAS
+session_1015,4.0,6.0,office room_64,IDEAS
+session_1015,6.0,3.0,living room_70,IDEAS
+session_1015,5.0,4.0,restaurant_48,IDEAS
+session_1015,5.0,5.0,restaurant_28,IDEAS
+session_1015,5.0,3.0,living room_31,IDEAS
+session_1015,1.0,7.0,office room_4,IDEAS
+session_1016,7.0,7.0,restaurant_48,IDEAS
+session_1016,7.0,7.0,restaurant_4,IDEAS
+session_1016,7.0,7.0,living room_40,IDEAS
+session_1016,1.0,6.0,living room_31,IDEAS
+session_1016,1.0,3.0,office room_4,IDEAS
+session_1016,7.0,7.0,living room_70,IDEAS
+session_1016,3.0,4.0,restaurant_28,IDEAS
+session_1016,7.0,7.0,office room_64,IDEAS
+session_1016,2.0,3.0,office room_46,IDEAS
+session_1017,7.0,7.0,living room_70,IDEAS
+session_1017,7.0,7.0,restaurant_28,IDEAS
+session_1017,7.0,7.0,office room_64,IDEAS
+session_1017,7.0,7.0,living room_40,IDEAS
+session_1017,7.0,7.0,restaurant_48,IDEAS
+session_1017,7.0,7.0,office room_4,IDEAS
+session_1017,6.0,7.0,restaurant_4,IDEAS
+session_1017,7.0,4.0,living room_31,IDEAS
+session_1017,7.0,6.0,office room_46,IDEAS
+session_1018,2.0,3.0,restaurant_4,IDEAS
+session_1018,7.0,5.0,living room_70,IDEAS
+session_1018,1.0,7.0,office room_4,IDEAS
+session_1018,3.0,4.0,restaurant_28,IDEAS
+session_1018,2.0,6.0,office room_64,IDEAS
+session_1018,6.0,5.0,restaurant_48,IDEAS
+session_1018,4.0,2.0,living room_31,IDEAS
+session_1018,1.0,7.0,office room_46,IDEAS
+session_1018,3.0,7.0,living room_40,IDEAS
+session_1019,6.0,5.0,office room_46,IDEAS
+session_1019,4.0,5.0,restaurant_48,IDEAS
+session_1019,5.0,6.0,office room_4,IDEAS
+session_1019,3.0,4.0,restaurant_4,IDEAS
+session_1019,4.0,5.0,office room_64,IDEAS
+session_1019,5.0,4.0,living room_70,IDEAS
+session_1019,4.0,5.0,restaurant_28,IDEAS
+session_1019,5.0,4.0,living room_31,IDEAS
+session_1019,4.0,5.0,living room_40,IDEAS
+session_1020,4.0,7.0,office room_4,IDEAS
+session_1020,5.0,4.0,restaurant_28,IDEAS
+session_1020,4.0,6.0,living room_31,IDEAS
+session_1020,2.0,5.0,office room_46,IDEAS
+session_1020,6.0,6.0,living room_40,IDEAS
+session_1020,3.0,5.0,office room_64,IDEAS
+session_1020,6.0,5.0,restaurant_4,IDEAS
+session_1020,6.0,5.0,living room_70,IDEAS
+session_1020,5.0,6.0,restaurant_48,IDEAS
+session_1021,3.0,6.0,office room_46,IDEAS
+session_1021,7.0,3.0,living room_40,IDEAS
+session_1021,2.0,7.0,living room_31,IDEAS
+session_1021,1.0,7.0,office room_4,IDEAS
+session_1021,5.0,5.0,restaurant_4,IDEAS
+session_1021,7.0,3.0,living room_70,IDEAS
+session_1021,6.0,5.0,restaurant_48,IDEAS
+session_1021,4.0,5.0,restaurant_28,IDEAS
+session_1021,3.0,7.0,office room_64,IDEAS
+session_1022,6.0,6.0,office room_64,IDEAS
+session_1022,6.0,6.0,restaurant_48,IDEAS
+session_1022,5.0,5.0,restaurant_28,IDEAS
+session_1022,5.0,4.0,office room_4,IDEAS
+session_1022,6.0,6.0,restaurant_4,IDEAS
+session_1022,3.0,3.0,living room_31,IDEAS
+session_1022,5.0,6.0,office room_46,IDEAS
+session_1022,6.0,4.0,living room_70,IDEAS
+session_1022,7.0,7.0,living room_40,IDEAS
+session_1023,4.0,6.0,living room_70,IDEAS
+session_1023,5.0,3.0,living room_31,IDEAS
+session_1023,5.0,4.0,restaurant_28,IDEAS
+session_1023,5.0,6.0,office room_46,IDEAS
+session_1023,7.0,3.0,restaurant_48,IDEAS
+session_1023,3.0,4.0,restaurant_4,IDEAS
+session_1023,4.0,5.0,living room_40,IDEAS
+session_1023,7.0,7.0,office room_4,IDEAS
+session_1023,7.0,7.0,office room_64,IDEAS
+session_1024,3.0,6.0,office room_64,IDEAS
+session_1024,1.0,7.0,living room_31,IDEAS
+session_1024,2.0,2.0,office room_46,IDEAS
+session_1024,3.0,4.0,restaurant_28,IDEAS
+session_1024,7.0,4.0,living room_70,IDEAS
+session_1024,6.0,2.0,living room_40,IDEAS
+session_1024,6.0,4.0,restaurant_4,IDEAS
+session_1024,2.0,4.0,office room_4,IDEAS
+session_1024,6.0,4.0,restaurant_48,IDEAS
+session_1025,6.0,4.0,living room_40,IDEAS
+session_1025,7.0,5.0,living room_70,IDEAS
+session_1025,2.0,7.0,office room_46,IDEAS
+session_1025,4.0,7.0,restaurant_28,IDEAS
+session_1025,7.0,7.0,restaurant_48,IDEAS
+session_1025,2.0,7.0,office room_4,IDEAS
+session_1025,6.0,7.0,restaurant_4,IDEAS
+session_1025,5.0,7.0,office room_64,IDEAS
+session_1025,1.0,7.0,living room_31,IDEAS
+session_1026,4.0,7.0,office room_64,IDEAS
+session_1026,1.0,7.0,restaurant_28,IDEAS
+session_1026,1.0,4.0,restaurant_48,IDEAS
+session_1026,1.0,4.0,office room_46,IDEAS
+session_1026,7.0,1.0,living room_70,IDEAS
+session_1026,4.0,7.0,restaurant_4,IDEAS
+session_1026,7.0,7.0,office room_4,IDEAS
+session_1026,7.0,7.0,living room_40,IDEAS
+session_1026,1.0,7.0,living room_31,IDEAS
+session_1027,6.0,3.0,office room_4,IDEAS
+session_1027,6.0,2.0,living room_70,IDEAS
+session_1027,6.0,6.0,restaurant_48,IDEAS
+session_1027,7.0,6.0,restaurant_4,IDEAS
+session_1027,7.0,7.0,living room_40,IDEAS
+session_1027,5.0,5.0,office room_46,IDEAS
+session_1027,1.0,7.0,living room_31,IDEAS
+session_1027,6.0,5.0,restaurant_28,IDEAS
+session_1027,7.0,7.0,office room_64,IDEAS
+session_1028,2.0,6.0,office room_46,IDEAS
+session_1028,6.0,6.0,restaurant_48,IDEAS
+session_1028,5.0,6.0,restaurant_4,IDEAS
+session_1028,2.0,6.0,office room_4,IDEAS
+session_1028,6.0,3.0,living room_70,IDEAS
+session_1028,6.0,3.0,living room_40,IDEAS
+session_1028,2.0,6.0,living room_31,IDEAS
+session_1028,4.0,6.0,restaurant_28,IDEAS
+session_1028,1.0,7.0,office room_64,IDEAS
+session_1029,7.0,7.0,office room_64,IDEAS
+session_1029,7.0,7.0,restaurant_48,IDEAS
+session_1029,7.0,7.0,restaurant_4,IDEAS
+session_1029,6.0,6.0,restaurant_28,IDEAS
+session_1029,7.0,7.0,living room_70,IDEAS
+session_1029,7.0,7.0,living room_40,IDEAS
+session_1029,6.0,6.0,office room_46,IDEAS
+session_1029,5.0,4.0,living room_31,IDEAS
+session_1029,7.0,7.0,office room_4,IDEAS
+session_1030,6.0,5.0,restaurant_28,IDEAS
+session_1030,4.0,5.0,restaurant_4,IDEAS
+session_1030,4.0,7.0,restaurant_48,IDEAS
+session_1030,1.0,7.0,office room_4,IDEAS
+session_1030,1.0,7.0,office room_64,IDEAS
+session_1030,2.0,7.0,living room_70,IDEAS
+session_1030,1.0,7.0,office room_46,IDEAS
+session_1030,5.0,4.0,living room_31,IDEAS
+session_1030,3.0,6.0,living room_40,IDEAS
+P_0,6.0,1.0,restaurant_48,Deniz2025
+P_0,3.0,5.0,restaurant_28,Deniz2025
+P_11,4.0,7.0,living room_31,Deniz2025
+P_12,5.0,6.0,living room_40,Deniz2025
+P_13,6.0,1.0,office room_64,Deniz2025
+P_13,7.0,2.0,living room_70,Deniz2025
+P_13,1.0,7.0,living room_31,Deniz2025
+P_14,6.0,2.0,restaurant_4,Deniz2025
+P_14,4.0,4.0,office room_46,Deniz2025
+P_14,6.0,1.0,restaurant_48,Deniz2025
+P_17,5.0,5.0,office room_4,Deniz2025
+P_17,3.0,3.0,restaurant_28,Deniz2025
+P_18,4.0,3.0,office room_64,Deniz2025
+P_18,6.0,4.0,living room_31,Deniz2025
+P_19,4.0,6.0,office room_4,Deniz2025
+P_1,5.0,4.0,restaurant_4,Deniz2025
+P_20,5.0,5.0,restaurant_4,Deniz2025
+P_21,2.0,6.0,office room_46,Deniz2025
+P_22,6.0,3.0,living room_70,Deniz2025
+P_23,6.0,5.0,restaurant_28,Deniz2025
+P_23,2.0,2.0,living room_40,Deniz2025
+P_23,7.0,4.0,restaurant_48,Deniz2025
+P_24,6.0,1.0,office room_64,Deniz2025
+P_24,6.0,2.0,restaurant_48,Deniz2025
+P_26,4.0,2.0,restaurant_4,Deniz2025
+P_26,4.0,4.0,office room_4,Deniz2025
+P_27,6.0,6.0,living room_31,Deniz2025
+P_27,6.0,3.0,living room_40,Deniz2025
+P_27,4.0,4.0,restaurant_28,Deniz2025
+P_28,5.0,2.0,living room_70,Deniz2025
+P_28,3.0,6.0,office room_46,Deniz2025
+P_2,6.0,3.0,office room_64,Deniz2025
+P_30,7.0,1.0,living room_70,Deniz2025
+P_30,2.0,2.0,office room_4,Deniz2025
+P_32,2.0,6.0,living room_31,Deniz2025
+P_33,3.0,3.0,office room_64,Deniz2025
+P_33,4.0,5.0,office room_46,Deniz2025
+P_33,5.0,3.0,restaurant_28,Deniz2025
+P_34,5.0,1.0,restaurant_4,Deniz2025
+P_34,7.0,2.0,restaurant_48,Deniz2025
+P_35,6.0,2.0,living room_40,Deniz2025
+P_37,6.0,3.0,office room_64,Deniz2025
+P_37,4.0,3.0,living room_40,Deniz2025
+P_38,6.0,6.0,living room_31,Deniz2025
+P_38,6.0,1.0,restaurant_28,Deniz2025
+P_38,3.0,5.0,restaurant_4,Deniz2025
+P_38,5.0,3.0,office room_4,Deniz2025
+P_39,6.0,1.0,restaurant_48,Deniz2025
+P_3,3.0,5.0,living room_40,Deniz2025
+P_3,2.0,7.0,office room_46,Deniz2025
+P_40,5.0,1.0,living room_70,Deniz2025
+P_41,3.0,4.0,office room_46,Deniz2025
+P_42,6.0,1.0,restaurant_4,Deniz2025
+P_42,7.0,6.0,living room_31,Deniz2025
+P_44,6.0,1.0,restaurant_48,Deniz2025
+P_44,2.0,5.0,office room_46,Deniz2025
+P_45,5.0,4.0,office room_64,Deniz2025
+P_45,4.0,3.0,living room_40,Deniz2025
+P_47,2.0,6.0,restaurant_28,Deniz2025
+P_47,5.0,6.0,office room_4,Deniz2025
+P_47,6.0,4.0,living room_70,Deniz2025
+P_48,5.0,2.0,restaurant_4,Deniz2025
+P_48,4.0,6.0,living room_31,Deniz2025
+P_48,3.0,4.0,restaurant_28,Deniz2025
+P_48,2.0,4.0,office room_46,Deniz2025
+P_49,3.0,2.0,restaurant_48,Deniz2025
+P_4,7.0,1.0,living room_70,Deniz2025
+P_4,4.0,7.0,living room_31,Deniz2025
+P_51,7.0,1.0,office room_4,Deniz2025
+P_51,7.0,1.0,office room_64,Deniz2025
+P_53,5.0,2.0,living room_70,Deniz2025
+P_53,4.0,2.0,living room_40,Deniz2025
+P_54,2.0,2.0,living room_70,Deniz2025
+P_55,6.0,3.0,office room_64,Deniz2025
+P_55,6.0,2.0,restaurant_48,Deniz2025
+P_55,4.0,7.0,living room_31,Deniz2025
+P_56,5.0,5.0,restaurant_28,Deniz2025
+P_57,6.0,2.0,restaurant_4,Deniz2025
+P_58,2.0,5.0,office room_4,Deniz2025
+P_58,4.0,1.0,living room_40,Deniz2025
+P_58,1.0,7.0,office room_46,Deniz2025
+P_5,7.0,6.0,office room_4,Deniz2025
+P_6,5.0,6.0,living room_40,Deniz2025
+P_6,3.0,5.0,restaurant_4,Deniz2025
+P_7,5.0,2.0,office room_4,Deniz2025
+P_7,5.0,2.0,living room_70,Deniz2025
+P_7,6.0,1.0,restaurant_48,Deniz2025
+P_7,7.0,3.0,office room_64,Deniz2025
+P_9,3.0,5.0,office room_46,Deniz2025
+P_9,4.0,4.0,restaurant_28,Deniz2025
