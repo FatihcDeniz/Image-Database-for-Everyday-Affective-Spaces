@@ -14,7 +14,7 @@ loc = r".\Attribution Data\attribution_data.csv"
 
 data = pd.read_csv(loc)
 # [VERY IMPORTANT] Remove this later!!
-flickr = flickrapi.FlickrAPI("58445d0d307e80e14c9c8e678706ba2d", "ecff13ac8d1aba55", format='parsed-json')
+flickr = flickrapi.FlickrAPI(api_key, secret, format='parsed-json')
 
 location_data = {"id":[], "image_name":[],"latitude":[], "longitude":[]}
 
