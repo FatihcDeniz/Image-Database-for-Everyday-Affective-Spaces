@@ -37,3 +37,5 @@ tornado @ file:///D:/bld/tornado_1779915910048/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_traitlets_1778074251/work
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1756220668/work
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1777744409267/work
+geopandas
+flickrapi

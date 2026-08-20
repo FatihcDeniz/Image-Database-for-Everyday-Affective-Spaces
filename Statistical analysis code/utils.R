@@ -19,7 +19,7 @@ qq_plot <- function(residuals, title) {
 }
 
 check_create_directory <- function(path) {
-  # This function checks whether directory exist given a path, otherwise create one,
+  # Check whether a directory exist, otherwise create one,
   if (!dir.exists(path)) {
     dir.create(path, recursive = TRUE)
     message(sprintf("Directory created: %s", path))
@@ -28,45 +28,52 @@ check_create_directory <- function(path) {
   }
 }
 
-calculate_icc_scores <- function() {
-  ## Calcualte ÏCC scores for all dependent variables and returns a table.
+calculate_icc_scores_psych <- function(type = "ICC2k") {
+  ## Calcualte ÏCC scores for all dependent variables and returns a table. You can see different types of ICC here https://www.rdocumentation.org/packages/psych/versions/2.6.1/topics/ICC
   icc_results <- data.frame(matrix(ncol = 4, nrow = 0))
   colnames(icc_results) <- c("Response", "ICC Value", "Lower Bound", "Upper Bound")
-  
   # Valence  ----
   data_valence <- read.csv("..\\Data for ICC analysis\\icc_valence.csv")
-  icc_results_valence <- irr::icc( data_valence[,!colnames(data_valence) %in% "X"], model = "twoway", type = "consistency", unit = "average")
-  icc_results[1,] = c("Valence", round(icc_results_valence$value,3), round(icc_results_valence$lbound,3), round(icc_results_valence$ubound,3))
+  icc_results_valence <- psych::ICC(data_valence, missing = TRUE)
+  icc_results[1,] = c("Valence", round(icc_results_valence$results[icc_results_valence$results$type == type,"ICC"],3), 
+                      round(icc_results_valence$results[icc_results_valence$results$type == "ICC3k","lower bound"],3),
+                      round(icc_results_valence$results[icc_results_valence$results$type == "ICC3k","upper bound"],3))
   
   # Approach  ----
   data_approach <- read.csv("..\\Data for ICC analysis\\icc_approach.csv")
-  icc_results_approach <- irr::icc(data_approach[,!colnames(data_approach) %in% "X"], model = "twoway", type = "consistency", unit = "average")
-  icc_results[2,] = c("Approach-avoidance", round(icc_results_approach$value,3), round(icc_results_approach$lbound,3), round(icc_results_approach$ubound,3))
+  icc_results_approach <- psych::ICC(data_approach, missing = TRUE)
+  icc_results[2,] = c("Approach-avoidance", round(icc_results_approach$results[icc_results_approach$results$type == type,"ICC"],3), 
+                      round(icc_results_approach$results[icc_results_approach$results$type == "ICC3k","lower bound"],3),
+                      round(icc_results_approach$results[icc_results_approach$results$type == "ICC3k","upper bound"],3))
   
   # Tense Arousal  ----
   data_t_arousal <- read.csv("..\\Data for ICC analysis\\icc_tense.csv")
-  icc_results_t_arousal <- irr::icc( data_t_arousal[,!colnames(data_t_arousal) %in% "X"], model = "twoway", type = "consistency", unit = "average")
-  icc_results[3,] = c("Tense Arousal", round(icc_results_t_arousal$value,3), round(icc_results_t_arousal$lbound,3), round(icc_results_t_arousal$ubound,3))
+  icc_results_t_arousal <- psych::ICC(data_t_arousal, missing = TRUE)
+  icc_results[3,] = c("Tense Arousal", round(icc_results_t_arousal$results[icc_results_t_arousal$results$type == type,"ICC"],3), 
+                      round(icc_results_t_arousal$results[icc_results_t_arousal$results$type == "ICC3k","lower bound"],3),
+                      round(icc_results_t_arousal$results[icc_results_t_arousal$results$type == "ICC3k","upper bound"],3))
   
   # Energetic Arousal  ----
   data_e_arousal <- read.csv("..\\Data for ICC analysis\\icc_energetic.csv")
-  icc_results_e_arousal <- irr::icc( data_e_arousal[,!colnames(data_e_arousal) %in% "X"], model = "twoway", type = "consistency", unit = "average")
-  icc_results[4,] = c("Energetic Arousal", round(icc_results_e_arousal$value,3), round(icc_results_e_arousal$lbound,3), round(icc_results_e_arousal$ubound,3))
+  icc_results_e_arousal <- psych::ICC(data_e_arousal, missing = TRUE)
+  icc_results[4,] = c("Energetic Arousal", round(icc_results_e_arousal$results[icc_results_e_arousal$results$type == type,"ICC"],3), 
+                      round(icc_results_e_arousal$results[icc_results_e_arousal$results$type == "ICC3k","lower bound"],3),
+                      round(icc_results_e_arousal$results[icc_results_e_arousal$results$type == "ICC3k","upper bound"],3))
   
   return(icc_results)
 }
 
-
 regression_table <- function(model) {
   ## Helper function to automatically generate APA style regression tables. Takes a `lm` model as input.
   stats.table <- as.data.frame(summary(model)$coefficients)
-  CI <- confint(model)
+  CI <- confint(lm.beta(model))
   stats.table <- cbind(row.names(stats.table), stats.table, CI)
   names(stats.table) <- c("Response", "Standardized Coefficients", "SE", "T", "p", "CI_lower", "CI_upper")
   stats.table <- stats.table[2:length(stats.table[, "Response"]),]
   standard_coef <- lm.beta(model)
   stats.table[, "Standardized Coefficients"] <- as.vector(standard_coef$standardized.coefficients[2:length(standard_coef$standardized.coefficients)])
   stats.table <- stats.table[,!colnames(stats.table) %in% c("T")]
+  
   my_table <- rempsyc::nice_table(stats.table)
   return(my_table)
 }
@@ -85,7 +92,7 @@ get_posterior_probs <- function(model1,model2,model3,model4,model5,model6,model7
     model7 = BIC(model7)
   )
   
-  # Calcualte Posterior Probability.
+  # Calculate Posterior Probability.
   log_weights <- -0.5 * (bic_vals - min(bic_vals))
   weights <- exp(log_weights)
   posterior_probs <- weights / sum(weights)
@@ -101,11 +108,9 @@ pred_scores <- function(models, data, col_names,length_out) {
   
   colnames(sequence_df) <- col_names
   
-  
   for (i in seq_along(models)) {
     sequence_df[[paste0("model_", i)]] <- predict(models[[i]], newdata = sequence_df)
   }
-  
   
   return(sequence_df)
 }
@@ -134,6 +139,7 @@ plot_data <- function(data, colnames, title_names, alpha_point, alpha_hvline, ti
 }
 
 add_lines <- function(data, model_names, plot, x_col = "valence", color_palette,size, alpha_val) {
+  # Helper function to add lines for Figure 3 and Supplementary Section S5.
   for (i in 1:7) {
     nm <- paste0("model_", i)
     if (nm %in% model_names) {
@@ -153,7 +159,6 @@ get_sig_stars <- function(p) {
   else return("")
 }
 
-# Combine results
 make_effects_table <- function(anova_res, dv_name) {
   # Helper function to create ANOVA tables given an anova model and dependent variable name. 
   data.frame(
@@ -188,7 +193,7 @@ extract_skewness_kurtosis <- function(model) {
 }
 
 extract_emm <- function(df, outcome_name) {
-  # Helper function to extract estimated marginal means given the emmeans model and variable name,
+  # Helper function to extract estimated marginal means given the emmeans model and variable name
   df %>%
     select(room_type, emmean, SE) %>%
     mutate(
@@ -197,4 +202,16 @@ extract_emm <- function(df, outcome_name) {
       SE = round(SE, 2)
     ) %>%
     select(Outcome, room_type, Mean, SE)
+}
+
+extract_welch_anova <- function(anova_res, dv_name) {
+  # Helper function to extract Welch's ANOVa results
+  data.frame(
+    `Dependent Variable` = dv_name,
+    `Numerator DF`  = anova_res$parameter[["num df"]],
+    `Denominator DF`  = round(anova_res$parameter[["denom df"]], 2),
+    `F`= round(anova_res$statistic[["F"]],2),
+    `p` = anova_res$p.value,
+    `Partial EtaSquared` = round(effectsize::eta_squared(anova_res)[["Eta2"]],2)
+  )
 }

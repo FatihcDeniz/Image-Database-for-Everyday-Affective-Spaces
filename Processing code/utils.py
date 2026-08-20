@@ -3,7 +3,7 @@ import numpy as np
 import os 
 
 def check_create_directory(path: str) -> None:
-    # Check a directory exist otherwise create one.
+    # Check if a directory exist otherwise create one.
     if not os.path.exists(path):
         os.makedirs(path)
         print(f"Directory created: {path}")
@@ -123,11 +123,11 @@ def baseline_ratings(data: pd.DataFrame) -> pd.DataFrame:
     return baseline_data
 
 def drop_duplicate_images(data: pd.DataFrame, column: str) -> pd.DataFrame:
-    # Drops duplicate images in the data -> Labjs return a lot of duplicate images
+    # Drops duplicate images in the data. We do this because LabJs data returns multiple images with the same data.
     return pd.concat([group.drop_duplicates(subset=[column]) for _, group in data.groupby("session")]).reset_index(drop=True)
 
 def n_image_completed(data: pd.DataFrame) -> dict:
-    # Calculate number of images completed for all participants.
+    # Calculate number of images completed for all participants. This was used to check whether participants rated all images.
     unique_ids = data.session.unique()
     n_images = {}
     for i in unique_ids:
@@ -147,33 +147,31 @@ def process_data(loc: str, target:str ) -> pd.DataFrame:
         if i in excluded_ids:
             data = data[data["session"] != prolific_ids[i]]
 
-    # filter test responses created by me(these)
-    
+    # Filter TEST responses created by the authors for testing the study.
     data = filter_data_by_the_index(data, prolific_ids)
 
     # Get prolific ids again
     prolific_ids = get_prolific_ids(data)
 
-    # Select only not NA values in response
+    # Select only not NA values in the data
     data = data[data[target].notna()]
-    # Select only Not NA values in images
+    # Select only Not NA values in practice images
     practice_data = data[data["data.img_idx_practice"].notna()]
     data = data[data["data.img_idx"].notna()]
 
-    # 
+    # Transform "data.img_idx" so it only has name of the image not the whole directory
     data["data.img_idx"] = [i.split("\\")[-1] for i in data["data.img_idx"]]
+    # To do the same transfromation for practice images
     practice_data["data.img_idx_practice"] = [i.split("\\")[-1] for i in practice_data["data.img_idx_practice"]]
-
+    # Drop duplicate images in the data
     data = drop_duplicate_images(data, "data.img_idx")
-
+    # Remove sessions with with no data.
     removed_sessions = ["session_787",
                         "session_44",
                         "session_41"]
-    
-
     data = data[~data["session"].isin(removed_sessions)]
-
     practice_data = practice_data[~practice_data["session"].isin(removed_sessions)]
+    
     # Get baseline data
     baseline_data = baseline_ratings(data)
     # Get baseline practice data
@@ -211,7 +209,7 @@ def process_demographic_data(loc: str) -> pd.DataFrame:
     # Select columns that are relevant
     data_demographic = data_demographic[['Participant id', 'Time taken','Age', 'Sex',
         'Ethnicity simplified', 'Country of birth', 'Country of residence',
-        'Nationality', 'Language', 'Student status', 'Employment status','Total approvals','Status']]
+        'Nationality', 'Language', 'Student status', 'Employment status', 'Total approvals','Status']]
     data_demographic["Time taken"] = data_demographic["Time taken"] / 60
     return data_demographic
 
